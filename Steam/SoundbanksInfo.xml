@@ -427,6 +427,11 @@
 				<Event Id="3821365310" Name="AudioEvent_Generator_Piston_Seq3" ObjectPath="\Events\Default Work Unit\Objects\Generator\AudioEvent_Generator_Piston_Seq3"/>
 				<Event Id="1645741576" Name="AudioEvent_Generator_Punch" ObjectPath="\Events\Default Work Unit\Objects\Generator\AudioEvent_Generator_Punch"/>
 				<Event Id="1209543383" Name="AudioEvent_Generator_Repair" ObjectPath="\Events\Default Work Unit\Objects\Generator\AudioEvent_Generator_Repair"/>
+				<Event Id="2188976075" Name="AudioEvent_Generator_Repair_16" ObjectPath="\Events\Default Work Unit\Objects\Generator\AudioEvent_Generator_Repair_16"/>
+				<Event Id="2138643312" Name="AudioEvent_Generator_Repair_24" ObjectPath="\Events\Default Work Unit\Objects\Generator\AudioEvent_Generator_Repair_24"/>
+				<Event Id="2155420901" Name="AudioEvent_Generator_Repair_32" ObjectPath="\Events\Default Work Unit\Objects\Generator\AudioEvent_Generator_Repair_32"/>
+				<Event Id="184652330" Name="AudioEvent_Generator_Repair_4" ObjectPath="\Events\Default Work Unit\Objects\Generator\AudioEvent_Generator_Repair_4"/>
+				<Event Id="184652326" Name="AudioEvent_Generator_Repair_8" ObjectPath="\Events\Default Work Unit\Objects\Generator\AudioEvent_Generator_Repair_8"/>
 				<Event Id="2502711646" Name="AudioEvent_Generator_Sparks" ObjectPath="\Events\Default Work Unit\Objects\Generator\AudioEvent_Generator_Sparks"/>
 				<Event Id="1580174420" Name="AudioEvent_Generator_Start" ObjectPath="\Events\Default Work Unit\Objects\Generator\AudioEvent_Generator_Start"/>
 				<Event Id="126593371" Name="AudioEvent_Generator_Start_Fail" ObjectPath="\Events\Default Work Unit\Objects\Generator\AudioEvent_Generator_Start_Fail"/>
@@ -835,6 +840,11 @@
 				<Event Id="2688074771" Name="AudioEvent_PhantomTrap_Destroy" ObjectPath="\Events\Default Work Unit\Weapons\PhantomTrap\AudioEvent_PhantomTrap_Destroy"/>
 				<Event Id="3881858538" Name="AudioEvent_PhantomTrap_Disappear" ObjectPath="\Events\Default Work Unit\Weapons\PhantomTrap\AudioEvent_PhantomTrap_Disappear"/>
 				<Event Id="1026713941" Name="AudioEvent_PhantomTrap_Draw" ObjectPath="\Events\Default Work Unit\Weapons\PhantomTrap\AudioEvent_PhantomTrap_Draw"/>
+				<Event Id="2072471737" Name="AudioEvent_ShockTherapy_Insanity_Tier1" ObjectPath="\Events\Default Work Unit\Weapons\ShockTherapy\AudioEvent_ShockTherapy_Insanity_Tier1"/>
+				<Event Id="2072471738" Name="AudioEvent_ShockTherapy_Insanity_Tier2" ObjectPath="\Events\Default Work Unit\Weapons\ShockTherapy\AudioEvent_ShockTherapy_Insanity_Tier2"/>
+				<Event Id="2072471739" Name="AudioEvent_ShockTherapy_Insanity_Tier3" ObjectPath="\Events\Default Work Unit\Weapons\ShockTherapy\AudioEvent_ShockTherapy_Insanity_Tier3"/>
+				<Event Id="3989064896" Name="AudioEvent_ShockTherapy_Radius" ObjectPath="\Events\Default Work Unit\Weapons\ShockTherapy\AudioEvent_ShockTherapy_Radius"/>
+				<Event Id="1331344450" Name="AudioEvent_ShockTherapy_Radius_IN" ObjectPath="\Events\Default Work Unit\Weapons\ShockTherapy\AudioEvent_ShockTherapy_Radius_IN"/>
 				<Event Id="2760063061" Name="AudioEvent_Stalk_Completed" ObjectPath="\Events\Default Work Unit\Weapons\Stalk\AudioEvent_Stalk_Completed"/>
 				<Event Id="3434491341" Name="AudioEvent_Stalk_Lv1" ObjectPath="\Events\Default Work Unit\Weapons\Stalk\AudioEvent_Stalk_Lv1"/>
 				<Event Id="3434491342" Name="AudioEvent_Stalk_Lv2" ObjectPath="\Events\Default Work Unit\Weapons\Stalk\AudioEvent_Stalk_Lv2"/>
@@ -1270,6 +1280,10 @@
 					<ShortName>Objects\BearTrap\sfx_beartrap_open_04.wav</ShortName>
 					<Path>SFX\Objects\BearTrap\sfx_beartrap_open_04_DA44D76A.wem</Path>
 				</File>
+				<File Id="213817424" Language="SFX">
+					<ShortName>Weapons\ShockTherapy\sfx_shocktherapy_radius_in_02.wav</ShortName>
+					<Path>SFX\Weapons\ShockTherapy\sfx_shocktherapy_radius_in_02_D552FCC4.wem</Path>
+				</File>
 				<File Id="214252380" Language="SFX">
 					<ShortName>Weapons\Blink\sfx_blink_disappear_smoke_01.wav</ShortName>
 					<Path>SFX\Weapons\Blink\sfx_blink_disappear_smoke_01_DA44D76A.wem</Path>
@@ -1397,6 +1411,10 @@
 				<File Id="274468179" Language="SFX">
 					<ShortName>Weapons\Machete\sfx_machete_clean_01.wav</ShortName>
 					<Path>SFX\Weapons\Machete\sfx_machete_clean_01_DA44D76A.wem</Path>
+				</File>
+				<File Id="276801855" Language="SFX">
+					<ShortName>Weapons\ShockTherapy\sfx_shocktherapy_radius_01.wav</ShortName>
+					<Path>SFX\Weapons\ShockTherapy\sfx_shocktherapy_radius_01_D552FCC4.wem</Path>
 				</File>
 				<File Id="279187449" Language="SFX">
 					<ShortName>Weapons\PhantomTrap\sfx_phantomtrap_rush_02.wav</ShortName>
@@ -1633,6 +1651,10 @@
 				<File Id="381903365" Language="SFX">
 					<ShortName>Objects\BearTrap\sfx_beartrap_grab_02.wav</ShortName>
 					<Path>SFX\Objects\BearTrap\sfx_beartrap_grab_02_DA44D76A.wem</Path>
+				</File>
+				<File Id="382105902" Language="SFX">
+					<ShortName>Weapons\ShockTherapy\sfx_shocktherapy_radius_03.wav</ShortName>
+					<Path>SFX\Weapons\ShockTherapy\sfx_shocktherapy_radius_03_D552FCC4.wem</Path>
 				</File>
 				<File Id="383429188" Language="SFX">
 					<ShortName>Characters\Witch\sfx_killer_witch_liquid_04.wav</ShortName>
@@ -2322,9 +2344,17 @@
 					<ShortName>Objects\Chainsaw\sfx_chainsaw_attack_start_add_01.wav</ShortName>
 					<Path>SFX\Objects\Chainsaw\sfx_chainsaw_attack_start_add_01_DA44D76A.wem</Path>
 				</File>
+				<File Id="694369985" Language="SFX">
+					<ShortName>Weapons\ShockTherapy\sfx_shocktherapy_radius_in_03.wav</ShortName>
+					<Path>SFX\Weapons\ShockTherapy\sfx_shocktherapy_radius_in_03_D552FCC4.wem</Path>
+				</File>
 				<File Id="694880839" Language="SFX">
 					<ShortName>Characters\Killer\VO\sfx_killer_chuckles_normal_breath_04.wav</ShortName>
 					<Path>SFX\Characters\Killer\VO\sfx_killer_chuckles_normal_breath_04_DA44D76A.wem</Path>
+				</File>
+				<File Id="700271905" Language="SFX">
+					<ShortName>Weapons\ShockTherapy\sfx_shocktherapy_radius_02.wav</ShortName>
+					<Path>SFX\Weapons\ShockTherapy\sfx_shocktherapy_radius_02_D552FCC4.wem</Path>
 				</File>
 				<File Id="704448405" Language="SFX">
 					<ShortName>Weapons\Impacts\sfx_weapon_impact_tree_hit_05.wav</ShortName>
@@ -2673,6 +2703,10 @@
 				<File Id="852687366" Language="SFX">
 					<ShortName>Characters\Nurse\vo_killer_nurse_grunt_hurt_04.wav</ShortName>
 					<Path>SFX\Characters\Nurse\vo_killer_nurse_grunt_hurt_04_DA44D76A.wem</Path>
+				</File>
+				<File Id="857707418" Language="SFX">
+					<ShortName>Weapons\ShockTherapy\sfx_shocktherapy_radius_in_01.wav</ShortName>
+					<Path>SFX\Weapons\ShockTherapy\sfx_shocktherapy_radius_in_01_D552FCC4.wem</Path>
 				</File>
 				<File Id="858490653" Language="SFX">
 					<ShortName>Characters\Killer\VO\sfx_killer_banshee_normal_breath_4.wav</ShortName>
@@ -7307,6 +7341,7 @@
 				<Event Id="4175010939" Name="AudioEvent_Out_Swamp" ObjectPath="\Events\Default Work Unit\Ambience\Tiles\Outdoor\AudioEvent_Out_Swamp"/>
 				<Event Id="2386488085" Name="AudioEvent_Out_WaterTower" ObjectPath="\Events\Default Work Unit\Ambience\Tiles\Outdoor\AudioEvent_Out_WaterTower"/>
 				<Event Id="1215155450" Name="AudioEvent_Perks_Premonition" ObjectPath="\Events\Default Work Unit\HUD\AudioEvent_Perks_Premonition"/>
+				<Event Id="1032869479" Name="AudioEvent_Perks_SmallGame" ObjectPath="\Events\Default Work Unit\HUD\AudioEvent_Perks_SmallGame"/>
 				<Event Id="931442145" Name="AudioEvent_Perks_Whispers" ObjectPath="\Events\Default Work Unit\HUD\AudioEvent_Perks_Whispers"/>
 				<Event Id="1660668471" Name="AudioEvent_Plants_Corn_Move" ObjectPath="\Events\Default Work Unit\Objects\Plants\AudioEvent_Plants_Corn_Move"/>
 				<Event Id="2130027032" Name="AudioEvent_Plants_Foliage_Move" ObjectPath="\Events\Default Work Unit\Objects\Plants\AudioEvent_Plants_Foliage_Move"/>
@@ -8431,6 +8466,10 @@
 				<File Id="194682331" Language="SFX">
 					<ShortName>Objects\Meathook\sfx_meathook_sabotage_crack_06.wav</ShortName>
 					<Path>SFX\Objects\Meathook\sfx_meathook_sabotage_crack_06_DA44D76A.wem</Path>
+				</File>
+				<File Id="196782955" Language="SFX">
+					<ShortName>HUD\sfx_hud_skillcheck_open_03.wav</ShortName>
+					<Path>SFX\HUD\sfx_hud_skillcheck_open_03_03AAEC23.wem</Path>
 				</File>
 				<File Id="197608656" Language="SFX">
 					<ShortName>Characters\Camper\Footsteps\Sneakers\Wood\sfx_footsteps_sneakers_wood_walk17.wav</ShortName>
@@ -9619,6 +9658,10 @@
 				<File Id="443822115" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_dog_03.wav</ShortName>
 					<Path>SFX\Ambience\Emitters\sfx_dog_03_DA44D76A.wem</Path>
+				</File>
+				<File Id="444677685" Language="SFX">
+					<ShortName>Perks\sfx_perks_smallgame_02.wav</ShortName>
+					<Path>SFX\Perks\sfx_perks_smallgame_02_03AAEC23.wem</Path>
 				</File>
 				<File Id="446948275" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_character_footstep_tallgrass_05.wav</ShortName>
@@ -12072,6 +12115,10 @@
 					<ShortName>Characters\Camper\Footsteps\Sneakers\Gravel\sfx_footsteps_sneakers_gravel_run20.wav</ShortName>
 					<Path>SFX\Characters\Camper\Footsteps\Sneakers\Gravel\sfx_footsteps_sneakers_gravel_run20_DA44D76A.wem</Path>
 				</File>
+				<File Id="948349239" Language="SFX">
+					<ShortName>Perks\sfx_perks_smallgame_01.wav</ShortName>
+					<Path>SFX\Perks\sfx_perks_smallgame_01_03AAEC23.wem</Path>
+				</File>
 				<File Id="948864297" Language="SFX">
 					<ShortName>Characters\Slasher\Footsteps\Boots\Concrete\sfx_footsteps_boots_concrete_walk09.wav</ShortName>
 					<Path>SFX\Characters\Slasher\Footsteps\Boots\Concrete\sfx_footsteps_boots_concrete_walk09_DA44D76A.wem</Path>
@@ -12151,6 +12198,10 @@
 				<File Id="965072976" Language="SFX">
 					<ShortName>Characters\Camper\Footsteps\Sneakers\Dirt\sfx_footsteps_sneakers_dirt_land6.wav</ShortName>
 					<Path>SFX\Characters\Camper\Footsteps\Sneakers\Dirt\sfx_footsteps_sneakers_dirt_land6_DA44D76A.wem</Path>
+				</File>
+				<File Id="965432408" Language="SFX">
+					<ShortName>HUD\sfx_hud_skillcheck_open_04.wav</ShortName>
+					<Path>SFX\HUD\sfx_hud_skillcheck_open_04_03AAEC23.wem</Path>
 				</File>
 				<File Id="965729285" Language="SFX">
 					<ShortName>HUD\sfx_hud_sacrifice_struggle_01.wav</ShortName>
@@ -27327,6 +27378,10 @@
 				<File Id="146639195" Language="SFX">
 					<ShortName>Objects\Crow\sfx_crow_scream_06.wav</ShortName>
 					<Path>SFX\Objects\Crow\sfx_crow_scream_06_DA44D76A.wem</Path>
+				</File>
+				<File Id="201002641" Language="SFX">
+					<ShortName>Objects\Crow\sfx_crow_bomb_loop_01.wav</ShortName>
+					<Path>SFX\Objects\Crow\sfx_crow_bomb_loop_01_10019323.wem</Path>
 				</File>
 				<File Id="204854679" Language="SFX">
 					<ShortName>Objects\Crow\sfx_crow_scream_08.wav</ShortName>
