@@ -25708,6 +25708,7 @@
 			<IncludedEvents>
 				<Event Id="2772498552" Name="AudioEvent_GarageDoor_Close" ObjectPath="\Events\Default Work Unit\Objects\GarageDoor\AudioEvent_GarageDoor_Close"/>
 				<Event Id="247930300" Name="AudioEvent_GarageDoor_Open" ObjectPath="\Events\Default Work Unit\Objects\GarageDoor\AudioEvent_GarageDoor_Open"/>
+				<Event Id="2461481908" Name="AudioEvent_GarageDoor_Stop" ObjectPath="\Events\Default Work Unit\Objects\GarageDoor\AudioEvent_GarageDoor_Stop"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="133531430" Language="SFX">
@@ -25721,6 +25722,14 @@
 				<File Id="744520943" Language="SFX">
 					<ShortName>Objects\GarageDoor\sfx_garagedoor_open_02.wav</ShortName>
 					<Path>SFX\Objects\GarageDoor\sfx_garagedoor_open_02_DA44D76A.wem</Path>
+				</File>
+				<File Id="954046886" Language="SFX">
+					<ShortName>Objects\GarageDoor\sfx_garagedoor_stop_02.wav</ShortName>
+					<Path>SFX\Objects\GarageDoor\sfx_garagedoor_stop_02_DA44D76A.wem</Path>
+				</File>
+				<File Id="1001377703" Language="SFX">
+					<ShortName>Objects\GarageDoor\sfx_garagedoor_stop_01.wav</ShortName>
+					<Path>SFX\Objects\GarageDoor\sfx_garagedoor_stop_01_DA44D76A.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
