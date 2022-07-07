@@ -225,6 +225,10 @@
 			<ShortName>Ambience\Tiles\am_asylum_01.wav</ShortName>
 			<Path>SFX\Ambience\Tiles\am_asylum_01_288D6551.wem</Path>
 		</File>
+		<File Id="606351402" Language="SFX">
+			<ShortName>Weapons\ShockTherapy\sfx_shocktherapy_insanity_04.wav</ShortName>
+			<Path>SFX\Weapons\ShockTherapy\sfx_shocktherapy_insanity_04_288D6551.wem</Path>
+		</File>
 		<File Id="612850896" Language="SFX">
 			<ShortName>Music\mu_survivor_hooked_part1_02.wav</ShortName>
 			<Path>SFX\Music\mu_survivor_hooked_part1_02_288D6551.wem</Path>
@@ -291,7 +295,7 @@
 		</File>
 		<File Id="852625958" Language="SFX">
 			<ShortName>Ambience\Emitters\sfx_hospitalcentralmodule_loop_01.wav</ShortName>
-			<Path>SFX\Ambience\Emitters\sfx_hospitalcentralmodule_loop_01_3EEFE9B7.wem</Path>
+			<Path>SFX\Ambience\Emitters\sfx_hospitalcentralmodule_loop_01_288D6551.wem</Path>
 		</File>
 		<File Id="856565386" Language="SFX">
 			<ShortName>Ambience\Menus\am_ui_background_04.wav</ShortName>
@@ -848,6 +852,8 @@
 				<Event Id="906022893" Name="AudioEvent_Killer_Doctor_Kill_After" ObjectPath="\Events\Default Work Unit\Characters\Killer\Interactions\AudioEvent_Killer_Doctor_Kill_After"/>
 				<Event Id="2896981381" Name="AudioEvent_Killer_Doctor_Kill_Charge" ObjectPath="\Events\Default Work Unit\Characters\Killer\Interactions\AudioEvent_Killer_Doctor_Kill_Charge"/>
 				<Event Id="1028318877" Name="AudioEvent_Killer_Doctor_Kill_Shock" ObjectPath="\Events\Default Work Unit\Characters\Killer\Interactions\AudioEvent_Killer_Doctor_Kill_Shock"/>
+				<Event Id="2435435952" Name="AudioEvent_Killer_Doctor_Kill_Shock_Stop" ObjectPath="\Events\Default Work Unit\Characters\Killer\Interactions\AudioEvent_Killer_Doctor_Kill_Shock_Stop"/>
+				<Event Id="3484254597" Name="AudioEvent_Killer_Doctor_Laugh" ObjectPath="\Events\Default Work Unit\Characters\Killer\Interactions\AudioEvent_Killer_Doctor_Laugh"/>
 				<Event Id="148900674" Name="AudioEvent_Killer_Exit_Ready" ObjectPath="\Events\Default Work Unit\Characters\Killer\Interactions\AudioEvent_Killer_Exit_Ready"/>
 				<Event Id="1605347113" Name="AudioEvent_Killer_Foot_Noise" ObjectPath="\Events\Default Work Unit\Characters\Killer\Movements\AudioEvent_Killer_Foot_Noise"/>
 				<Event Id="995551020" Name="AudioEvent_Killer_GameStart" ObjectPath="\Events\Default Work Unit\Characters\Killer\GameStart\AudioEvent_Killer_GameStart"/>
@@ -882,6 +888,7 @@
 				<Event Id="976715518" Name="AudioEvent_ShockTherapy_Attack_Ready" ObjectPath="\Events\Default Work Unit\Weapons\ShockTherapy\AudioEvent_ShockTherapy_Attack_Ready"/>
 				<Event Id="1151859295" Name="AudioEvent_ShockTherapy_Charge_Start" ObjectPath="\Events\Default Work Unit\Weapons\ShockTherapy\AudioEvent_ShockTherapy_Charge_Start"/>
 				<Event Id="2270945573" Name="AudioEvent_ShockTherapy_Charge_Stop" ObjectPath="\Events\Default Work Unit\Weapons\ShockTherapy\AudioEvent_ShockTherapy_Charge_Stop"/>
+				<Event Id="1916972352" Name="AudioEvent_ShockTherapy_Doctor_Appears" ObjectPath="\Events\Default Work Unit\Weapons\ShockTherapy\AudioEvent_ShockTherapy_Doctor_Appears"/>
 				<Event Id="2597057559" Name="AudioEvent_ShockTherapy_Explosion" ObjectPath="\Events\Default Work Unit\Weapons\ShockTherapy\AudioEvent_ShockTherapy_Explosion"/>
 				<Event Id="3220109856" Name="AudioEvent_ShockTherapy_Insanity_Tier1_Start" ObjectPath="\Events\Default Work Unit\Weapons\ShockTherapy\AudioEvent_ShockTherapy_Insanity_Tier1_Start"/>
 				<Event Id="2573195084" Name="AudioEvent_ShockTherapy_Insanity_Tier1_Stop" ObjectPath="\Events\Default Work Unit\Weapons\ShockTherapy\AudioEvent_ShockTherapy_Insanity_Tier1_Stop"/>
@@ -903,6 +910,7 @@
 				<Event Id="1026953698" Name="AudioEvent_Stalk_Warning" ObjectPath="\Events\Default Work Unit\Weapons\Stalk\AudioEvent_Stalk_Warning"/>
 				<Event Id="384265768" Name="AudioEvent_Stalk_Warning_Off" ObjectPath="\Events\Default Work Unit\Weapons\Stalk\AudioEvent_Stalk_Warning_Off"/>
 				<Event Id="3035922738" Name="AudioEvent_Stalk_Warning_On" ObjectPath="\Events\Default Work Unit\Weapons\Stalk\AudioEvent_Stalk_Warning_On"/>
+				<Event Id="2526302648" Name="AudioEvent_Survivor_Grunt_Insanity_SnapOfIt" ObjectPath="\Events\Default Work Unit\Characters\Survivor\Grunts\AudioEvent_Survivor_Grunt_Insanity_SnapOfIt"/>
 				<Event Id="3828959488" Name="AudioEvent_Survivor_Impact_Body" ObjectPath="\Events\Default Work Unit\Characters\Survivor\Interactions\AudioEvent_Survivor_Impact_Body"/>
 				<Event Id="837611405" Name="AudioEvent_Weapon_Arm" ObjectPath="\Events\Default Work Unit\Weapons\AudioEvent_Weapon_Arm"/>
 				<Event Id="1736019189" Name="AudioEvent_Weapon_Attack" ObjectPath="\Events\Default Work Unit\Weapons\AudioEvent_Weapon_Attack"/>
@@ -920,6 +928,7 @@
 				<File Id="444071140"/>
 				<File Id="461436590"/>
 				<File Id="522173071"/>
+				<File Id="606351402"/>
 				<File Id="789214120"/>
 				<File Id="795329516"/>
 				<File Id="921597663"/>
@@ -1228,6 +1237,10 @@
 				<File Id="138687282" Language="SFX">
 					<ShortName>Weapons\ShockTherapy\sfx_shocktherapy_attack_ready_04.wav</ShortName>
 					<Path>SFX\Weapons\ShockTherapy\sfx_shocktherapy_attack_ready_04_4B06EAF9.wem</Path>
+				</File>
+				<File Id="139721630" Language="SFX">
+					<ShortName>Weapons\ShockTherapy\sfx_shocktherapy_insanity_tier3_start_01.wav</ShortName>
+					<Path>SFX\Weapons\ShockTherapy\sfx_shocktherapy_insanity_tier3_start_01_4B06EAF9.wem</Path>
 				</File>
 				<File Id="141001934" Language="SFX">
 					<ShortName>Weapons\Impacts\sfx_impact_body_slice_03.wav</ShortName>
@@ -2929,6 +2942,10 @@
 					<ShortName>Weapons\Impacts\sfx_weapon_impact_wood_crack_06.wav</ShortName>
 					<Path>SFX\Weapons\Impacts\sfx_weapon_impact_wood_crack_06_4B06EAF9.wem</Path>
 				</File>
+				<File Id="780175585" Language="SFX">
+					<ShortName>Weapons\ShockTherapy\sfx_shocktherapy_insanity_snapofit_01.wav</ShortName>
+					<Path>SFX\Weapons\ShockTherapy\sfx_shocktherapy_insanity_snapofit_01_4B06EAF9.wem</Path>
+				</File>
 				<File Id="780518240" Language="SFX">
 					<ShortName>Characters\Nurse\vo_killer_nurse_grunt_hurt_01.wav</ShortName>
 					<Path>SFX\Characters\Nurse\vo_killer_nurse_grunt_hurt_01_4B06EAF9.wem</Path>
@@ -3329,6 +3346,10 @@
 					<ShortName>Weapons\PhantomTrap\sfx_phantomtrap_debris_01.wav</ShortName>
 					<Path>SFX\Weapons\PhantomTrap\sfx_phantomtrap_debris_01_4B06EAF9.wem</Path>
 				</File>
+				<File Id="926086654" Language="SFX">
+					<ShortName>Weapons\ShockTherapy\sfx_shocktherapy_insanity_tier1_start_01.wav</ShortName>
+					<Path>SFX\Weapons\ShockTherapy\sfx_shocktherapy_insanity_tier1_start_01_4B06EAF9.wem</Path>
+				</File>
 				<File Id="927164662" Language="SFX">
 					<ShortName>Weapons\PhantomTrap\sfx_phantomtrap_mud_inject_03.wav</ShortName>
 					<Path>SFX\Weapons\PhantomTrap\sfx_phantomtrap_mud_inject_03_4B06EAF9.wem</Path>
@@ -3705,6 +3726,10 @@
 					<ShortName>Weapons\PhantomTrap\sfx_phantomtrap_mud_hit_01.wav</ShortName>
 					<Path>SFX\Weapons\PhantomTrap\sfx_phantomtrap_mud_hit_01_4B06EAF9.wem</Path>
 				</File>
+				<File Id="1072526917" Language="SFX">
+					<ShortName>Weapons\ShockTherapy\sfx_shocktherapy_insanity_tier2_start_01.wav</ShortName>
+					<Path>SFX\Weapons\ShockTherapy\sfx_shocktherapy_insanity_tier2_start_01_4B06EAF9.wem</Path>
+				</File>
 			</IncludedMemoryFiles>
 			<ExcludedMemoryFiles>
 				<File Id="1820397" Language="SFX">
@@ -3990,6 +4015,10 @@
 				<File Id="70439202" Language="SFX">
 					<ShortName>Characters\Camper\Footsteps\Sneakers\Wood\sfx_footsteps_sneakers_wood_walk20.wav</ShortName>
 					<Path>SFX\Characters\Camper\Footsteps\Sneakers\Wood\sfx_footsteps_sneakers_wood_walk20_4B06EAF9.wem</Path>
+				</File>
+				<File Id="70529656" Language="SFX">
+					<ShortName>Stingers\sfx_stinger_doctor_appears_03.wav</ShortName>
+					<Path>SFX\Stingers\sfx_stinger_doctor_appears_03_4B06EAF9.wem</Path>
 				</File>
 				<File Id="71471072" Language="SFX">
 					<ShortName>Characters\Slasher\Footsteps\Boots\Mud\Foot_Mud_Shuffle_Squish27.wav</ShortName>
@@ -6347,6 +6376,10 @@
 					<ShortName>Objects\Blood\sfx_blood_chainsaw_chop_01.wav</ShortName>
 					<Path>SFX\Objects\Blood\sfx_blood_chainsaw_chop_01_4B06EAF9.wem</Path>
 				</File>
+				<File Id="751104970" Language="SFX">
+					<ShortName>Stingers\sfx_stinger_doctor_appears_02.wav</ShortName>
+					<Path>SFX\Stingers\sfx_stinger_doctor_appears_02_4B06EAF9.wem</Path>
+				</File>
 				<File Id="751653811" Language="SFX">
 					<ShortName>Characters\Slasher\Footsteps\Boots\Wood\sfx_footsteps_boots_wood_walk22.wav</ShortName>
 					<Path>SFX\Characters\Slasher\Footsteps\Boots\Wood\sfx_footsteps_boots_wood_walk22_4B06EAF9.wem</Path>
@@ -7315,6 +7348,10 @@
 					<ShortName>Characters\Camper\Footsteps\Sneakers\Mud\Foot_Mud_Shuffle_Squish26.wav</ShortName>
 					<Path>SFX\Characters\Camper\Footsteps\Sneakers\Mud\Foot_Mud_Shuffle_Squish26_4B06EAF9.wem</Path>
 				</File>
+				<File Id="1013493319" Language="SFX">
+					<ShortName>Stingers\sfx_stinger_doctor_appears_01.wav</ShortName>
+					<Path>SFX\Stingers\sfx_stinger_doctor_appears_01_4B06EAF9.wem</Path>
+				</File>
 				<File Id="1013906850" Language="SFX">
 					<ShortName>Characters\Slasher\Footsteps\Boots\Metal\sfx_footsteps_boots_metal_run04.wav</ShortName>
 					<Path>SFX\Characters\Slasher\Footsteps\Boots\Metal\sfx_footsteps_boots_metal_run04_4B06EAF9.wem</Path>
@@ -7690,9 +7727,17 @@
 					<ShortName>Objects\Totem\sfx_totem_sabotage_bones_04.wav</ShortName>
 					<Path>SFX\Objects\Totem\sfx_totem_sabotage_bones_04_4B06EAF9.wem</Path>
 				</File>
+				<File Id="264561577" Language="SFX">
+					<ShortName>Objects\Totem\sfx_totem_fire_short_02.wav</ShortName>
+					<Path>SFX\Objects\Totem\sfx_totem_fire_short_02_4B06EAF9.wem</Path>
+				</File>
 				<File Id="268410107" Language="SFX">
 					<ShortName>Objects\Totem\sfx_totem_sabotage_bones_07.wav</ShortName>
 					<Path>SFX\Objects\Totem\sfx_totem_sabotage_bones_07_4B06EAF9.wem</Path>
+				</File>
+				<File Id="321408986" Language="SFX">
+					<ShortName>Objects\Totem\sfx_totem_fire_short_01.wav</ShortName>
+					<Path>SFX\Objects\Totem\sfx_totem_fire_short_01_4B06EAF9.wem</Path>
 				</File>
 				<File Id="339169744" Language="SFX">
 					<ShortName>Objects\Totem\sfx_totem_break_04.wav</ShortName>
@@ -7725,6 +7770,10 @@
 				<File Id="596096101" Language="SFX">
 					<ShortName>Objects\Totem\sfx_totem_break_02.wav</ShortName>
 					<Path>SFX\Objects\Totem\sfx_totem_break_02_4B06EAF9.wem</Path>
+				</File>
+				<File Id="642929546" Language="SFX">
+					<ShortName>Objects\Totem\sfx_totem_fire_short_03.wav</ShortName>
+					<Path>SFX\Objects\Totem\sfx_totem_fire_short_03_4B06EAF9.wem</Path>
 				</File>
 				<File Id="677830655" Language="SFX">
 					<ShortName>Objects\Totem\sfx_totem_break_01.wav</ShortName>
@@ -7881,6 +7930,7 @@
 				<Event Id="311264366" Name="AudioEvent_Meathook_Break" ObjectPath="\Events\Default Work Unit\Objects\Meathook\AudioEvent_Meathook_Break"/>
 				<Event Id="2595504042" Name="AudioEvent_Meathook_Metal_Drop" ObjectPath="\Events\Default Work Unit\Objects\Meathook\AudioEvent_Meathook_Metal_Drop"/>
 				<Event Id="1141870373" Name="AudioEvent_Meathook_Sabotage" ObjectPath="\Events\Default Work Unit\Objects\Meathook\AudioEvent_Meathook_Sabotage"/>
+				<Event Id="1358231084" Name="AudioEvent_Meathook_Sabotage_Fail" ObjectPath="\Events\Default Work Unit\Objects\Meathook\AudioEvent_Meathook_Sabotage_Fail"/>
 				<Event Id="572214435" Name="AudioEvent_Meathook_Shake_Hard" ObjectPath="\Events\Default Work Unit\Objects\Meathook\AudioEvent_Meathook_Shake_Hard"/>
 				<Event Id="2618245416" Name="AudioEvent_Meathook_Shake_Light" ObjectPath="\Events\Default Work Unit\Objects\Meathook\AudioEvent_Meathook_Shake_Light"/>
 				<Event Id="67507492" Name="AudioEvent_Obsession_Chosen" ObjectPath="\Events\Default Work Unit\HUD\AudioEvent_Obsession_Chosen"/>
@@ -7913,6 +7963,7 @@
 				<Event Id="2065045372" Name="audioevent_sacrifice_reaction_start" ObjectPath="\Events\Default Work Unit\Objects\TheEntity\audioevent_sacrifice_reaction_start"/>
 				<Event Id="1772365215" Name="audioevent_sacrifice_sacrifice" ObjectPath="\Events\Default Work Unit\Objects\TheEntity\audioevent_sacrifice_sacrifice"/>
 				<Event Id="991002769" Name="audioevent_sacrifice_struggle" ObjectPath="\Events\Default Work Unit\Objects\TheEntity\audioevent_sacrifice_struggle"/>
+				<Event Id="1916972352" Name="AudioEvent_ShockTherapy_Doctor_Appears" ObjectPath="\Events\Default Work Unit\Weapons\ShockTherapy\AudioEvent_ShockTherapy_Doctor_Appears"/>
 				<Event Id="2699076248" Name="AudioEvent_Shutter_Close" ObjectPath="\Events\Default Work Unit\Objects\Shutter\AudioEvent_Shutter_Close"/>
 				<Event Id="1423015004" Name="AudioEvent_Shutter_Open" ObjectPath="\Events\Default Work Unit\Objects\Shutter\AudioEvent_Shutter_Open"/>
 				<Event Id="3636566612" Name="AudioEvent_Shutter_Stop" ObjectPath="\Events\Default Work Unit\Objects\Shutter\AudioEvent_Shutter_Stop"/>
@@ -8432,6 +8483,10 @@
 					<ShortName>Characters\Camper\Footsteps\Sneakers\Wood\sfx_footsteps_sneakers_wood_walk20.wav</ShortName>
 					<Path>SFX\Characters\Camper\Footsteps\Sneakers\Wood\sfx_footsteps_sneakers_wood_walk20_4B06EAF9.wem</Path>
 				</File>
+				<File Id="70529656" Language="SFX">
+					<ShortName>Stingers\sfx_stinger_doctor_appears_03.wav</ShortName>
+					<Path>SFX\Stingers\sfx_stinger_doctor_appears_03_4B06EAF9.wem</Path>
+				</File>
 				<File Id="70994473" Language="SFX">
 					<ShortName>Perks\sfx_perks_whispers_voice_06.wav</ShortName>
 					<Path>SFX\Perks\sfx_perks_whispers_voice_06_21911598.wem</Path>
@@ -8739,6 +8794,10 @@
 				<File Id="126957949" Language="SFX">
 					<ShortName>Characters\Slasher\Footsteps\Boots\Mud\Foot_Mud_WalkHard09.wav</ShortName>
 					<Path>SFX\Characters\Slasher\Footsteps\Boots\Mud\Foot_Mud_WalkHard09_4B06EAF9.wem</Path>
+				</File>
+				<File Id="127041645" Language="SFX">
+					<ShortName>Objects\Meathook\sfx_meathook_sabotage_explosion_03.wav</ShortName>
+					<Path>SFX\Objects\Meathook\sfx_meathook_sabotage_explosion_03_4B06EAF9.wem</Path>
 				</File>
 				<File Id="127489130" Language="SFX">
 					<ShortName>Ambience\LimitPoint\am_limitpoint_voice_03.wav</ShortName>
@@ -10388,6 +10447,10 @@
 					<ShortName>Characters\Footsteps\sfx_footsteps_barefoot_dirt_run_13.wav</ShortName>
 					<Path>SFX\Characters\Footsteps\sfx_footsteps_barefoot_dirt_run_13_4B06EAF9.wem</Path>
 				</File>
+				<File Id="464469649" Language="SFX">
+					<ShortName>Objects\Meathook\sfx_meathook_sabotage_explosion_01.wav</ShortName>
+					<Path>SFX\Objects\Meathook\sfx_meathook_sabotage_explosion_01_4B06EAF9.wem</Path>
+				</File>
 				<File Id="465418475" Language="SFX">
 					<ShortName>Characters\Camper\Footsteps\Sneakers\Mud\Foot_Mud_WalkLight04.wav</ShortName>
 					<Path>SFX\Characters\Camper\Footsteps\Sneakers\Mud\Foot_Mud_WalkLight04_4B06EAF9.wem</Path>
@@ -11872,6 +11935,10 @@
 					<ShortName>Characters\Slasher\Footsteps\Boots\Wood\sfx_footsteps_boots_wood_shuffle1.wav</ShortName>
 					<Path>SFX\Characters\Slasher\Footsteps\Boots\Wood\sfx_footsteps_boots_wood_shuffle1_4B06EAF9.wem</Path>
 				</File>
+				<File Id="751104970" Language="SFX">
+					<ShortName>Stingers\sfx_stinger_doctor_appears_02.wav</ShortName>
+					<Path>SFX\Stingers\sfx_stinger_doctor_appears_02_4B06EAF9.wem</Path>
+				</File>
 				<File Id="751653811" Language="SFX">
 					<ShortName>Characters\Slasher\Footsteps\Boots\Wood\sfx_footsteps_boots_wood_walk22.wav</ShortName>
 					<Path>SFX\Characters\Slasher\Footsteps\Boots\Wood\sfx_footsteps_boots_wood_walk22_4B06EAF9.wem</Path>
@@ -13008,6 +13075,10 @@
 					<ShortName>Ambience\Emitters\sfx_wind_randoms_05.wav</ShortName>
 					<Path>SFX\Ambience\Emitters\sfx_wind_randoms_05_4B06EAF9.wem</Path>
 				</File>
+				<File Id="976909282" Language="SFX">
+					<ShortName>Objects\Meathook\sfx_meathook_sabotage_explosion_02.wav</ShortName>
+					<Path>SFX\Objects\Meathook\sfx_meathook_sabotage_explosion_02_4B06EAF9.wem</Path>
+				</File>
 				<File Id="977674512" Language="SFX">
 					<ShortName>Characters\Camper\Footsteps\Sneakers\Concrete\sfx_footsteps_sneakers_concrete_walk07.wav</ShortName>
 					<Path>SFX\Characters\Camper\Footsteps\Sneakers\Concrete\sfx_footsteps_sneakers_concrete_walk07_4B06EAF9.wem</Path>
@@ -13172,6 +13243,10 @@
 					<ShortName>Objects\Meathook\sfx_meathook_wood_fall_03.wav</ShortName>
 					<Path>SFX\Objects\Meathook\sfx_meathook_wood_fall_03_4B06EAF9.wem</Path>
 				</File>
+				<File Id="1013493319" Language="SFX">
+					<ShortName>Stingers\sfx_stinger_doctor_appears_01.wav</ShortName>
+					<Path>SFX\Stingers\sfx_stinger_doctor_appears_01_4B06EAF9.wem</Path>
+				</File>
 				<File Id="1013600361" Language="SFX">
 					<ShortName>Objects\Coakroach\sfx_coakroach_move_06.wav</ShortName>
 					<Path>SFX\Objects\Coakroach\sfx_coakroach_move_06_4B06EAF9.wem</Path>
@@ -13243,6 +13318,10 @@
 				<File Id="1024669842" Language="SFX">
 					<ShortName>Characters\Camper\Footsteps\Sneakers\Metal\sfx_footsteps_sneakers_metal_run13.wav</ShortName>
 					<Path>SFX\Characters\Camper\Footsteps\Sneakers\Metal\sfx_footsteps_sneakers_metal_run13_4B06EAF9.wem</Path>
+				</File>
+				<File Id="1024925873" Language="SFX">
+					<ShortName>HUD\sfx_hud_bloodlust_04.wav</ShortName>
+					<Path>SFX\HUD\sfx_hud_bloodlust_04_21911598.wem</Path>
 				</File>
 				<File Id="1025417822" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_barefoot_gravel_walk_03.wav</ShortName>
@@ -14066,6 +14145,7 @@
 				<Event Id="847751203" Name="AudioEvent_Survivor_Grunt_Hurt_Hard" ObjectPath="\Events\Default Work Unit\Characters\Survivor\Grunts\AudioEvent_Survivor_Grunt_Hurt_Hard"/>
 				<Event Id="4137896872" Name="AudioEvent_Survivor_Grunt_Hurt_Light" ObjectPath="\Events\Default Work Unit\Characters\Survivor\Grunts\AudioEvent_Survivor_Grunt_Hurt_Light"/>
 				<Event Id="495878973" Name="AudioEvent_Survivor_Grunt_Insanity" ObjectPath="\Events\Default Work Unit\Characters\Survivor\Grunts\AudioEvent_Survivor_Grunt_Insanity"/>
+				<Event Id="2526302648" Name="AudioEvent_Survivor_Grunt_Insanity_SnapOfIt" ObjectPath="\Events\Default Work Unit\Characters\Survivor\Grunts\AudioEvent_Survivor_Grunt_Insanity_SnapOfIt"/>
 				<Event Id="2747917711" Name="AudioEvent_Survivor_Grunt_Land_Hard" ObjectPath="\Events\Default Work Unit\Characters\Survivor\Grunts\AudioEvent_Survivor_Grunt_Land_Hard"/>
 				<Event Id="4253225532" Name="AudioEvent_Survivor_Grunt_Land_Light" ObjectPath="\Events\Default Work Unit\Characters\Survivor\Grunts\AudioEvent_Survivor_Grunt_Land_Light"/>
 				<Event Id="1877538158" Name="AudioEvent_Survivor_Grunt_Scream_Long" ObjectPath="\Events\Default Work Unit\Characters\Survivor\Grunts\AudioEvent_Survivor_Grunt_Scream_Long"/>
@@ -14223,10 +14303,6 @@
 					<ShortName>Characters\Nea\vo_nea_captured_hurt_03.wav</ShortName>
 					<Path>SFX\Characters\Nea\vo_nea_captured_hurt_03_4B06EAF9.wem</Path>
 				</File>
-				<File Id="13695989" Language="SFX">
-					<ShortName>Characters\Feng\vo_feng_hurt_hard_038.wav</ShortName>
-					<Path>SFX\Characters\Feng\vo_feng_hurt_hard_038_4B06EAF9.wem</Path>
-				</File>
 				<File Id="13707649" Language="SFX">
 					<ShortName>Characters\Meg\vo_meg_land_hard_01.wav</ShortName>
 					<Path>SFX\Characters\Meg\vo_meg_land_hard_01_4B06EAF9.wem</Path>
@@ -14234,10 +14310,6 @@
 				<File Id="14269471" Language="SFX">
 					<ShortName>Characters\Jake\vo_jake_effort_hard_04.wav</ShortName>
 					<Path>SFX\Characters\Jake\vo_jake_effort_hard_04_4B06EAF9.wem</Path>
-				</File>
-				<File Id="14674694" Language="SFX">
-					<ShortName>Characters\Feng\vo_feng_effort_hard_009.wav</ShortName>
-					<Path>SFX\Characters\Feng\vo_feng_effort_hard_009_4B06EAF9.wem</Path>
 				</File>
 				<File Id="14703557" Language="SFX">
 					<ShortName>Characters\Bill\vo_bill_land_light_38.wav</ShortName>
@@ -14266,10 +14338,6 @@
 				<File Id="17704560" Language="SFX">
 					<ShortName>Characters\Feng\vo_feng_injured_113.wav</ShortName>
 					<Path>SFX\Characters\Feng\vo_feng_injured_113_4B06EAF9.wem</Path>
-				</File>
-				<File Id="18421342" Language="SFX">
-					<ShortName>Characters\Feng\vo_feng_hurt_light_057.wav</ShortName>
-					<Path>SFX\Characters\Feng\vo_feng_hurt_light_057_4B06EAF9.wem</Path>
 				</File>
 				<File Id="18839025" Language="SFX">
 					<ShortName>Characters\Bill\vo_bill_hooked_09.wav</ShortName>
@@ -14350,10 +14418,6 @@
 				<File Id="23346651" Language="SFX">
 					<ShortName>Characters\Dwight\vo_dwight_falling_03.wav</ShortName>
 					<Path>SFX\Characters\Dwight\vo_dwight_falling_03_4B06EAF9.wem</Path>
-				</File>
-				<File Id="23655848" Language="SFX">
-					<ShortName>Characters\Feng\vo_feng_land_light_015.wav</ShortName>
-					<Path>SFX\Characters\Feng\vo_feng_land_light_015_4B06EAF9.wem</Path>
 				</File>
 				<File Id="25479767" Language="SFX">
 					<ShortName>Characters\Jake\vo_jake_land_hard_02.wav</ShortName>
@@ -14823,10 +14887,6 @@
 					<ShortName>Characters\Jake\vo_jake_land_hard_05.wav</ShortName>
 					<Path>SFX\Characters\Jake\vo_jake_land_hard_05_4B06EAF9.wem</Path>
 				</File>
-				<File Id="68948043" Language="SFX">
-					<ShortName>Characters\Feng\vo_feng_effort_hard_005.wav</ShortName>
-					<Path>SFX\Characters\Feng\vo_feng_effort_hard_005_4B06EAF9.wem</Path>
-				</File>
 				<File Id="69217445" Language="SFX">
 					<ShortName>Characters\Bill\vo_bill_captured_17.wav</ShortName>
 					<Path>SFX\Characters\Bill\vo_bill_captured_17_4B06EAF9.wem</Path>
@@ -15091,10 +15151,6 @@
 					<ShortName>Characters\Nea\vo_nea_normal_breath_08.wav</ShortName>
 					<Path>SFX\Characters\Nea\vo_nea_normal_breath_08_4B06EAF9.wem</Path>
 				</File>
-				<File Id="91039556" Language="SFX">
-					<ShortName>Characters\Feng\vo_feng_effort_light_015.wav</ShortName>
-					<Path>SFX\Characters\Feng\vo_feng_effort_light_015_4B06EAF9.wem</Path>
-				</File>
 				<File Id="91777869" Language="SFX">
 					<ShortName>Characters\Bill\vo_bill_dead_23.wav</ShortName>
 					<Path>SFX\Characters\Bill\vo_bill_dead_23_4B06EAF9.wem</Path>
@@ -15158,10 +15214,6 @@
 				<File Id="97867302" Language="SFX">
 					<ShortName>Characters\Nea\vo_nea_captured_breath_06.wav</ShortName>
 					<Path>SFX\Characters\Nea\vo_nea_captured_breath_06_4B06EAF9.wem</Path>
-				</File>
-				<File Id="97892835" Language="SFX">
-					<ShortName>Characters\Feng\vo_feng_effort_light_023.wav</ShortName>
-					<Path>SFX\Characters\Feng\vo_feng_effort_light_023_4B06EAF9.wem</Path>
 				</File>
 				<File Id="98020524" Language="SFX">
 					<ShortName>Characters\Dwight\vo_dwight_hurt_hard_16.wav</ShortName>
@@ -15511,10 +15563,6 @@
 					<ShortName>Characters\Feng\vo_feng_injured_106.wav</ShortName>
 					<Path>SFX\Characters\Feng\vo_feng_injured_106_4B06EAF9.wem</Path>
 				</File>
-				<File Id="129662515" Language="SFX">
-					<ShortName>Characters\Feng\vo_feng_land_light_013.wav</ShortName>
-					<Path>SFX\Characters\Feng\vo_feng_land_light_013_4B06EAF9.wem</Path>
-				</File>
 				<File Id="129826120" Language="SFX">
 					<ShortName>Characters\Nea\vo_nea_dying_cough_01.wav</ShortName>
 					<Path>SFX\Characters\Nea\vo_nea_dying_cough_01_4B06EAF9.wem</Path>
@@ -15687,10 +15735,6 @@
 					<ShortName>Characters\Feng\vo_feng_dying_052.wav</ShortName>
 					<Path>SFX\Characters\Feng\vo_feng_dying_052_4B06EAF9.wem</Path>
 				</File>
-				<File Id="147293904" Language="SFX">
-					<ShortName>Characters\Feng\vo_feng_effort_light_011.wav</ShortName>
-					<Path>SFX\Characters\Feng\vo_feng_effort_light_011_4B06EAF9.wem</Path>
-				</File>
 				<File Id="147641531" Language="SFX">
 					<ShortName>Characters\Jake\vo_jake_injured_hurt_02.wav</ShortName>
 					<Path>SFX\Characters\Jake\vo_jake_injured_hurt_02_4B06EAF9.wem</Path>
@@ -15806,10 +15850,6 @@
 				<File Id="156501677" Language="SFX">
 					<ShortName>Characters\Bill\vo_bill_effort_hard_19.wav</ShortName>
 					<Path>SFX\Characters\Bill\vo_bill_effort_hard_19_4B06EAF9.wem</Path>
-				</File>
-				<File Id="156598810" Language="SFX">
-					<ShortName>Characters\Feng\vo_feng_hurt_hard_024.wav</ShortName>
-					<Path>SFX\Characters\Feng\vo_feng_hurt_hard_024_4B06EAF9.wem</Path>
 				</File>
 				<File Id="158073725" Language="SFX">
 					<ShortName>Characters\Ace\Sebastien_effort_light 12.wav</ShortName>
@@ -16067,14 +16107,6 @@
 					<ShortName>Characters\Dwight\vo_dwight_effort_light_09.wav</ShortName>
 					<Path>SFX\Characters\Dwight\vo_dwight_effort_light_09_4B06EAF9.wem</Path>
 				</File>
-				<File Id="186988677" Language="SFX">
-					<ShortName>Characters\Feng\vo_feng_land_hard_012.wav</ShortName>
-					<Path>SFX\Characters\Feng\vo_feng_land_hard_012_4B06EAF9.wem</Path>
-				</File>
-				<File Id="187455462" Language="SFX">
-					<ShortName>Characters\Feng\vo_feng_hurt_hard_033.wav</ShortName>
-					<Path>SFX\Characters\Feng\vo_feng_hurt_hard_033_4B06EAF9.wem</Path>
-				</File>
 				<File Id="187871367" Language="SFX">
 					<ShortName>Characters\Bill\vo_bill_effort_light_10.wav</ShortName>
 					<Path>SFX\Characters\Bill\vo_bill_effort_light_10_4B06EAF9.wem</Path>
@@ -16323,10 +16355,6 @@
 					<ShortName>Characters\Meg\vo_meg_normal_01.wav</ShortName>
 					<Path>SFX\Characters\Meg\vo_meg_normal_01_4B06EAF9.wem</Path>
 				</File>
-				<File Id="215059432" Language="SFX">
-					<ShortName>Characters\Feng\vo_feng_land_hard_011.wav</ShortName>
-					<Path>SFX\Characters\Feng\vo_feng_land_hard_011_4B06EAF9.wem</Path>
-				</File>
 				<File Id="215075227" Language="SFX">
 					<ShortName>Characters\Bill\vo_bill_nurse_30.wav</ShortName>
 					<Path>SFX\Characters\Bill\vo_bill_nurse_30_4B06EAF9.wem</Path>
@@ -16471,10 +16499,6 @@
 					<ShortName>Characters\Claudette\vo_claudette_injured_breath_01.wav</ShortName>
 					<Path>SFX\Characters\Claudette\vo_claudette_injured_breath_01_4B06EAF9.wem</Path>
 				</File>
-				<File Id="229274817" Language="SFX">
-					<ShortName>Characters\Feng\vo_feng_hurt_light_061.wav</ShortName>
-					<Path>SFX\Characters\Feng\vo_feng_hurt_light_061_4B06EAF9.wem</Path>
-				</File>
 				<File Id="230590868" Language="SFX">
 					<ShortName>Characters\Laurie\vo_laurie_hurt_light_09.wav</ShortName>
 					<Path>SFX\Characters\Laurie\vo_laurie_hurt_light_09_4B06EAF9.wem</Path>
@@ -16494,10 +16518,6 @@
 				<File Id="232226618" Language="SFX">
 					<ShortName>Characters\Bill\vo_bill_effort_light_24.wav</ShortName>
 					<Path>SFX\Characters\Bill\vo_bill_effort_light_24_4B06EAF9.wem</Path>
-				</File>
-				<File Id="233023475" Language="SFX">
-					<ShortName>Characters\Feng\vo_feng_effort_hard_007.wav</ShortName>
-					<Path>SFX\Characters\Feng\vo_feng_effort_hard_007_4B06EAF9.wem</Path>
 				</File>
 				<File Id="233413957" Language="SFX">
 					<ShortName>Characters\Nea\vo_nea_hurt_light_05.wav</ShortName>
@@ -16818,10 +16838,6 @@
 				<File Id="263240961" Language="SFX">
 					<ShortName>Characters\Meg\vo_meg_dying_hurt_03.wav</ShortName>
 					<Path>SFX\Characters\Meg\vo_meg_dying_hurt_03_4B06EAF9.wem</Path>
-				</File>
-				<File Id="263699520" Language="SFX">
-					<ShortName>Characters\Feng\vo_feng_effort_hard_002.wav</ShortName>
-					<Path>SFX\Characters\Feng\vo_feng_effort_hard_002_4B06EAF9.wem</Path>
 				</File>
 				<File Id="263987856" Language="SFX">
 					<ShortName>Characters\Feng\vo_feng_injured_096.wav</ShortName>
@@ -18159,10 +18175,6 @@
 					<ShortName>Characters\Claudette\vo_claudette_hurt_hard_08.wav</ShortName>
 					<Path>SFX\Characters\Claudette\vo_claudette_hurt_hard_08_4B06EAF9.wem</Path>
 				</File>
-				<File Id="380826478" Language="SFX">
-					<ShortName>Characters\Feng\vo_feng_effort_light_027.wav</ShortName>
-					<Path>SFX\Characters\Feng\vo_feng_effort_light_027_4B06EAF9.wem</Path>
-				</File>
 				<File Id="381771009" Language="SFX">
 					<ShortName>Characters\Nea\vo_nea_captured_breath_05.wav</ShortName>
 					<Path>SFX\Characters\Nea\vo_nea_captured_breath_05_4B06EAF9.wem</Path>
@@ -19147,10 +19159,6 @@
 					<ShortName>Characters\Bill\vo_bill_land_hard_15.wav</ShortName>
 					<Path>SFX\Characters\Bill\vo_bill_land_hard_15_4B06EAF9.wem</Path>
 				</File>
-				<File Id="479371823" Language="SFX">
-					<ShortName>Characters\Feng\vo_feng_effort_light_014.wav</ShortName>
-					<Path>SFX\Characters\Feng\vo_feng_effort_light_014_4B06EAF9.wem</Path>
-				</File>
 				<File Id="479592527" Language="SFX">
 					<ShortName>Characters\Claudette\vo_claudette_injured_hurt_08.wav</ShortName>
 					<Path>SFX\Characters\Claudette\vo_claudette_injured_hurt_08_4B06EAF9.wem</Path>
@@ -19935,10 +19943,6 @@
 					<ShortName>Characters\Bill\vo_bill_effort_light_34.wav</ShortName>
 					<Path>SFX\Characters\Bill\vo_bill_effort_light_34_4B06EAF9.wem</Path>
 				</File>
-				<File Id="553925049" Language="SFX">
-					<ShortName>Characters\Feng\vo_feng_scream_short_004.wav</ShortName>
-					<Path>SFX\Characters\Feng\vo_feng_scream_short_004_4B06EAF9.wem</Path>
-				</File>
 				<File Id="553972431" Language="SFX">
 					<ShortName>Characters\Claudette\vo_claudette_falling_01.wav</ShortName>
 					<Path>SFX\Characters\Claudette\vo_claudette_falling_01_4B06EAF9.wem</Path>
@@ -19994,10 +19998,6 @@
 				<File Id="558953580" Language="SFX">
 					<ShortName>Characters\Nea\vo_nea_effort_light_09.wav</ShortName>
 					<Path>SFX\Characters\Nea\vo_nea_effort_light_09_4B06EAF9.wem</Path>
-				</File>
-				<File Id="558993041" Language="SFX">
-					<ShortName>Characters\Feng\vo_feng_effort_light_028.wav</ShortName>
-					<Path>SFX\Characters\Feng\vo_feng_effort_light_028_4B06EAF9.wem</Path>
 				</File>
 				<File Id="559335842" Language="SFX">
 					<ShortName>Characters\Bill\vo_bill_running_11.wav</ShortName>
@@ -20679,10 +20679,6 @@
 					<ShortName>Characters\Jake\vo_jake_hooked_effort_12.wav</ShortName>
 					<Path>SFX\Characters\Jake\vo_jake_hooked_effort_12_4B06EAF9.wem</Path>
 				</File>
-				<File Id="626702819" Language="SFX">
-					<ShortName>Characters\Feng\vo_feng_land_light_010.wav</ShortName>
-					<Path>SFX\Characters\Feng\vo_feng_land_light_010_4B06EAF9.wem</Path>
-				</File>
 				<File Id="626713299" Language="SFX">
 					<ShortName>Characters\Nea\vo_nea_hurt_hard_01.wav</ShortName>
 					<Path>SFX\Characters\Nea\vo_nea_hurt_hard_01_4B06EAF9.wem</Path>
@@ -21034,10 +21030,6 @@
 				<File Id="660940340" Language="SFX">
 					<ShortName>Characters\Ace\Sebastien_hurt_light 28.wav</ShortName>
 					<Path>SFX\Characters\Ace\Sebastien_hurt_light 28_4B06EAF9.wem</Path>
-				</File>
-				<File Id="661216357" Language="SFX">
-					<ShortName>Characters\Feng\vo_feng_scream_short_007.wav</ShortName>
-					<Path>SFX\Characters\Feng\vo_feng_scream_short_007_4B06EAF9.wem</Path>
 				</File>
 				<File Id="661406906" Language="SFX">
 					<ShortName>Characters\Bill\vo_bill_scream_short_35.wav</ShortName>
@@ -22502,10 +22494,6 @@
 				<File Id="797624103" Language="SFX">
 					<ShortName>Characters\Ace\Sebastien_falling 59.wav</ShortName>
 					<Path>SFX\Characters\Ace\Sebastien_falling 59_4B06EAF9.wem</Path>
-				</File>
-				<File Id="797896241" Language="SFX">
-					<ShortName>Characters\Feng\vo_feng_effort_light_009.wav</ShortName>
-					<Path>SFX\Characters\Feng\vo_feng_effort_light_009_4B06EAF9.wem</Path>
 				</File>
 				<File Id="798136378" Language="SFX">
 					<ShortName>Characters\Dwight\vo_dwight_dying_cry_10.wav</ShortName>
@@ -24007,10 +23995,6 @@
 					<ShortName>Characters\Survivor\Actions\sfx_survivor_grab_01.wav</ShortName>
 					<Path>SFX\Characters\Survivor\Actions\sfx_survivor_grab_01_4B06EAF9.wem</Path>
 				</File>
-				<File Id="928362717" Language="SFX">
-					<ShortName>Characters\Feng\vo_feng_land_light_001.wav</ShortName>
-					<Path>SFX\Characters\Feng\vo_feng_land_light_001_4B06EAF9.wem</Path>
-				</File>
 				<File Id="928675602" Language="SFX">
 					<ShortName>Characters\Feng\vo_feng_effort_light_048.wav</ShortName>
 					<Path>SFX\Characters\Feng\vo_feng_effort_light_048_4B06EAF9.wem</Path>
@@ -24074,10 +24058,6 @@
 				<File Id="932938001" Language="SFX">
 					<ShortName>Characters\Bill\vo_bill_land_light_16.wav</ShortName>
 					<Path>SFX\Characters\Bill\vo_bill_land_light_16_4B06EAF9.wem</Path>
-				</File>
-				<File Id="933124932" Language="SFX">
-					<ShortName>Characters\Feng\vo_feng_hurt_hard_065.wav</ShortName>
-					<Path>SFX\Characters\Feng\vo_feng_hurt_hard_065_4B06EAF9.wem</Path>
 				</File>
 				<File Id="933340077" Language="SFX">
 					<ShortName>Characters\Meg\vo_meg_dying_breath_06.wav</ShortName>
@@ -24154,10 +24134,6 @@
 				<File Id="939479826" Language="SFX">
 					<ShortName>Characters\Bill\vo_bill_normal_03.wav</ShortName>
 					<Path>SFX\Characters\Bill\vo_bill_normal_03_4B06EAF9.wem</Path>
-				</File>
-				<File Id="940777963" Language="SFX">
-					<ShortName>Characters\Feng\vo_feng_land_light_014.wav</ShortName>
-					<Path>SFX\Characters\Feng\vo_feng_land_light_014_4B06EAF9.wem</Path>
 				</File>
 				<File Id="940997333" Language="SFX">
 					<ShortName>Characters\Bill\vo_bill_injured_27.wav</ShortName>
@@ -24903,10 +24879,6 @@
 					<ShortName>Characters\Survivor\Actions\sfx_survivor_punch_02.wav</ShortName>
 					<Path>SFX\Characters\Survivor\Actions\sfx_survivor_punch_02_4B06EAF9.wem</Path>
 				</File>
-				<File Id="1002640794" Language="SFX">
-					<ShortName>Characters\Feng\vo_feng_land_hard_015.wav</ShortName>
-					<Path>SFX\Characters\Feng\vo_feng_land_hard_015_4B06EAF9.wem</Path>
-				</File>
 				<File Id="1003016055" Language="SFX">
 					<ShortName>Characters\Dwight\vo_dwight_effort_light_06.wav</ShortName>
 					<Path>SFX\Characters\Dwight\vo_dwight_effort_light_06_4B06EAF9.wem</Path>
@@ -25598,10 +25570,6 @@
 				<File Id="1071211748" Language="SFX">
 					<ShortName>Characters\Nea\vo_nea_captured_cough_02.wav</ShortName>
 					<Path>SFX\Characters\Nea\vo_nea_captured_cough_02_4B06EAF9.wem</Path>
-				</File>
-				<File Id="1071524060" Language="SFX">
-					<ShortName>Characters\Feng\vo_feng_effort_light_010.wav</ShortName>
-					<Path>SFX\Characters\Feng\vo_feng_effort_light_010_4B06EAF9.wem</Path>
 				</File>
 				<File Id="1071723550" Language="SFX">
 					<ShortName>Characters\Ace\Sebastien_hooked 90.wav</ShortName>
@@ -28693,6 +28661,10 @@
 					<ShortName>Characters\Camper\Footsteps\Sneakers\Dirt\sfx_footsteps_sneakers_dirt_walk20.wav</ShortName>
 					<Path>SFX\Characters\Camper\Footsteps\Sneakers\Dirt\sfx_footsteps_sneakers_dirt_walk20_4B06EAF9.wem</Path>
 				</File>
+				<File Id="780175585" Language="SFX">
+					<ShortName>Weapons\ShockTherapy\sfx_shocktherapy_insanity_snapofit_01.wav</ShortName>
+					<Path>SFX\Weapons\ShockTherapy\sfx_shocktherapy_insanity_snapofit_01_4B06EAF9.wem</Path>
+				</File>
 				<File Id="780694297" Language="SFX">
 					<ShortName>Characters\Slasher\Footsteps\Boots\Gravel\sfx_footsteps_boots_gravel_walk03.wav</ShortName>
 					<Path>SFX\Characters\Slasher\Footsteps\Boots\Gravel\sfx_footsteps_boots_gravel_walk03_4B06EAF9.wem</Path>
@@ -30085,6 +30057,7 @@
 				<Event Id="788720384" Name="AudioEvent_MainMenu_Profil_Close" ObjectPath="\Events\Default Work Unit\UI\MainMenu\AudioEvent_MainMenu_Profil_Close"/>
 				<Event Id="2259556148" Name="AudioEvent_MainMenu_Profil_Open" ObjectPath="\Events\Default Work Unit\UI\MainMenu\AudioEvent_MainMenu_Profil_Open"/>
 				<Event Id="692218234" Name="AudioEvent_Master_Reset_RTPC" ObjectPath="\Events\Default Work Unit\System\AudioEvent_Master_Reset_RTPC"/>
+				<Event Id="1358231084" Name="AudioEvent_Meathook_Sabotage_Fail" ObjectPath="\Events\Default Work Unit\Objects\Meathook\AudioEvent_Meathook_Sabotage_Fail"/>
 				<Event Id="2252564523" Name="AudioEvent_Offering_Card_Burn" ObjectPath="\Events\Default Work Unit\UI\Offering\AudioEvent_Offering_Card_Burn"/>
 				<Event Id="3445274837" Name="AudioEvent_Offering_Card_Flip" ObjectPath="\Events\Default Work Unit\UI\Offering\AudioEvent_Offering_Card_Flip"/>
 				<Event Id="4217559337" Name="AudioEvent_Offering_Card_Pop" ObjectPath="\Events\Default Work Unit\UI\Offering\AudioEvent_Offering_Card_Pop"/>
@@ -30093,6 +30066,7 @@
 				<Event Id="3734973314" Name="audioevent_sacrifice_idle" ObjectPath="\Events\Default Work Unit\Objects\TheEntity\audioevent_sacrifice_idle"/>
 				<Event Id="2065045372" Name="audioevent_sacrifice_reaction_start" ObjectPath="\Events\Default Work Unit\Objects\TheEntity\audioevent_sacrifice_reaction_start"/>
 				<Event Id="991002769" Name="audioevent_sacrifice_struggle" ObjectPath="\Events\Default Work Unit\Objects\TheEntity\audioevent_sacrifice_struggle"/>
+				<Event Id="4001008649" Name="AudioEvent_ShrineOfSecrets_Reveal" ObjectPath="\Events\Default Work Unit\UI\ShrineOfSecrets\AudioEvent_ShrineOfSecrets_Reveal"/>
 				<Event Id="1223138961" Name="AudioEvent_Survivor_Body_Land" ObjectPath="\Events\Default Work Unit\Characters\Survivor\Movements\AudioEvent_Survivor_Body_Land"/>
 				<Event Id="2883028269" Name="AudioEvent_Survivor_Body_Move" ObjectPath="\Events\Default Work Unit\Characters\Survivor\Movements\AudioEvent_Survivor_Body_Move"/>
 				<Event Id="145852223" Name="AudioEvent_Survivor_Rush_Hit" ObjectPath="\Events\Default Work Unit\Characters\Survivor\Interactions\AudioEvent_Survivor_Rush_Hit"/>
@@ -31371,6 +31345,7 @@
 				<Event Id="600636544" Name="AudioEvent_RoleSelection_QuitGame" ObjectPath="\Events\Default Work Unit\UI\RoleSelection\AudioEvent_RoleSelection_QuitGame"/>
 				<Event Id="2994615732" Name="AudioEvent_RoleSelection_Settings" ObjectPath="\Events\Default Work Unit\UI\RoleSelection\AudioEvent_RoleSelection_Settings"/>
 				<Event Id="34409536" Name="AudioEvent_RoleSelection_Tutorials" ObjectPath="\Events\Default Work Unit\UI\RoleSelection\AudioEvent_RoleSelection_Tutorials"/>
+				<Event Id="4001008649" Name="AudioEvent_ShrineOfSecrets_Reveal" ObjectPath="\Events\Default Work Unit\UI\ShrineOfSecrets\AudioEvent_ShrineOfSecrets_Reveal"/>
 				<Event Id="4227451479" Name="AudioEvent_Splashscreen_Press_Key" ObjectPath="\Events\Default Work Unit\UI\Splashscreen\AudioEvent_Splashscreen_Press_Key"/>
 				<Event Id="2760063061" Name="AudioEvent_Stalk_Completed" ObjectPath="\Events\Default Work Unit\Weapons\Stalk\AudioEvent_Stalk_Completed"/>
 				<Event Id="3434491341" Name="AudioEvent_Stalk_Lv1" ObjectPath="\Events\Default Work Unit\Weapons\Stalk\AudioEvent_Stalk_Lv1"/>
