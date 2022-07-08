@@ -14672,6 +14672,7 @@
 				<Event Id="2336822893" Name="AudioEvent_Survivor_Grunt_Scream_Long_Stop" ObjectPath="\Events\Default Work Unit\Characters\Survivor\Grunts\AudioEvent_Survivor_Grunt_Scream_Long_Stop"/>
 				<Event Id="3400023538" Name="AudioEvent_Survivor_Grunt_Scream_Short" ObjectPath="\Events\Default Work Unit\Characters\Survivor\Grunts\AudioEvent_Survivor_Grunt_Scream_Short"/>
 				<Event Id="511218020" Name="AudioEvent_Survivor_Grunt_Scream_Short_Hit" ObjectPath="\Events\Default Work Unit\Characters\Survivor\Grunts\AudioEvent_Survivor_Grunt_Scream_Short_Hit"/>
+				<Event Id="2639581426" Name="AudioEvent_Survivor_Grunt_Stop" ObjectPath="\Events\Default Work Unit\Characters\Survivor\Grunts\AudioEvent_Survivor_Grunt_Stop"/>
 				<Event Id="2143691936" Name="AudioEvent_Survivor_Healing_Bandage" ObjectPath="\Events\Default Work Unit\Characters\Survivor\Interactions\AudioEvent_Survivor_Healing_Bandage"/>
 				<Event Id="2012994910" Name="AudioEvent_Survivor_Healing_Fail" ObjectPath="\Events\Default Work Unit\Characters\Survivor\Interactions\AudioEvent_Survivor_Healing_Fail"/>
 				<Event Id="3828959488" Name="AudioEvent_Survivor_Impact_Body" ObjectPath="\Events\Default Work Unit\Characters\Survivor\Interactions\AudioEvent_Survivor_Impact_Body"/>
