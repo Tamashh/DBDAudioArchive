@@ -819,35 +819,36 @@
 			<ShortName>Killer</ShortName>
 			<Path>Killer.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1233600463" Name="AudioEvent_BearTrap_Activate" ObjectPath="\Events\Default Work Unit\Weapons\BearTrap\AudioEvent_BearTrap_Activate"/>
-				<Event Id="3955771135" Name="AudioEvent_BearTrap_Desactivate" ObjectPath="\Events\Default Work Unit\Weapons\BearTrap\AudioEvent_BearTrap_Desactivate"/>
-				<Event Id="501103667" Name="AudioEvent_BearTrap_Dissarm" ObjectPath="\Events\Default Work Unit\Weapons\BearTrap\AudioEvent_BearTrap_Dissarm"/>
-				<Event Id="2593865251" Name="AudioEvent_BearTrap_Drop" ObjectPath="\Events\Default Work Unit\Weapons\BearTrap\AudioEvent_BearTrap_Drop"/>
-				<Event Id="3792792954" Name="AudioEvent_BearTrap_Grab" ObjectPath="\Events\Default Work Unit\Weapons\BearTrap\AudioEvent_BearTrap_Grab"/>
-				<Event Id="2742437780" Name="AudioEvent_BearTrap_Open" ObjectPath="\Events\Default Work Unit\Weapons\BearTrap\AudioEvent_BearTrap_Open"/>
-				<Event Id="3338379880" Name="AudioEvent_BearTrap_Snap" ObjectPath="\Events\Default Work Unit\Weapons\BearTrap\AudioEvent_BearTrap_Snap"/>
-				<Event Id="2287639924" Name="AudioEvent_Blink_Appear" ObjectPath="\Events\Default Work Unit\Weapons\Blink\AudioEvent_Blink_Appear"/>
-				<Event Id="2888502499" Name="AudioEvent_Blink_Charge" ObjectPath="\Events\Default Work Unit\Weapons\Blink\AudioEvent_Blink_Charge"/>
-				<Event Id="1796576142" Name="AudioEvent_Blink_Charge_Stop" ObjectPath="\Events\Default Work Unit\Weapons\Blink\AudioEvent_Blink_Charge_Stop"/>
-				<Event Id="496826928" Name="AudioEvent_Blink_Cooldown" ObjectPath="\Events\Default Work Unit\Weapons\Blink\AudioEvent_Blink_Cooldown"/>
-				<Event Id="2035601446" Name="AudioEvent_Blink_Disappear" ObjectPath="\Events\Default Work Unit\Weapons\Blink\AudioEvent_Blink_Disappear"/>
-				<Event Id="3166779460" Name="AudioEvent_Blink_Ready" ObjectPath="\Events\Default Work Unit\Weapons\Blink\AudioEvent_Blink_Ready"/>
-				<Event Id="4076552701" Name="AudioEvent_Blink_Warning" ObjectPath="\Events\Default Work Unit\Weapons\Blink\AudioEvent_Blink_Warning"/>
-				<Event Id="4247716889" Name="AudioEvent_Chainsaw_Cancel" ObjectPath="\Events\Default Work Unit\Weapons\Chainsaw\AudioEvent_Chainsaw_Cancel"/>
-				<Event Id="1760770603" Name="AudioEvent_Chainsaw_Charge" ObjectPath="\Events\Default Work Unit\Weapons\Chainsaw\AudioEvent_Chainsaw_Charge"/>
-				<Event Id="3022603588" Name="AudioEvent_Chainsaw_Hit_Object" ObjectPath="\Events\Default Work Unit\Weapons\Chainsaw\AudioEvent_Chainsaw_Hit_Object"/>
-				<Event Id="3573224859" Name="AudioEvent_Chainsaw_Hit_Survivor" ObjectPath="\Events\Default Work Unit\Weapons\Chainsaw\AudioEvent_Chainsaw_Hit_Survivor"/>
-				<Event Id="1336715243" Name="AudioEvent_Chainsaw_Hit_Survivor_Special" ObjectPath="\Events\Default Work Unit\Weapons\Chainsaw\AudioEvent_Chainsaw_Hit_Survivor_Special"/>
-				<Event Id="1150744521" Name="AudioEvent_Chainsaw_Hit_Wall" ObjectPath="\Events\Default Work Unit\Weapons\Chainsaw\AudioEvent_Chainsaw_Hit_Wall"/>
-				<Event Id="4019787457" Name="AudioEvent_Chainsaw_Idle" ObjectPath="\Events\Default Work Unit\Weapons\Chainsaw\AudioEvent_Chainsaw_Idle"/>
-				<Event Id="2629745894" Name="AudioEvent_Chainsaw_Rev" ObjectPath="\Events\Default Work Unit\Weapons\Chainsaw\AudioEvent_Chainsaw_Rev"/>
-				<Event Id="377705413" Name="AudioEvent_Chainsaw_Start" ObjectPath="\Events\Default Work Unit\Weapons\Chainsaw\AudioEvent_Chainsaw_Start"/>
-				<Event Id="2714549387" Name="AudioEvent_Hatchet_Break" ObjectPath="\Events\Default Work Unit\Weapons\Hatchet\AudioEvent_Hatchet_Break"/>
-				<Event Id="908731705" Name="AudioEvent_Hatchet_Special_Hit" ObjectPath="\Events\Default Work Unit\Weapons\Hatchet\AudioEvent_Hatchet_Special_Hit"/>
-				<Event Id="3903219566" Name="AudioEvent_Hatchet_Throw" ObjectPath="\Events\Default Work Unit\Weapons\Hatchet\AudioEvent_Hatchet_Throw"/>
-				<Event Id="1668221091" Name="AudioEvent_Invisibility_Bell_Burn" ObjectPath="\Events\Default Work Unit\Weapons\InvisibilityBell\AudioEvent_Invisibility_Bell_Burn"/>
-				<Event Id="2704000846" Name="AudioEvent_Invisibility_Bell_Burn_Stop" ObjectPath="\Events\Default Work Unit\Weapons\InvisibilityBell\AudioEvent_Invisibility_Bell_Burn_Stop"/>
-				<Event Id="1732742408" Name="AudioEvent_Invisibility_Bell_Single" ObjectPath="\Events\Default Work Unit\Weapons\InvisibilityBell\AudioEvent_Invisibility_Bell_Single"/>
+				<Event Id="1233600463" Name="AudioEvent_BearTrap_Activate" ObjectPath="\Events\Default Work Unit\Powers\BearTrap\AudioEvent_BearTrap_Activate"/>
+				<Event Id="3955771135" Name="AudioEvent_BearTrap_Desactivate" ObjectPath="\Events\Default Work Unit\Powers\BearTrap\AudioEvent_BearTrap_Desactivate"/>
+				<Event Id="501103667" Name="AudioEvent_BearTrap_Dissarm" ObjectPath="\Events\Default Work Unit\Powers\BearTrap\AudioEvent_BearTrap_Dissarm"/>
+				<Event Id="2593865251" Name="AudioEvent_BearTrap_Drop" ObjectPath="\Events\Default Work Unit\Powers\BearTrap\AudioEvent_BearTrap_Drop"/>
+				<Event Id="3792792954" Name="AudioEvent_BearTrap_Grab" ObjectPath="\Events\Default Work Unit\Powers\BearTrap\AudioEvent_BearTrap_Grab"/>
+				<Event Id="2742437780" Name="AudioEvent_BearTrap_Open" ObjectPath="\Events\Default Work Unit\Powers\BearTrap\AudioEvent_BearTrap_Open"/>
+				<Event Id="3338379880" Name="AudioEvent_BearTrap_Snap" ObjectPath="\Events\Default Work Unit\Powers\BearTrap\AudioEvent_BearTrap_Snap"/>
+				<Event Id="2287639924" Name="AudioEvent_Blink_Appear" ObjectPath="\Events\Default Work Unit\Powers\Blink\AudioEvent_Blink_Appear"/>
+				<Event Id="2888502499" Name="AudioEvent_Blink_Charge" ObjectPath="\Events\Default Work Unit\Powers\Blink\AudioEvent_Blink_Charge"/>
+				<Event Id="1796576142" Name="AudioEvent_Blink_Charge_Stop" ObjectPath="\Events\Default Work Unit\Powers\Blink\AudioEvent_Blink_Charge_Stop"/>
+				<Event Id="496826928" Name="AudioEvent_Blink_Cooldown" ObjectPath="\Events\Default Work Unit\Powers\Blink\AudioEvent_Blink_Cooldown"/>
+				<Event Id="2035601446" Name="AudioEvent_Blink_Disappear" ObjectPath="\Events\Default Work Unit\Powers\Blink\AudioEvent_Blink_Disappear"/>
+				<Event Id="3166779460" Name="AudioEvent_Blink_Ready" ObjectPath="\Events\Default Work Unit\Powers\Blink\AudioEvent_Blink_Ready"/>
+				<Event Id="4076552701" Name="AudioEvent_Blink_Warning" ObjectPath="\Events\Default Work Unit\Powers\Blink\AudioEvent_Blink_Warning"/>
+				<Event Id="4247716889" Name="AudioEvent_Chainsaw_Cancel" ObjectPath="\Events\Default Work Unit\Powers\Chainsaw\AudioEvent_Chainsaw_Cancel"/>
+				<Event Id="1760770603" Name="AudioEvent_Chainsaw_Charge" ObjectPath="\Events\Default Work Unit\Powers\Chainsaw\AudioEvent_Chainsaw_Charge"/>
+				<Event Id="3022603588" Name="AudioEvent_Chainsaw_Hit_Object" ObjectPath="\Events\Default Work Unit\Powers\Chainsaw\AudioEvent_Chainsaw_Hit_Object"/>
+				<Event Id="3573224859" Name="AudioEvent_Chainsaw_Hit_Survivor" ObjectPath="\Events\Default Work Unit\Powers\Chainsaw\AudioEvent_Chainsaw_Hit_Survivor"/>
+				<Event Id="1336715243" Name="AudioEvent_Chainsaw_Hit_Survivor_Special" ObjectPath="\Events\Default Work Unit\Powers\Chainsaw\AudioEvent_Chainsaw_Hit_Survivor_Special"/>
+				<Event Id="1150744521" Name="AudioEvent_Chainsaw_Hit_Wall" ObjectPath="\Events\Default Work Unit\Powers\Chainsaw\AudioEvent_Chainsaw_Hit_Wall"/>
+				<Event Id="4019787457" Name="AudioEvent_Chainsaw_Idle" ObjectPath="\Events\Default Work Unit\Powers\Chainsaw\AudioEvent_Chainsaw_Idle"/>
+				<Event Id="2629745894" Name="AudioEvent_Chainsaw_Rev" ObjectPath="\Events\Default Work Unit\Powers\Chainsaw\AudioEvent_Chainsaw_Rev"/>
+				<Event Id="377705413" Name="AudioEvent_Chainsaw_Start" ObjectPath="\Events\Default Work Unit\Powers\Chainsaw\AudioEvent_Chainsaw_Start"/>
+				<Event Id="1989872309" Name="AudioEvent_Hatchet_Reload" ObjectPath="\Events\Default Work Unit\Powers\Hatchet\AudioEvent_Hatchet_Reload"/>
+				<Event Id="908731705" Name="AudioEvent_Hatchet_Special_Hit" ObjectPath="\Events\Default Work Unit\Powers\Hatchet\AudioEvent_Hatchet_Special_Hit"/>
+				<Event Id="4202837738" Name="AudioEvent_Hatchet_Throw_Loop_Start" ObjectPath="\Events\Default Work Unit\Powers\Hatchet\AudioEvent_Hatchet_Throw_Loop_Start"/>
+				<Event Id="1067517634" Name="AudioEvent_Hatchet_Throw_Loop_Stop" ObjectPath="\Events\Default Work Unit\Powers\Hatchet\AudioEvent_Hatchet_Throw_Loop_Stop"/>
+				<Event Id="1668221091" Name="AudioEvent_Invisibility_Bell_Burn" ObjectPath="\Events\Default Work Unit\Powers\InvisibilityBell\AudioEvent_Invisibility_Bell_Burn"/>
+				<Event Id="2704000846" Name="AudioEvent_Invisibility_Bell_Burn_Stop" ObjectPath="\Events\Default Work Unit\Powers\InvisibilityBell\AudioEvent_Invisibility_Bell_Burn_Stop"/>
+				<Event Id="1732742408" Name="AudioEvent_Invisibility_Bell_Single" ObjectPath="\Events\Default Work Unit\Powers\InvisibilityBell\AudioEvent_Invisibility_Bell_Single"/>
 				<Event Id="1673318718" Name="AudioEvent_Killer_Body_Move" ObjectPath="\Events\Default Work Unit\Characters\Killer\Movements\AudioEvent_Killer_Body_Move"/>
 				<Event Id="759007255" Name="AudioEvent_Killer_Carrying_Off" ObjectPath="\Events\Default Work Unit\Characters\Killer\Interactions\AudioEvent_Killer_Carrying_Off"/>
 				<Event Id="1180409955" Name="AudioEvent_Killer_Carrying_On" ObjectPath="\Events\Default Work Unit\Characters\Killer\Interactions\AudioEvent_Killer_Carrying_On"/>
@@ -863,11 +864,11 @@
 				<Event Id="1924486564" Name="AudioEvent_Killer_GameStart_NotControlled" ObjectPath="\Events\Default Work Unit\Characters\Killer\GameStart\AudioEvent_Killer_GameStart_NotControlled"/>
 				<Event Id="1240757256" Name="AudioEvent_Killer_Grab" ObjectPath="\Events\Default Work Unit\Characters\Killer\Interactions\AudioEvent_Killer_Grab"/>
 				<Event Id="1817914244" Name="AudioEvent_Killer_Grunt_Hurt" ObjectPath="\Events\Default Work Unit\Characters\Killer\Interactions\AudioEvent_Killer_Grunt_Hurt"/>
-				<Event Id="3943849876" Name="AudioEvent_Killer_Invisibility_Burn_Out" ObjectPath="\Events\Default Work Unit\Weapons\InvisibilityBell\AudioEvent_Killer_Invisibility_Burn_Out"/>
-				<Event Id="1880022441" Name="AudioEvent_Killer_Invisibility_OFF" ObjectPath="\Events\Default Work Unit\Weapons\InvisibilityBell\AudioEvent_Killer_Invisibility_OFF"/>
-				<Event Id="3281725351" Name="AudioEvent_Killer_Invisibility_OFF_Effect" ObjectPath="\Events\Default Work Unit\Weapons\InvisibilityBell\AudioEvent_Killer_Invisibility_OFF_Effect"/>
-				<Event Id="3507439709" Name="AudioEvent_Killer_Invisibility_ON" ObjectPath="\Events\Default Work Unit\Weapons\InvisibilityBell\AudioEvent_Killer_Invisibility_ON"/>
-				<Event Id="504847747" Name="AudioEvent_Killer_Invisibility_ON_Effect" ObjectPath="\Events\Default Work Unit\Weapons\InvisibilityBell\AudioEvent_Killer_Invisibility_ON_Effect"/>
+				<Event Id="3943849876" Name="AudioEvent_Killer_Invisibility_Burn_Out" ObjectPath="\Events\Default Work Unit\Powers\InvisibilityBell\AudioEvent_Killer_Invisibility_Burn_Out"/>
+				<Event Id="1880022441" Name="AudioEvent_Killer_Invisibility_OFF" ObjectPath="\Events\Default Work Unit\Powers\InvisibilityBell\AudioEvent_Killer_Invisibility_OFF"/>
+				<Event Id="3281725351" Name="AudioEvent_Killer_Invisibility_OFF_Effect" ObjectPath="\Events\Default Work Unit\Powers\InvisibilityBell\AudioEvent_Killer_Invisibility_OFF_Effect"/>
+				<Event Id="3507439709" Name="AudioEvent_Killer_Invisibility_ON" ObjectPath="\Events\Default Work Unit\Powers\InvisibilityBell\AudioEvent_Killer_Invisibility_ON"/>
+				<Event Id="504847747" Name="AudioEvent_Killer_Invisibility_ON_Effect" ObjectPath="\Events\Default Work Unit\Powers\InvisibilityBell\AudioEvent_Killer_Invisibility_ON_Effect"/>
 				<Event Id="1652879313" Name="AudioEvent_Killer_Land" ObjectPath="\Events\Default Work Unit\Characters\Killer\Movements\AudioEvent_Killer_Land"/>
 				<Event Id="3445415375" Name="AudioEvent_Killer_Menu" ObjectPath="\Events\Default Work Unit\Characters\Killer\GameStart\AudioEvent_Killer_Menu"/>
 				<Event Id="2293193210" Name="AudioEvent_Killer_Menu_Stalker" ObjectPath="\Events\Default Work Unit\Characters\Killer\GameStart\AudioEvent_Killer_Menu_Stalker"/>
@@ -884,36 +885,36 @@
 				<Event Id="2286840008" Name="AudioEvent_Killer_Witch_Eat" ObjectPath="\Events\Default Work Unit\Characters\Killer\Interactions\AudioEvent_Killer_Witch_Eat"/>
 				<Event Id="1152326677" Name="AudioEvent_Killer_Witch_Lick" ObjectPath="\Events\Default Work Unit\Characters\Killer\Interactions\AudioEvent_Killer_Witch_Lick"/>
 				<Event Id="692218234" Name="AudioEvent_Master_Reset_RTPC" ObjectPath="\Events\Default Work Unit\System\AudioEvent_Master_Reset_RTPC"/>
-				<Event Id="1195116104" Name="AudioEvent_PhantomTrap_Appear" ObjectPath="\Events\Default Work Unit\Weapons\PhantomTrap\AudioEvent_PhantomTrap_Appear"/>
-				<Event Id="2688074771" Name="AudioEvent_PhantomTrap_Destroy" ObjectPath="\Events\Default Work Unit\Weapons\PhantomTrap\AudioEvent_PhantomTrap_Destroy"/>
-				<Event Id="3881858538" Name="AudioEvent_PhantomTrap_Disappear" ObjectPath="\Events\Default Work Unit\Weapons\PhantomTrap\AudioEvent_PhantomTrap_Disappear"/>
-				<Event Id="1026713941" Name="AudioEvent_PhantomTrap_Draw" ObjectPath="\Events\Default Work Unit\Weapons\PhantomTrap\AudioEvent_PhantomTrap_Draw"/>
-				<Event Id="1554404874" Name="AudioEvent_ShockTherapy_Attack" ObjectPath="\Events\Default Work Unit\Weapons\ShockTherapy\AudioEvent_ShockTherapy_Attack"/>
-				<Event Id="976715518" Name="AudioEvent_ShockTherapy_Attack_Ready" ObjectPath="\Events\Default Work Unit\Weapons\ShockTherapy\AudioEvent_ShockTherapy_Attack_Ready"/>
-				<Event Id="1151859295" Name="AudioEvent_ShockTherapy_Charge_Start" ObjectPath="\Events\Default Work Unit\Weapons\ShockTherapy\AudioEvent_ShockTherapy_Charge_Start"/>
-				<Event Id="2270945573" Name="AudioEvent_ShockTherapy_Charge_Stop" ObjectPath="\Events\Default Work Unit\Weapons\ShockTherapy\AudioEvent_ShockTherapy_Charge_Stop"/>
-				<Event Id="1916972352" Name="AudioEvent_ShockTherapy_Doctor_Appears" ObjectPath="\Events\Default Work Unit\Weapons\ShockTherapy\AudioEvent_ShockTherapy_Doctor_Appears"/>
-				<Event Id="2597057559" Name="AudioEvent_ShockTherapy_Explosion" ObjectPath="\Events\Default Work Unit\Weapons\ShockTherapy\AudioEvent_ShockTherapy_Explosion"/>
-				<Event Id="3220109856" Name="AudioEvent_ShockTherapy_Insanity_Tier1_Start" ObjectPath="\Events\Default Work Unit\Weapons\ShockTherapy\AudioEvent_ShockTherapy_Insanity_Tier1_Start"/>
-				<Event Id="2573195084" Name="AudioEvent_ShockTherapy_Insanity_Tier1_Stop" ObjectPath="\Events\Default Work Unit\Weapons\ShockTherapy\AudioEvent_ShockTherapy_Insanity_Tier1_Stop"/>
-				<Event Id="4163125035" Name="AudioEvent_ShockTherapy_Insanity_Tier2_Start" ObjectPath="\Events\Default Work Unit\Weapons\ShockTherapy\AudioEvent_ShockTherapy_Insanity_Tier2_Start"/>
-				<Event Id="497781577" Name="AudioEvent_ShockTherapy_Insanity_Tier2_Stop" ObjectPath="\Events\Default Work Unit\Weapons\ShockTherapy\AudioEvent_ShockTherapy_Insanity_Tier2_Stop"/>
-				<Event Id="2501749526" Name="AudioEvent_ShockTherapy_Insanity_Tier3_Start" ObjectPath="\Events\Default Work Unit\Weapons\ShockTherapy\AudioEvent_ShockTherapy_Insanity_Tier3_Start"/>
-				<Event Id="3660889110" Name="AudioEvent_ShockTherapy_Insanity_Tier3_Stop" ObjectPath="\Events\Default Work Unit\Weapons\ShockTherapy\AudioEvent_ShockTherapy_Insanity_Tier3_Stop"/>
-				<Event Id="3989064896" Name="AudioEvent_ShockTherapy_Radius" ObjectPath="\Events\Default Work Unit\Weapons\ShockTherapy\AudioEvent_ShockTherapy_Radius"/>
-				<Event Id="3488811843" Name="AudioEvent_ShockTherapy_Radius_IN_Start" ObjectPath="\Events\Default Work Unit\Weapons\ShockTherapy\AudioEvent_ShockTherapy_Radius_IN_Start"/>
-				<Event Id="3047583681" Name="AudioEvent_ShockTherapy_Radius_IN_Stop" ObjectPath="\Events\Default Work Unit\Weapons\ShockTherapy\AudioEvent_ShockTherapy_Radius_IN_Stop"/>
-				<Event Id="865669549" Name="AudioEvent_ShockTherapy_Radius_Start" ObjectPath="\Events\Default Work Unit\Weapons\ShockTherapy\AudioEvent_ShockTherapy_Radius_Start"/>
-				<Event Id="2913429743" Name="AudioEvent_ShockTherapy_Radius_Stop" ObjectPath="\Events\Default Work Unit\Weapons\ShockTherapy\AudioEvent_ShockTherapy_Radius_Stop"/>
-				<Event Id="1771538842" Name="AudioEvent_ShockTherapy_Screen" ObjectPath="\Events\Default Work Unit\Weapons\ShockTherapy\AudioEvent_ShockTherapy_Screen"/>
-				<Event Id="2760063061" Name="AudioEvent_Stalk_Completed" ObjectPath="\Events\Default Work Unit\Weapons\Stalk\AudioEvent_Stalk_Completed"/>
-				<Event Id="3434491341" Name="AudioEvent_Stalk_Lv1" ObjectPath="\Events\Default Work Unit\Weapons\Stalk\AudioEvent_Stalk_Lv1"/>
-				<Event Id="3434491342" Name="AudioEvent_Stalk_Lv2" ObjectPath="\Events\Default Work Unit\Weapons\Stalk\AudioEvent_Stalk_Lv2"/>
-				<Event Id="3467899629" Name="AudioEvent_Stalk_OFF" ObjectPath="\Events\Default Work Unit\Weapons\Stalk\AudioEvent_Stalk_OFF"/>
-				<Event Id="2266285601" Name="AudioEvent_Stalk_ON" ObjectPath="\Events\Default Work Unit\Weapons\Stalk\AudioEvent_Stalk_ON"/>
-				<Event Id="1026953698" Name="AudioEvent_Stalk_Warning" ObjectPath="\Events\Default Work Unit\Weapons\Stalk\AudioEvent_Stalk_Warning"/>
-				<Event Id="384265768" Name="AudioEvent_Stalk_Warning_Off" ObjectPath="\Events\Default Work Unit\Weapons\Stalk\AudioEvent_Stalk_Warning_Off"/>
-				<Event Id="3035922738" Name="AudioEvent_Stalk_Warning_On" ObjectPath="\Events\Default Work Unit\Weapons\Stalk\AudioEvent_Stalk_Warning_On"/>
+				<Event Id="1195116104" Name="AudioEvent_PhantomTrap_Appear" ObjectPath="\Events\Default Work Unit\Powers\PhantomTrap\AudioEvent_PhantomTrap_Appear"/>
+				<Event Id="2688074771" Name="AudioEvent_PhantomTrap_Destroy" ObjectPath="\Events\Default Work Unit\Powers\PhantomTrap\AudioEvent_PhantomTrap_Destroy"/>
+				<Event Id="3881858538" Name="AudioEvent_PhantomTrap_Disappear" ObjectPath="\Events\Default Work Unit\Powers\PhantomTrap\AudioEvent_PhantomTrap_Disappear"/>
+				<Event Id="1026713941" Name="AudioEvent_PhantomTrap_Draw" ObjectPath="\Events\Default Work Unit\Powers\PhantomTrap\AudioEvent_PhantomTrap_Draw"/>
+				<Event Id="1554404874" Name="AudioEvent_ShockTherapy_Attack" ObjectPath="\Events\Default Work Unit\Powers\ShockTherapy\AudioEvent_ShockTherapy_Attack"/>
+				<Event Id="976715518" Name="AudioEvent_ShockTherapy_Attack_Ready" ObjectPath="\Events\Default Work Unit\Powers\ShockTherapy\AudioEvent_ShockTherapy_Attack_Ready"/>
+				<Event Id="1151859295" Name="AudioEvent_ShockTherapy_Charge_Start" ObjectPath="\Events\Default Work Unit\Powers\ShockTherapy\AudioEvent_ShockTherapy_Charge_Start"/>
+				<Event Id="2270945573" Name="AudioEvent_ShockTherapy_Charge_Stop" ObjectPath="\Events\Default Work Unit\Powers\ShockTherapy\AudioEvent_ShockTherapy_Charge_Stop"/>
+				<Event Id="1916972352" Name="AudioEvent_ShockTherapy_Doctor_Appears" ObjectPath="\Events\Default Work Unit\Powers\ShockTherapy\AudioEvent_ShockTherapy_Doctor_Appears"/>
+				<Event Id="2597057559" Name="AudioEvent_ShockTherapy_Explosion" ObjectPath="\Events\Default Work Unit\Powers\ShockTherapy\AudioEvent_ShockTherapy_Explosion"/>
+				<Event Id="3220109856" Name="AudioEvent_ShockTherapy_Insanity_Tier1_Start" ObjectPath="\Events\Default Work Unit\Powers\ShockTherapy\AudioEvent_ShockTherapy_Insanity_Tier1_Start"/>
+				<Event Id="2573195084" Name="AudioEvent_ShockTherapy_Insanity_Tier1_Stop" ObjectPath="\Events\Default Work Unit\Powers\ShockTherapy\AudioEvent_ShockTherapy_Insanity_Tier1_Stop"/>
+				<Event Id="4163125035" Name="AudioEvent_ShockTherapy_Insanity_Tier2_Start" ObjectPath="\Events\Default Work Unit\Powers\ShockTherapy\AudioEvent_ShockTherapy_Insanity_Tier2_Start"/>
+				<Event Id="497781577" Name="AudioEvent_ShockTherapy_Insanity_Tier2_Stop" ObjectPath="\Events\Default Work Unit\Powers\ShockTherapy\AudioEvent_ShockTherapy_Insanity_Tier2_Stop"/>
+				<Event Id="2501749526" Name="AudioEvent_ShockTherapy_Insanity_Tier3_Start" ObjectPath="\Events\Default Work Unit\Powers\ShockTherapy\AudioEvent_ShockTherapy_Insanity_Tier3_Start"/>
+				<Event Id="3660889110" Name="AudioEvent_ShockTherapy_Insanity_Tier3_Stop" ObjectPath="\Events\Default Work Unit\Powers\ShockTherapy\AudioEvent_ShockTherapy_Insanity_Tier3_Stop"/>
+				<Event Id="3989064896" Name="AudioEvent_ShockTherapy_Radius" ObjectPath="\Events\Default Work Unit\Powers\ShockTherapy\AudioEvent_ShockTherapy_Radius"/>
+				<Event Id="3488811843" Name="AudioEvent_ShockTherapy_Radius_IN_Start" ObjectPath="\Events\Default Work Unit\Powers\ShockTherapy\AudioEvent_ShockTherapy_Radius_IN_Start"/>
+				<Event Id="3047583681" Name="AudioEvent_ShockTherapy_Radius_IN_Stop" ObjectPath="\Events\Default Work Unit\Powers\ShockTherapy\AudioEvent_ShockTherapy_Radius_IN_Stop"/>
+				<Event Id="865669549" Name="AudioEvent_ShockTherapy_Radius_Start" ObjectPath="\Events\Default Work Unit\Powers\ShockTherapy\AudioEvent_ShockTherapy_Radius_Start"/>
+				<Event Id="2913429743" Name="AudioEvent_ShockTherapy_Radius_Stop" ObjectPath="\Events\Default Work Unit\Powers\ShockTherapy\AudioEvent_ShockTherapy_Radius_Stop"/>
+				<Event Id="1771538842" Name="AudioEvent_ShockTherapy_Screen" ObjectPath="\Events\Default Work Unit\Powers\ShockTherapy\AudioEvent_ShockTherapy_Screen"/>
+				<Event Id="2760063061" Name="AudioEvent_Stalk_Completed" ObjectPath="\Events\Default Work Unit\Powers\Stalk\AudioEvent_Stalk_Completed"/>
+				<Event Id="3434491341" Name="AudioEvent_Stalk_Lv1" ObjectPath="\Events\Default Work Unit\Powers\Stalk\AudioEvent_Stalk_Lv1"/>
+				<Event Id="3434491342" Name="AudioEvent_Stalk_Lv2" ObjectPath="\Events\Default Work Unit\Powers\Stalk\AudioEvent_Stalk_Lv2"/>
+				<Event Id="3467899629" Name="AudioEvent_Stalk_OFF" ObjectPath="\Events\Default Work Unit\Powers\Stalk\AudioEvent_Stalk_OFF"/>
+				<Event Id="2266285601" Name="AudioEvent_Stalk_ON" ObjectPath="\Events\Default Work Unit\Powers\Stalk\AudioEvent_Stalk_ON"/>
+				<Event Id="1026953698" Name="AudioEvent_Stalk_Warning" ObjectPath="\Events\Default Work Unit\Powers\Stalk\AudioEvent_Stalk_Warning"/>
+				<Event Id="384265768" Name="AudioEvent_Stalk_Warning_Off" ObjectPath="\Events\Default Work Unit\Powers\Stalk\AudioEvent_Stalk_Warning_Off"/>
+				<Event Id="3035922738" Name="AudioEvent_Stalk_Warning_On" ObjectPath="\Events\Default Work Unit\Powers\Stalk\AudioEvent_Stalk_Warning_On"/>
 				<Event Id="2526302648" Name="AudioEvent_Survivor_Grunt_Insanity_SnapOfIt" ObjectPath="\Events\Default Work Unit\Characters\Survivor\Grunts\AudioEvent_Survivor_Grunt_Insanity_SnapOfIt"/>
 				<Event Id="3828959488" Name="AudioEvent_Survivor_Impact_Body" ObjectPath="\Events\Default Work Unit\Characters\Survivor\Interactions\AudioEvent_Survivor_Impact_Body"/>
 				<Event Id="837611405" Name="AudioEvent_Weapon_Arm" ObjectPath="\Events\Default Work Unit\Weapons\AudioEvent_Weapon_Arm"/>
@@ -7999,7 +8000,7 @@
 				<Event Id="2065045372" Name="audioevent_sacrifice_reaction_start" ObjectPath="\Events\Default Work Unit\Objects\TheEntity\audioevent_sacrifice_reaction_start"/>
 				<Event Id="1772365215" Name="audioevent_sacrifice_sacrifice" ObjectPath="\Events\Default Work Unit\Objects\TheEntity\audioevent_sacrifice_sacrifice"/>
 				<Event Id="991002769" Name="audioevent_sacrifice_struggle" ObjectPath="\Events\Default Work Unit\Objects\TheEntity\audioevent_sacrifice_struggle"/>
-				<Event Id="1916972352" Name="AudioEvent_ShockTherapy_Doctor_Appears" ObjectPath="\Events\Default Work Unit\Weapons\ShockTherapy\AudioEvent_ShockTherapy_Doctor_Appears"/>
+				<Event Id="1916972352" Name="AudioEvent_ShockTherapy_Doctor_Appears" ObjectPath="\Events\Default Work Unit\Powers\ShockTherapy\AudioEvent_ShockTherapy_Doctor_Appears"/>
 				<Event Id="2699076248" Name="AudioEvent_Shutter_Close" ObjectPath="\Events\Default Work Unit\Objects\Shutter\AudioEvent_Shutter_Close"/>
 				<Event Id="1423015004" Name="AudioEvent_Shutter_Open" ObjectPath="\Events\Default Work Unit\Objects\Shutter\AudioEvent_Shutter_Open"/>
 				<Event Id="3636566612" Name="AudioEvent_Shutter_Stop" ObjectPath="\Events\Default Work Unit\Objects\Shutter\AudioEvent_Shutter_Stop"/>
@@ -8526,6 +8527,10 @@
 				<File Id="70529656" Language="SFX">
 					<ShortName>Stingers\sfx_stinger_doctor_appears_03.wav</ShortName>
 					<Path>SFX\Stingers\sfx_stinger_doctor_appears_03_4B06EAF9.wem</Path>
+				</File>
+				<File Id="70994473" Language="SFX">
+					<ShortName>Perks\sfx_perks_whispers_voice_06.wav</ShortName>
+					<Path>SFX\Perks\sfx_perks_whispers_voice_06_21911598.wem</Path>
 				</File>
 				<File Id="71471072" Language="SFX">
 					<ShortName>Characters\Slasher\Footsteps\Boots\Mud\Foot_Mud_Shuffle_Squish27.wav</ShortName>
@@ -9094,6 +9099,10 @@
 				<File Id="180150073" Language="SFX">
 					<ShortName>Music\mu_proximity_theme_04_layer_03.wav</ShortName>
 					<Path>SFX\Music\mu_proximity_theme_04_layer_03_288D6551.wem</Path>
+				</File>
+				<File Id="180619966" Language="SFX">
+					<ShortName>Perks\sfx_perks_whispers_voice_03.wav</ShortName>
+					<Path>SFX\Perks\sfx_perks_whispers_voice_03_21911598.wem</Path>
 				</File>
 				<File Id="180763660" Language="SFX">
 					<ShortName>Objects\ExitDoor\sfx_exitdoor_alarm_02.wav</ShortName>
@@ -11591,6 +11600,10 @@
 					<ShortName>Characters\Footsteps\sfx_footsteps_barefoot_metal_walk_05.wav</ShortName>
 					<Path>SFX\Characters\Footsteps\sfx_footsteps_barefoot_metal_walk_05_4B06EAF9.wem</Path>
 				</File>
+				<File Id="669616070" Language="SFX">
+					<ShortName>Perks\sfx_perks_whispers_voice_09.wav</ShortName>
+					<Path>SFX\Perks\sfx_perks_whispers_voice_09_21911598.wem</Path>
+				</File>
 				<File Id="670838490" Language="SFX">
 					<ShortName>Characters\Camper\Footsteps\Sneakers\Concrete\sfx_footsteps_sneakers_concrete_walk06.wav</ShortName>
 					<Path>SFX\Characters\Camper\Footsteps\Sneakers\Concrete\sfx_footsteps_sneakers_concrete_walk06_4B06EAF9.wem</Path>
@@ -11690,6 +11703,10 @@
 				<File Id="688189683" Language="SFX">
 					<ShortName>Characters\Camper\Footsteps\Sneakers\Dirt\sfx_footsteps_sneakers_dirt_land3.wav</ShortName>
 					<Path>SFX\Characters\Camper\Footsteps\Sneakers\Dirt\sfx_footsteps_sneakers_dirt_land3_4B06EAF9.wem</Path>
+				</File>
+				<File Id="688681949" Language="SFX">
+					<ShortName>Perks\sfx_perks_whispers_voice_01.wav</ShortName>
+					<Path>SFX\Perks\sfx_perks_whispers_voice_01_21911598.wem</Path>
 				</File>
 				<File Id="689543881" Language="SFX">
 					<ShortName>Characters\Slasher\Footsteps\Boots\Gravel\sfx_footsteps_boots_gravel_walk11.wav</ShortName>
@@ -13251,10 +13268,6 @@
 					<ShortName>Characters\Camper\Footsteps\Sneakers\Mud\Foot_Mud_Shuffle_Squish26.wav</ShortName>
 					<Path>SFX\Characters\Camper\Footsteps\Sneakers\Mud\Foot_Mud_Shuffle_Squish26_4B06EAF9.wem</Path>
 				</File>
-				<File Id="1009570919" Language="SFX">
-					<ShortName>Perks\sfx_perks_whispers_01.wav</ShortName>
-					<Path>SFX\Perks\sfx_perks_whispers_01_21911598.wem</Path>
-				</File>
 				<File Id="1010342775" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_lumberpile_creaks_horror_03.wav</ShortName>
 					<Path>SFX\Ambience\Emitters\sfx_lumberpile_creaks_horror_03_4B06EAF9.wem</Path>
@@ -13338,6 +13351,10 @@
 				<File Id="1023792165" Language="SFX">
 					<ShortName>Characters\Camper\Footsteps\Sneakers\Dirt\sfx_footsteps_sneakers_dirt_run20.wav</ShortName>
 					<Path>SFX\Characters\Camper\Footsteps\Sneakers\Dirt\sfx_footsteps_sneakers_dirt_run20_4B06EAF9.wem</Path>
+				</File>
+				<File Id="1023801807" Language="SFX">
+					<ShortName>Perks\sfx_perks_whispers_voice_07.wav</ShortName>
+					<Path>SFX\Perks\sfx_perks_whispers_voice_07_21911598.wem</Path>
 				</File>
 				<File Id="1024669842" Language="SFX">
 					<ShortName>Characters\Camper\Footsteps\Sneakers\Metal\sfx_footsteps_sneakers_metal_run13.wav</ShortName>
@@ -13506,6 +13523,10 @@
 				<File Id="1051127061" Language="SFX">
 					<ShortName>Characters\Slasher\Footsteps\Boots\Mud\Foot_Mud_Land04.wav</ShortName>
 					<Path>SFX\Characters\Slasher\Footsteps\Boots\Mud\Foot_Mud_Land04_4B06EAF9.wem</Path>
+				</File>
+				<File Id="1051346396" Language="SFX">
+					<ShortName>Perks\sfx_perks_whispers_voice_05.wav</ShortName>
+					<Path>SFX\Perks\sfx_perks_whispers_voice_05_21911598.wem</Path>
 				</File>
 				<File Id="1053400615" Language="SFX">
 					<ShortName>Objects\Windows\sfx_windows_bloc_start_03.wav</ShortName>
@@ -31280,8 +31301,8 @@
 				<Event Id="248076550" Name="AudioEvent_BloodWeb_Unlock_Unlocking" ObjectPath="\Events\Default Work Unit\UI\BloodWeb\AudioEvent_BloodWeb_Unlock_Unlocking"/>
 				<Event Id="1071407055" Name="AudioEvent_BloodWeb_Unlock_Yes" ObjectPath="\Events\Default Work Unit\UI\BloodWeb\AudioEvent_BloodWeb_Unlock_Yes"/>
 				<Event Id="3831241674" Name="AudioEvent_BloodWeb_WipeOut" ObjectPath="\Events\Default Work Unit\UI\BloodWeb\AudioEvent_BloodWeb_WipeOut"/>
-				<Event Id="3573224859" Name="AudioEvent_Chainsaw_Hit_Survivor" ObjectPath="\Events\Default Work Unit\Weapons\Chainsaw\AudioEvent_Chainsaw_Hit_Survivor"/>
-				<Event Id="1336715243" Name="AudioEvent_Chainsaw_Hit_Survivor_Special" ObjectPath="\Events\Default Work Unit\Weapons\Chainsaw\AudioEvent_Chainsaw_Hit_Survivor_Special"/>
+				<Event Id="3573224859" Name="AudioEvent_Chainsaw_Hit_Survivor" ObjectPath="\Events\Default Work Unit\Powers\Chainsaw\AudioEvent_Chainsaw_Hit_Survivor"/>
+				<Event Id="1336715243" Name="AudioEvent_Chainsaw_Hit_Survivor_Special" ObjectPath="\Events\Default Work Unit\Powers\Chainsaw\AudioEvent_Chainsaw_Hit_Survivor_Special"/>
 				<Event Id="2588453487" Name="AudioEvent_Character_Back" ObjectPath="\Events\Default Work Unit\UI\Character\AudioEvent_Character_Back"/>
 				<Event Id="1736149054" Name="AudioEvent_Character_Back_Highlight" ObjectPath="\Events\Default Work Unit\UI\Character\AudioEvent_Character_Back_Highlight"/>
 				<Event Id="2025882966" Name="AudioEvent_Character_Highlight" ObjectPath="\Events\Default Work Unit\UI\Character\AudioEvent_Character_Highlight"/>
@@ -31371,11 +31392,11 @@
 				<Event Id="34409536" Name="AudioEvent_RoleSelection_Tutorials" ObjectPath="\Events\Default Work Unit\UI\RoleSelection\AudioEvent_RoleSelection_Tutorials"/>
 				<Event Id="4001008649" Name="AudioEvent_ShrineOfSecrets_Reveal" ObjectPath="\Events\Default Work Unit\UI\ShrineOfSecrets\AudioEvent_ShrineOfSecrets_Reveal"/>
 				<Event Id="4227451479" Name="AudioEvent_Splashscreen_Press_Key" ObjectPath="\Events\Default Work Unit\UI\Splashscreen\AudioEvent_Splashscreen_Press_Key"/>
-				<Event Id="2760063061" Name="AudioEvent_Stalk_Completed" ObjectPath="\Events\Default Work Unit\Weapons\Stalk\AudioEvent_Stalk_Completed"/>
-				<Event Id="3434491341" Name="AudioEvent_Stalk_Lv1" ObjectPath="\Events\Default Work Unit\Weapons\Stalk\AudioEvent_Stalk_Lv1"/>
-				<Event Id="3434491342" Name="AudioEvent_Stalk_Lv2" ObjectPath="\Events\Default Work Unit\Weapons\Stalk\AudioEvent_Stalk_Lv2"/>
-				<Event Id="384265768" Name="AudioEvent_Stalk_Warning_Off" ObjectPath="\Events\Default Work Unit\Weapons\Stalk\AudioEvent_Stalk_Warning_Off"/>
-				<Event Id="3035922738" Name="AudioEvent_Stalk_Warning_On" ObjectPath="\Events\Default Work Unit\Weapons\Stalk\AudioEvent_Stalk_Warning_On"/>
+				<Event Id="2760063061" Name="AudioEvent_Stalk_Completed" ObjectPath="\Events\Default Work Unit\Powers\Stalk\AudioEvent_Stalk_Completed"/>
+				<Event Id="3434491341" Name="AudioEvent_Stalk_Lv1" ObjectPath="\Events\Default Work Unit\Powers\Stalk\AudioEvent_Stalk_Lv1"/>
+				<Event Id="3434491342" Name="AudioEvent_Stalk_Lv2" ObjectPath="\Events\Default Work Unit\Powers\Stalk\AudioEvent_Stalk_Lv2"/>
+				<Event Id="384265768" Name="AudioEvent_Stalk_Warning_Off" ObjectPath="\Events\Default Work Unit\Powers\Stalk\AudioEvent_Stalk_Warning_Off"/>
+				<Event Id="3035922738" Name="AudioEvent_Stalk_Warning_On" ObjectPath="\Events\Default Work Unit\Powers\Stalk\AudioEvent_Stalk_Warning_On"/>
 				<Event Id="2720793862" Name="AudioEvent_Survivor_Get_Hooked" ObjectPath="\Events\Default Work Unit\Characters\Survivor\Interactions\AudioEvent_Survivor_Get_Hooked"/>
 				<Event Id="4256562323" Name="AudioEvent_Survivor_Get_Hooked_Out" ObjectPath="\Events\Default Work Unit\Characters\Survivor\Interactions\AudioEvent_Survivor_Get_Hooked_Out"/>
 				<Event Id="3828959488" Name="AudioEvent_Survivor_Impact_Body" ObjectPath="\Events\Default Work Unit\Characters\Survivor\Interactions\AudioEvent_Survivor_Impact_Body"/>
