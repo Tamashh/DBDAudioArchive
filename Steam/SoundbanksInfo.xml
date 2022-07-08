@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="120">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\Content_Raw\Wwise\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\Content_Raw\Wwise\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Unreal\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Wwise\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Wwise\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\dbd_dev\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\Content_Raw\Wwise\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Wwise\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles>
@@ -842,6 +842,9 @@
 				<Event Id="4019787457" Name="AudioEvent_Chainsaw_Idle" ObjectPath="\Events\Default Work Unit\Weapons\Chainsaw\AudioEvent_Chainsaw_Idle"/>
 				<Event Id="2629745894" Name="AudioEvent_Chainsaw_Rev" ObjectPath="\Events\Default Work Unit\Weapons\Chainsaw\AudioEvent_Chainsaw_Rev"/>
 				<Event Id="377705413" Name="AudioEvent_Chainsaw_Start" ObjectPath="\Events\Default Work Unit\Weapons\Chainsaw\AudioEvent_Chainsaw_Start"/>
+				<Event Id="2714549387" Name="AudioEvent_Hatchet_Break" ObjectPath="\Events\Default Work Unit\Weapons\Hatchet\AudioEvent_Hatchet_Break"/>
+				<Event Id="908731705" Name="AudioEvent_Hatchet_Special_Hit" ObjectPath="\Events\Default Work Unit\Weapons\Hatchet\AudioEvent_Hatchet_Special_Hit"/>
+				<Event Id="3903219566" Name="AudioEvent_Hatchet_Throw" ObjectPath="\Events\Default Work Unit\Weapons\Hatchet\AudioEvent_Hatchet_Throw"/>
 				<Event Id="1668221091" Name="AudioEvent_Invisibility_Bell_Burn" ObjectPath="\Events\Default Work Unit\Weapons\InvisibilityBell\AudioEvent_Invisibility_Bell_Burn"/>
 				<Event Id="2704000846" Name="AudioEvent_Invisibility_Bell_Burn_Stop" ObjectPath="\Events\Default Work Unit\Weapons\InvisibilityBell\AudioEvent_Invisibility_Bell_Burn_Stop"/>
 				<Event Id="1732742408" Name="AudioEvent_Invisibility_Bell_Single" ObjectPath="\Events\Default Work Unit\Weapons\InvisibilityBell\AudioEvent_Invisibility_Bell_Single"/>
@@ -859,6 +862,7 @@
 				<Event Id="995551020" Name="AudioEvent_Killer_GameStart" ObjectPath="\Events\Default Work Unit\Characters\Killer\GameStart\AudioEvent_Killer_GameStart"/>
 				<Event Id="1924486564" Name="AudioEvent_Killer_GameStart_NotControlled" ObjectPath="\Events\Default Work Unit\Characters\Killer\GameStart\AudioEvent_Killer_GameStart_NotControlled"/>
 				<Event Id="1240757256" Name="AudioEvent_Killer_Grab" ObjectPath="\Events\Default Work Unit\Characters\Killer\Interactions\AudioEvent_Killer_Grab"/>
+				<Event Id="1817914244" Name="AudioEvent_Killer_Grunt_Hurt" ObjectPath="\Events\Default Work Unit\Characters\Killer\Interactions\AudioEvent_Killer_Grunt_Hurt"/>
 				<Event Id="3943849876" Name="AudioEvent_Killer_Invisibility_Burn_Out" ObjectPath="\Events\Default Work Unit\Weapons\InvisibilityBell\AudioEvent_Killer_Invisibility_Burn_Out"/>
 				<Event Id="1880022441" Name="AudioEvent_Killer_Invisibility_OFF" ObjectPath="\Events\Default Work Unit\Weapons\InvisibilityBell\AudioEvent_Killer_Invisibility_OFF"/>
 				<Event Id="3281725351" Name="AudioEvent_Killer_Invisibility_OFF_Effect" ObjectPath="\Events\Default Work Unit\Weapons\InvisibilityBell\AudioEvent_Killer_Invisibility_OFF_Effect"/>
@@ -1045,6 +1049,10 @@
 				<File Id="53206799" Language="SFX">
 					<ShortName>Weapons\Stick\sfx_weapon_stick_clap_02.wav</ShortName>
 					<Path>SFX\Weapons\Stick\sfx_weapon_stick_clap_02_4B06EAF9.wem</Path>
+				</File>
+				<File Id="54772975" Language="SFX">
+					<ShortName>Weapons\Axe\sfx_axe_throw_loop_01.wav</ShortName>
+					<Path>SFX\Weapons\Axe\sfx_axe_throw_loop_01_3EEFE9B7.wem</Path>
 				</File>
 				<File Id="58876754" Language="SFX">
 					<ShortName>Weapons\Blink\sfx_blink_disappear_02.wav</ShortName>
@@ -1310,6 +1318,10 @@
 					<ShortName>Characters\Witch\vo_killer_witch_grunt_hurt_add_04.wav</ShortName>
 					<Path>SFX\Characters\Witch\vo_killer_witch_grunt_hurt_add_04_4B06EAF9.wem</Path>
 				</File>
+				<File Id="157144959" Language="SFX">
+					<ShortName>Weapons\BoneSaw\sfx_bonesaw_clean_metal_02.wav</ShortName>
+					<Path>SFX\Weapons\BoneSaw\sfx_bonesaw_clean_metal_02_4B06EAF9.wem</Path>
+				</File>
 				<File Id="158403978" Language="SFX">
 					<ShortName>Weapons\Impacts\sfx_weapon_impact_wood_hit_05.wav</ShortName>
 					<Path>SFX\Weapons\Impacts\sfx_weapon_impact_wood_hit_05_4B06EAF9.wem</Path>
@@ -1317,6 +1329,10 @@
 				<File Id="159284005" Language="SFX">
 					<ShortName>Weapons\Hatchet\sfx_hatchet_attack_add_02.wav</ShortName>
 					<Path>SFX\Weapons\Hatchet\sfx_hatchet_attack_add_02_4B06EAF9.wem</Path>
+				</File>
+				<File Id="159904229" Language="SFX">
+					<ShortName>Weapons\Axe\sfx_axe_throw_01.wav</ShortName>
+					<Path>SFX\Weapons\Axe\sfx_axe_throw_01_4B06EAF9.wem</Path>
 				</File>
 				<File Id="161223973" Language="SFX">
 					<ShortName>Weapons\ShockTherapy\sfx_shocktherapy_attack_electric_02.wav</ShortName>
@@ -2826,6 +2842,10 @@
 					<ShortName>Characters\Doctor\sfx_killer_doctor_kill_shock_03.wav</ShortName>
 					<Path>SFX\Characters\Doctor\sfx_killer_doctor_kill_shock_03_4B06EAF9.wem</Path>
 				</File>
+				<File Id="734069632" Language="SFX">
+					<ShortName>Weapons\BoneSaw\sfx_bonesaw_clean_02.wav</ShortName>
+					<Path>SFX\Weapons\BoneSaw\sfx_bonesaw_clean_02_4B06EAF9.wem</Path>
+				</File>
 				<File Id="735459132" Language="SFX">
 					<ShortName>Characters\Witch\vo_killer_witch_grunt_hurt_04.wav</ShortName>
 					<Path>SFX\Characters\Witch\vo_killer_witch_grunt_hurt_04_4B06EAF9.wem</Path>
@@ -2849,6 +2869,10 @@
 				<File Id="743123115" Language="SFX">
 					<ShortName>Characters\Witch\vo_killer_witch_grunt_hurt_07.wav</ShortName>
 					<Path>SFX\Characters\Witch\vo_killer_witch_grunt_hurt_07_4B06EAF9.wem</Path>
+				</File>
+				<File Id="745412746" Language="SFX">
+					<ShortName>Weapons\BoneSaw\sfx_bonesaw_clean_03.wav</ShortName>
+					<Path>SFX\Weapons\BoneSaw\sfx_bonesaw_clean_03_4B06EAF9.wem</Path>
 				</File>
 				<File Id="747158229" Language="SFX">
 					<ShortName>Weapons\Blink\sfx_blink_appear_flash_02.wav</ShortName>
@@ -2978,6 +3002,10 @@
 					<ShortName>Characters\Nurse\vo_killer_nurse_blink_charge_full_02.wav</ShortName>
 					<Path>SFX\Characters\Nurse\vo_killer_nurse_blink_charge_full_02_4B06EAF9.wem</Path>
 				</File>
+				<File Id="787951589" Language="SFX">
+					<ShortName>Weapons\BoneSaw\sfx_bonesaw_clean_01.wav</ShortName>
+					<Path>SFX\Weapons\BoneSaw\sfx_bonesaw_clean_01_4B06EAF9.wem</Path>
+				</File>
 				<File Id="788585769" Language="SFX">
 					<ShortName>Characters\Witch\sfx_killer_witch_normal_breath_06.wav</ShortName>
 					<Path>SFX\Characters\Witch\sfx_killer_witch_normal_breath_06_4B06EAF9.wem</Path>
@@ -2986,10 +3014,6 @@
 					<ShortName>Characters\Doctor\vo_killer_doctor_grunt_hurt_03.wav</ShortName>
 					<Path>SFX\Characters\Doctor\vo_killer_doctor_grunt_hurt_03_4B06EAF9.wem</Path>
 				</File>
-				<File Id="791269006" Language="SFX">
-					<ShortName>Weapons\Stick\sfx_weapon_stick_clean_01.wav</ShortName>
-					<Path>SFX\Weapons\Stick\sfx_weapon_stick_clean_01_4B06EAF9.wem</Path>
-				</File>
 				<File Id="791500905" Language="SFX">
 					<ShortName>Weapons\Stick\sfx_weapon_stick_attack_whoosh_03.wav</ShortName>
 					<Path>SFX\Weapons\Stick\sfx_weapon_stick_attack_whoosh_03_4B06EAF9.wem</Path>
@@ -2997,6 +3021,10 @@
 				<File Id="791657589" Language="SFX">
 					<ShortName>Characters\Killer\Actions\sfx_killer_lick_blood_01.wav</ShortName>
 					<Path>SFX\Characters\Killer\Actions\sfx_killer_lick_blood_01_4B06EAF9.wem</Path>
+				</File>
+				<File Id="797964424" Language="SFX">
+					<ShortName>Weapons\BoneSaw\sfx_bonesaw_clean_metal_01.wav</ShortName>
+					<Path>SFX\Weapons\BoneSaw\sfx_bonesaw_clean_metal_01_4B06EAF9.wem</Path>
 				</File>
 				<File Id="798412647" Language="SFX">
 					<ShortName>Characters\Witch\vo_killer_witch_phantomtrap_disappear_03.wav</ShortName>
@@ -3041,6 +3069,10 @@
 				<File Id="808099306" Language="SFX">
 					<ShortName>Objects\BearTrap\sfx_beartrap_open_crank_add_01.wav</ShortName>
 					<Path>SFX\Objects\BearTrap\sfx_beartrap_open_crank_add_01_4B06EAF9.wem</Path>
+				</File>
+				<File Id="810169504" Language="SFX">
+					<ShortName>Weapons\BoneSaw\sfx_bonesaw_clean_metal_03.wav</ShortName>
+					<Path>SFX\Weapons\BoneSaw\sfx_bonesaw_clean_metal_03_4B06EAF9.wem</Path>
 				</File>
 				<File Id="812512349" Language="SFX">
 					<ShortName>Characters\Doctor\vo_killer_doctor_normal_teeth_08.wav</ShortName>
@@ -7813,13 +7845,17 @@
 				<Event Id="279711405" Name="AudioEvent_TV_Loop" ObjectPath="\Events\Default Work Unit\Objects\TV\AudioEvent_TV_Loop"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
-				<File Id="679559965" Language="SFX">
-					<ShortName>Objects\TV\sfx_tv_loop_01.wav</ShortName>
-					<Path>SFX\Objects\TV\sfx_tv_loop_01_3EEFE9B7.wem</Path>
+				<File Id="353126061" Language="SFX">
+					<ShortName>Objects\TV\sfx_tv_loop_03.wav</ShortName>
+					<Path>SFX\Objects\TV\sfx_tv_loop_03_3EEFE9B7.wem</Path>
 				</File>
-				<File Id="908593480" Language="SFX">
-					<ShortName>Objects\TV\sfx_tv_loop_02.wav</ShortName>
-					<Path>SFX\Objects\TV\sfx_tv_loop_02_3EEFE9B7.wem</Path>
+				<File Id="847678163" Language="SFX">
+					<ShortName>Objects\TV\sfx_tv_noise_01.wav</ShortName>
+					<Path>SFX\Objects\TV\sfx_tv_noise_01_3EEFE9B7.wem</Path>
+				</File>
+				<File Id="930866044" Language="SFX">
+					<ShortName>Objects\TV\sfx_tv_loop_04.wav</ShortName>
+					<Path>SFX\Objects\TV\sfx_tv_loop_04_3EEFE9B7.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -8387,6 +8423,10 @@
 					<ShortName>Characters\Camper\Footsteps\Sneakers\Mud\Foot_Mud_WalkLight09.wav</ShortName>
 					<Path>SFX\Characters\Camper\Footsteps\Sneakers\Mud\Foot_Mud_WalkLight09_4B06EAF9.wem</Path>
 				</File>
+				<File Id="52870234" Language="SFX">
+					<ShortName>HUD\sfx_perks_premonition_02.wav</ShortName>
+					<Path>SFX\HUD\sfx_perks_premonition_02_21911598.wem</Path>
+				</File>
 				<File Id="55111152" Language="SFX">
 					<ShortName>Ambience\LimitPoint\am_limitpoint_voice_01.wav</ShortName>
 					<Path>SFX\Ambience\LimitPoint\am_limitpoint_voice_01_7588D2C3.wem</Path>
@@ -8486,10 +8526,6 @@
 				<File Id="70529656" Language="SFX">
 					<ShortName>Stingers\sfx_stinger_doctor_appears_03.wav</ShortName>
 					<Path>SFX\Stingers\sfx_stinger_doctor_appears_03_4B06EAF9.wem</Path>
-				</File>
-				<File Id="70994473" Language="SFX">
-					<ShortName>Perks\sfx_perks_whispers_voice_06.wav</ShortName>
-					<Path>SFX\Perks\sfx_perks_whispers_voice_06_21911598.wem</Path>
 				</File>
 				<File Id="71471072" Language="SFX">
 					<ShortName>Characters\Slasher\Footsteps\Boots\Mud\Foot_Mud_Shuffle_Squish27.wav</ShortName>
@@ -9058,10 +9094,6 @@
 				<File Id="180150073" Language="SFX">
 					<ShortName>Music\mu_proximity_theme_04_layer_03.wav</ShortName>
 					<Path>SFX\Music\mu_proximity_theme_04_layer_03_288D6551.wem</Path>
-				</File>
-				<File Id="180619966" Language="SFX">
-					<ShortName>Perks\sfx_perks_whispers_voice_03.wav</ShortName>
-					<Path>SFX\Perks\sfx_perks_whispers_voice_03_21911598.wem</Path>
 				</File>
 				<File Id="180763660" Language="SFX">
 					<ShortName>Objects\ExitDoor\sfx_exitdoor_alarm_02.wav</ShortName>
@@ -11559,10 +11591,6 @@
 					<ShortName>Characters\Footsteps\sfx_footsteps_barefoot_metal_walk_05.wav</ShortName>
 					<Path>SFX\Characters\Footsteps\sfx_footsteps_barefoot_metal_walk_05_4B06EAF9.wem</Path>
 				</File>
-				<File Id="669616070" Language="SFX">
-					<ShortName>Perks\sfx_perks_whispers_voice_09.wav</ShortName>
-					<Path>SFX\Perks\sfx_perks_whispers_voice_09_21911598.wem</Path>
-				</File>
 				<File Id="670838490" Language="SFX">
 					<ShortName>Characters\Camper\Footsteps\Sneakers\Concrete\sfx_footsteps_sneakers_concrete_walk06.wav</ShortName>
 					<Path>SFX\Characters\Camper\Footsteps\Sneakers\Concrete\sfx_footsteps_sneakers_concrete_walk06_4B06EAF9.wem</Path>
@@ -11662,10 +11690,6 @@
 				<File Id="688189683" Language="SFX">
 					<ShortName>Characters\Camper\Footsteps\Sneakers\Dirt\sfx_footsteps_sneakers_dirt_land3.wav</ShortName>
 					<Path>SFX\Characters\Camper\Footsteps\Sneakers\Dirt\sfx_footsteps_sneakers_dirt_land3_4B06EAF9.wem</Path>
-				</File>
-				<File Id="688681949" Language="SFX">
-					<ShortName>Perks\sfx_perks_whispers_voice_01.wav</ShortName>
-					<Path>SFX\Perks\sfx_perks_whispers_voice_01_21911598.wem</Path>
 				</File>
 				<File Id="689543881" Language="SFX">
 					<ShortName>Characters\Slasher\Footsteps\Boots\Gravel\sfx_footsteps_boots_gravel_walk11.wav</ShortName>
@@ -13227,6 +13251,10 @@
 					<ShortName>Characters\Camper\Footsteps\Sneakers\Mud\Foot_Mud_Shuffle_Squish26.wav</ShortName>
 					<Path>SFX\Characters\Camper\Footsteps\Sneakers\Mud\Foot_Mud_Shuffle_Squish26_4B06EAF9.wem</Path>
 				</File>
+				<File Id="1009570919" Language="SFX">
+					<ShortName>Perks\sfx_perks_whispers_01.wav</ShortName>
+					<Path>SFX\Perks\sfx_perks_whispers_01_21911598.wem</Path>
+				</File>
 				<File Id="1010342775" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_lumberpile_creaks_horror_03.wav</ShortName>
 					<Path>SFX\Ambience\Emitters\sfx_lumberpile_creaks_horror_03_4B06EAF9.wem</Path>
@@ -13310,10 +13338,6 @@
 				<File Id="1023792165" Language="SFX">
 					<ShortName>Characters\Camper\Footsteps\Sneakers\Dirt\sfx_footsteps_sneakers_dirt_run20.wav</ShortName>
 					<Path>SFX\Characters\Camper\Footsteps\Sneakers\Dirt\sfx_footsteps_sneakers_dirt_run20_4B06EAF9.wem</Path>
-				</File>
-				<File Id="1023801807" Language="SFX">
-					<ShortName>Perks\sfx_perks_whispers_voice_07.wav</ShortName>
-					<Path>SFX\Perks\sfx_perks_whispers_voice_07_21911598.wem</Path>
 				</File>
 				<File Id="1024669842" Language="SFX">
 					<ShortName>Characters\Camper\Footsteps\Sneakers\Metal\sfx_footsteps_sneakers_metal_run13.wav</ShortName>
@@ -13482,10 +13506,6 @@
 				<File Id="1051127061" Language="SFX">
 					<ShortName>Characters\Slasher\Footsteps\Boots\Mud\Foot_Mud_Land04.wav</ShortName>
 					<Path>SFX\Characters\Slasher\Footsteps\Boots\Mud\Foot_Mud_Land04_4B06EAF9.wem</Path>
-				</File>
-				<File Id="1051346396" Language="SFX">
-					<ShortName>Perks\sfx_perks_whispers_voice_05.wav</ShortName>
-					<Path>SFX\Perks\sfx_perks_whispers_voice_05_21911598.wem</Path>
 				</File>
 				<File Id="1053400615" Language="SFX">
 					<ShortName>Objects\Windows\sfx_windows_bloc_start_03.wav</ShortName>
@@ -30022,7 +30042,11 @@
 			<Path>Global_UI.bnk</Path>
 			<IncludedEvents>
 				<Event Id="490101386" Name="AudioEvent_BlackSmoke_Appear" ObjectPath="\Events\Default Work Unit\Objects\BlackSmoke\AudioEvent_BlackSmoke_Appear"/>
+				<Event Id="1164821136" Name="AudioEvent_BlackSmoke_Appear_Killer" ObjectPath="\Events\Default Work Unit\Objects\BlackSmoke\AudioEvent_BlackSmoke_Appear_Killer"/>
+				<Event Id="3275528263" Name="AudioEvent_BlackSmoke_Appear_Survivor" ObjectPath="\Events\Default Work Unit\Objects\BlackSmoke\AudioEvent_BlackSmoke_Appear_Survivor"/>
 				<Event Id="366534112" Name="AudioEvent_BlackSmoke_Dissolve" ObjectPath="\Events\Default Work Unit\Objects\BlackSmoke\AudioEvent_BlackSmoke_Dissolve"/>
+				<Event Id="60386814" Name="AudioEvent_BlackSmoke_Dissolve_Killer" ObjectPath="\Events\Default Work Unit\Objects\BlackSmoke\AudioEvent_BlackSmoke_Dissolve_Killer"/>
+				<Event Id="4082451837" Name="AudioEvent_BlackSmoke_Dissolve_Survivor" ObjectPath="\Events\Default Work Unit\Objects\BlackSmoke\AudioEvent_BlackSmoke_Dissolve_Survivor"/>
 				<Event Id="454336589" Name="AudioEvent_BloodWeb_Close" ObjectPath="\Events\Default Work Unit\UI\BloodWeb\AudioEvent_BloodWeb_Close"/>
 				<Event Id="1352075277" Name="AudioEvent_BloodWeb_Entity_Appears" ObjectPath="\Events\Default Work Unit\UI\BloodWeb\AudioEvent_BloodWeb_Entity_Appears"/>
 				<Event Id="2316194033" Name="AudioEvent_BloodWeb_Generation" ObjectPath="\Events\Default Work Unit\UI\BloodWeb\AudioEvent_BloodWeb_Generation"/>
@@ -31878,10 +31902,6 @@
 					<ShortName>Ambience\Menus\sfx_burning_high_15.wav</ShortName>
 					<Path>SFX\Ambience\Menus\sfx_burning_high_15_7588D2C3.wem</Path>
 				</File>
-				<File Id="535037327" Language="SFX">
-					<ShortName>UI\sfx_ui_offering_card_flip_02.wav</ShortName>
-					<Path>SFX\UI\sfx_ui_offering_card_flip_02_4B06EAF9.wem</Path>
-				</File>
 				<File Id="544019106" Language="SFX">
 					<ShortName>Objects\Blood\sfx_blood_chainsaw_chop_03.wav</ShortName>
 					<Path>SFX\Objects\Blood\sfx_blood_chainsaw_chop_03_4B06EAF9.wem</Path>
@@ -32229,10 +32249,6 @@
 				<File Id="972846039" Language="SFX">
 					<ShortName>Objects\TheEntity\sfx_theentity_ui_scream_13.wav</ShortName>
 					<Path>SFX\Objects\TheEntity\sfx_theentity_ui_scream_13_4B06EAF9.wem</Path>
-				</File>
-				<File Id="975443744" Language="SFX">
-					<ShortName>UI\sfx_ui_offering_card_flip_01.wav</ShortName>
-					<Path>SFX\UI\sfx_ui_offering_card_flip_01_4B06EAF9.wem</Path>
 				</File>
 				<File Id="976416774" Language="SFX">
 					<ShortName>UI\sfx_ui_found_05.wav</ShortName>
