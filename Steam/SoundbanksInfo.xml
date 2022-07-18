@@ -397,10 +397,6 @@
 			<ShortName>Ambience\Menus\am_lobby_01.wav</ShortName>
 			<Path>SFX\Ambience\Menus\am_lobby_01_D78E037D.wem</Path>
 		</File>
-		<File Id="936908136" Language="SFX">
-			<ShortName>Ambience\Tiles\am_blocker_01.wav</ShortName>
-			<Path>SFX\Ambience\Tiles\am_blocker_01_D78E037D.wem</Path>
-		</File>
 		<File Id="944984827" Language="SFX">
 			<ShortName>Music\mu_survivor_hooked_part2_01.wav</ShortName>
 			<Path>SFX\Music\mu_survivor_hooked_part2_01_D78E037D.wem</Path>
@@ -1188,10 +1184,6 @@
 				<File Id="921597663"/>
 			</ReferencedStreamedFiles>
 			<IncludedMemoryFiles>
-				<File Id="9996754" Language="SFX">
-					<ShortName>Impacts\Weapon_Impact_Body_Heavy\Weapon_Impact_Body_Heavy_03.wav</ShortName>
-					<Path>SFX\Impacts\Weapon_Impact_Body_Heavy\Weapon_Impact_Body_Heavy_03_5442F26D.wem</Path>
-				</File>
 				<File Id="12491314" Language="SFX">
 					<ShortName>Weapons\MacheteSkull\sfx_impact_macheteskull_bones_11.wav</ShortName>
 					<Path>SFX\Weapons\MacheteSkull\sfx_impact_macheteskull_bones_11_5442F26D.wem</Path>
@@ -1236,6 +1228,10 @@
 					<ShortName>Impacts\sfx_weapon_macheteskull_impact_hit_01.wav</ShortName>
 					<Path>SFX\Impacts\sfx_weapon_macheteskull_impact_hit_01_5442F26D.wem</Path>
 				</File>
+				<File Id="87873454" Language="SFX">
+					<ShortName>Impacts\sfx_weapon_impact_body_hit_06_nv.wav</ShortName>
+					<Path>SFX\Impacts\sfx_weapon_impact_body_hit_06_nv_5442F26D.wem</Path>
+				</File>
 				<File Id="90253417" Language="SFX">
 					<ShortName>Impacts\sfx_weapon_impact_rock_debris_06.wav</ShortName>
 					<Path>SFX\Impacts\sfx_weapon_impact_rock_debris_06_5442F26D.wem</Path>
@@ -1244,10 +1240,6 @@
 					<ShortName>Impacts\sfx_weapon_impact_wood_add_03.wav</ShortName>
 					<Path>SFX\Impacts\sfx_weapon_impact_wood_add_03_5442F26D.wem</Path>
 				</File>
-				<File Id="96164940" Language="SFX">
-					<ShortName>Impacts\Weapon_Impact_Body_Cut_Spank\Weapon_Impact_Body_Cut_Spank_04.wav</ShortName>
-					<Path>SFX\Impacts\Weapon_Impact_Body_Cut_Spank\Weapon_Impact_Body_Cut_Spank_04_5442F26D.wem</Path>
-				</File>
 				<File Id="106943639" Language="SFX">
 					<ShortName>Characters\Killers\Actions\sfx_killer_lick_blood_02.wav</ShortName>
 					<Path>SFX\Characters\Killers\Actions\sfx_killer_lick_blood_02_5442F26D.wem</Path>
@@ -1255,10 +1247,6 @@
 				<File Id="117737842" Language="SFX">
 					<ShortName>Impacts\sfx_impact_body_blade_03.wav</ShortName>
 					<Path>SFX\Impacts\sfx_impact_body_blade_03_5442F26D.wem</Path>
-				</File>
-				<File Id="135659581" Language="SFX">
-					<ShortName>Impacts\Weapon_Impact_Body_Heavy\Weapon_Impact_Body_Heavy_04.wav</ShortName>
-					<Path>SFX\Impacts\Weapon_Impact_Body_Heavy\Weapon_Impact_Body_Heavy_04_5442F26D.wem</Path>
 				</File>
 				<File Id="137665210" Language="SFX">
 					<ShortName>Impacts\sfx_weapon_impact_rock_03.wav</ShortName>
@@ -1271,10 +1259,6 @@
 				<File Id="141001934" Language="SFX">
 					<ShortName>Impacts\sfx_impact_body_slice_03.wav</ShortName>
 					<Path>SFX\Impacts\sfx_impact_body_slice_03_5442F26D.wem</Path>
-				</File>
-				<File Id="147363466" Language="SFX">
-					<ShortName>Impacts\Weapon_Impact_Body_Heavy\Weapon_Impact_Body_Heavy_07.wav</ShortName>
-					<Path>SFX\Impacts\Weapon_Impact_Body_Heavy\Weapon_Impact_Body_Heavy_07_5442F26D.wem</Path>
 				</File>
 				<File Id="147529302" Language="SFX">
 					<ShortName>Impacts\sfx_impact_body_blade_04.wav</ShortName>
@@ -1308,6 +1292,10 @@
 					<ShortName>Impacts\sfx_weapon_impact_dirt_hit_01.wav</ShortName>
 					<Path>SFX\Impacts\sfx_weapon_impact_dirt_hit_01_5442F26D.wem</Path>
 				</File>
+				<File Id="201132631" Language="SFX">
+					<ShortName>Impacts\sfx_weapon_impact_body_hit_04_nv.wav</ShortName>
+					<Path>SFX\Impacts\sfx_weapon_impact_body_hit_04_nv_5442F26D.wem</Path>
+				</File>
 				<File Id="203702582" Language="SFX">
 					<ShortName>Impacts\sfx_weapon_impact_plastic_add_04.wav</ShortName>
 					<Path>SFX\Impacts\sfx_weapon_impact_plastic_add_04_5442F26D.wem</Path>
@@ -1315,6 +1303,10 @@
 				<File Id="207204303" Language="SFX">
 					<ShortName>Weapons\MacheteSkull\sfx_impact_macheteskull_bones_14.wav</ShortName>
 					<Path>SFX\Weapons\MacheteSkull\sfx_impact_macheteskull_bones_14_5442F26D.wem</Path>
+				</File>
+				<File Id="213611256" Language="SFX">
+					<ShortName>Impacts\sfx_impact_body_cut_02_nv.wav</ShortName>
+					<Path>SFX\Impacts\sfx_impact_body_cut_02_nv_5442F26D.wem</Path>
 				</File>
 				<File Id="214252723" Language="SFX">
 					<ShortName>Impacts\sfx_impact_machete_silence_01.wav</ShortName>
@@ -1368,6 +1360,10 @@
 					<ShortName>Weapons\MacheteSkull\sfx_impact_macheteskull_bones_19.wav</ShortName>
 					<Path>SFX\Weapons\MacheteSkull\sfx_impact_macheteskull_bones_19_5442F26D.wem</Path>
 				</File>
+				<File Id="277570063" Language="SFX">
+					<ShortName>Impacts\sfx_weapon_impact_body_hit_07_nv.wav</ShortName>
+					<Path>SFX\Impacts\sfx_weapon_impact_body_hit_07_nv_5442F26D.wem</Path>
+				</File>
 				<File Id="289895249" Language="SFX">
 					<ShortName>Impacts\sfx_weapon_impact_rock_debris_07.wav</ShortName>
 					<Path>SFX\Impacts\sfx_weapon_impact_rock_debris_07_5442F26D.wem</Path>
@@ -1387,6 +1383,10 @@
 				<File Id="328679239" Language="SFX">
 					<ShortName>Weapons\MacheteSkull\sfx_impact_macheteskull_bones_18.wav</ShortName>
 					<Path>SFX\Weapons\MacheteSkull\sfx_impact_macheteskull_bones_18_5442F26D.wem</Path>
+				</File>
+				<File Id="330441543" Language="SFX">
+					<ShortName>Impacts\sfx_weapon_impact_body_hit_01_nv.wav</ShortName>
+					<Path>SFX\Impacts\sfx_weapon_impact_body_hit_01_nv_5442F26D.wem</Path>
 				</File>
 				<File Id="336064096" Language="SFX">
 					<ShortName>Impacts\sfx_impact_body_slice_07.wav</ShortName>
@@ -1432,9 +1432,17 @@
 					<ShortName>Impacts\sfx_weapon_hammer_impact_hit_03.wav</ShortName>
 					<Path>SFX\Impacts\sfx_weapon_hammer_impact_hit_03_5442F26D.wem</Path>
 				</File>
+				<File Id="392083916" Language="SFX">
+					<ShortName>Impacts\sfx_impact_body_cut_03_nv.wav</ShortName>
+					<Path>SFX\Impacts\sfx_impact_body_cut_03_nv_5442F26D.wem</Path>
+				</File>
 				<File Id="392137349" Language="SFX">
 					<ShortName>Impacts\sfx_weapon_impact_hit_07.wav</ShortName>
 					<Path>SFX\Impacts\sfx_weapon_impact_hit_07_5442F26D.wem</Path>
+				</File>
+				<File Id="399468804" Language="SFX">
+					<ShortName>Impacts\sfx_weapon_impact_body_hit_03_nv.wav</ShortName>
+					<Path>SFX\Impacts\sfx_weapon_impact_body_hit_03_nv_5442F26D.wem</Path>
 				</File>
 				<File Id="401288576" Language="SFX">
 					<ShortName>Impacts\sfx_weapon_impact_wood_crack_11.wav</ShortName>
@@ -1471,10 +1479,6 @@
 				<File Id="423470028" Language="SFX">
 					<ShortName>Impacts\sfx_weapon_impact_dirt_sand_02.wav</ShortName>
 					<Path>SFX\Impacts\sfx_weapon_impact_dirt_sand_02_5442F26D.wem</Path>
-				</File>
-				<File Id="432462664" Language="SFX">
-					<ShortName>Impacts\Weapon_Impact_Body_Heavy\Weapon_Impact_Body_Heavy_01.wav</ShortName>
-					<Path>SFX\Impacts\Weapon_Impact_Body_Heavy\Weapon_Impact_Body_Heavy_01_5442F26D.wem</Path>
 				</File>
 				<File Id="445104777" Language="SFX">
 					<ShortName>Impacts\sfx_weapon_impact_metal_soft_hit_03.wav</ShortName>
@@ -1532,10 +1536,6 @@
 					<ShortName>Impacts\sfx_weapon_impact_wood_crack_10.wav</ShortName>
 					<Path>SFX\Impacts\sfx_weapon_impact_wood_crack_10_5442F26D.wem</Path>
 				</File>
-				<File Id="497874074" Language="SFX">
-					<ShortName>Impacts\sfx_impact_body_slice_06.wav</ShortName>
-					<Path>SFX\Impacts\sfx_impact_body_slice_06_5442F26D.wem</Path>
-				</File>
 				<File Id="500275597" Language="SFX">
 					<ShortName>Impacts\sfx_weapon_impact_chainlinkfence_hit_01.wav</ShortName>
 					<Path>SFX\Impacts\sfx_weapon_impact_chainlinkfence_hit_01_5442F26D.wem</Path>
@@ -1543,6 +1543,14 @@
 				<File Id="511585204" Language="SFX">
 					<ShortName>Impacts\sfx_weapon_impact_metal_hard_hit_01.wav</ShortName>
 					<Path>SFX\Impacts\sfx_weapon_impact_metal_hard_hit_01_5442F26D.wem</Path>
+				</File>
+				<File Id="511878294" Language="SFX">
+					<ShortName>Impacts\sfx_impact_body_cut_04_nv.wav</ShortName>
+					<Path>SFX\Impacts\sfx_impact_body_cut_04_nv_5442F26D.wem</Path>
+				</File>
+				<File Id="513599111" Language="SFX">
+					<ShortName>Impacts\sfx_weapon_impact_body_hit_02_nv.wav</ShortName>
+					<Path>SFX\Impacts\sfx_weapon_impact_body_hit_02_nv_5442F26D.wem</Path>
 				</File>
 				<File Id="527426574" Language="SFX">
 					<ShortName>Impacts\sfx_weapon_impact_chainlinkfence_add_04.wav</ShortName>
@@ -1559,10 +1567,6 @@
 				<File Id="556113318" Language="SFX">
 					<ShortName>Impacts\sfx_weapon_impact_wood_crack_08.wav</ShortName>
 					<Path>SFX\Impacts\sfx_weapon_impact_wood_crack_08_5442F26D.wem</Path>
-				</File>
-				<File Id="558667636" Language="SFX">
-					<ShortName>Impacts\Weapon_Impact_Body_Cut_Spank\Weapon_Impact_Body_Cut_Spank_03.wav</ShortName>
-					<Path>SFX\Impacts\Weapon_Impact_Body_Cut_Spank\Weapon_Impact_Body_Cut_Spank_03_5442F26D.wem</Path>
 				</File>
 				<File Id="563197974" Language="SFX">
 					<ShortName>Impacts\sfx_weapon_impact_wood_hit_01.wav</ShortName>
@@ -1583,10 +1587,6 @@
 				<File Id="574123461" Language="SFX">
 					<ShortName>Impacts\sfx_weapon_impact_rock_debris_04.wav</ShortName>
 					<Path>SFX\Impacts\sfx_weapon_impact_rock_debris_04_5442F26D.wem</Path>
-				</File>
-				<File Id="574394600" Language="SFX">
-					<ShortName>Impacts\Weapon_Impact_Body_Heavy\Weapon_Impact_Body_Heavy_05.wav</ShortName>
-					<Path>SFX\Impacts\Weapon_Impact_Body_Heavy\Weapon_Impact_Body_Heavy_05_5442F26D.wem</Path>
 				</File>
 				<File Id="577927654" Language="SFX">
 					<ShortName>Impacts\sfx_impact_pull_out_slice_03.wav</ShortName>
@@ -1652,10 +1652,6 @@
 					<ShortName>Characters\Killers\Actions\sfx_killer_grab_01.wav</ShortName>
 					<Path>SFX\Characters\Killers\Actions\sfx_killer_grab_01_5442F26D.wem</Path>
 				</File>
-				<File Id="653025239" Language="SFX">
-					<ShortName>Impacts\Weapon_Impact_Body_Heavy\Weapon_Impact_Body_Heavy_02.wav</ShortName>
-					<Path>SFX\Impacts\Weapon_Impact_Body_Heavy\Weapon_Impact_Body_Heavy_02_5442F26D.wem</Path>
-				</File>
 				<File Id="653596973" Language="SFX">
 					<ShortName>Impacts\sfx_impact_body_hit_03.wav</ShortName>
 					<Path>SFX\Impacts\sfx_impact_body_hit_03_5442F26D.wem</Path>
@@ -1691,10 +1687,6 @@
 				<File Id="678559157" Language="SFX">
 					<ShortName>Impacts\sfx_impact_pull_out_slice_01.wav</ShortName>
 					<Path>SFX\Impacts\sfx_impact_pull_out_slice_01_5442F26D.wem</Path>
-				</File>
-				<File Id="683240817" Language="SFX">
-					<ShortName>Impacts\Weapon_Impact_Body_Heavy\Weapon_Impact_Body_Heavy_08.wav</ShortName>
-					<Path>SFX\Impacts\Weapon_Impact_Body_Heavy\Weapon_Impact_Body_Heavy_08_5442F26D.wem</Path>
 				</File>
 				<File Id="684010135" Language="SFX">
 					<ShortName>Impacts\sfx_impact_body_slice_05.wav</ShortName>
@@ -1743,10 +1735,6 @@
 				<File Id="725489715" Language="SFX">
 					<ShortName>Weapons\MacheteSkull\sfx_impact_macheteskull_bones_01.wav</ShortName>
 					<Path>SFX\Weapons\MacheteSkull\sfx_impact_macheteskull_bones_01_5442F26D.wem</Path>
-				</File>
-				<File Id="736687581" Language="SFX">
-					<ShortName>Impacts\Weapon_Impact_Body_Cut_Spank\Weapon_Impact_Body_Cut_Spank_01.wav</ShortName>
-					<Path>SFX\Impacts\Weapon_Impact_Body_Cut_Spank\Weapon_Impact_Body_Cut_Spank_01_5442F26D.wem</Path>
 				</File>
 				<File Id="736844390" Language="SFX">
 					<ShortName>Impacts\sfx_weapon_impact_chainlinkfence_02.wav</ShortName>
@@ -1808,10 +1796,6 @@
 					<ShortName>Impacts\sfx_weapon_impact_rock_debris_02.wav</ShortName>
 					<Path>SFX\Impacts\sfx_weapon_impact_rock_debris_02_5442F26D.wem</Path>
 				</File>
-				<File Id="821879720" Language="SFX">
-					<ShortName>Impacts\sfx_impact_body_slice_01.wav</ShortName>
-					<Path>SFX\Impacts\sfx_impact_body_slice_01_5442F26D.wem</Path>
-				</File>
 				<File Id="822041885" Language="SFX">
 					<ShortName>Characters\Killers\Actions\sfx_killer_spawn_02.wav</ShortName>
 					<Path>SFX\Characters\Killers\Actions\sfx_killer_spawn_02_5442F26D.wem</Path>
@@ -1852,10 +1836,6 @@
 					<ShortName>Impacts\sfx_weapon_impact_rock_debris_01.wav</ShortName>
 					<Path>SFX\Impacts\sfx_weapon_impact_rock_debris_01_5442F26D.wem</Path>
 				</File>
-				<File Id="865561889" Language="SFX">
-					<ShortName>Impacts\Weapon_Impact_Body_Cut_Spank\Weapon_Impact_Body_Cut_Spank_02.wav</ShortName>
-					<Path>SFX\Impacts\Weapon_Impact_Body_Cut_Spank\Weapon_Impact_Body_Cut_Spank_02_5442F26D.wem</Path>
-				</File>
 				<File Id="867930059" Language="SFX">
 					<ShortName>Weapons\MacheteSkull\sfx_impact_macheteskull_bones_17.wav</ShortName>
 					<Path>SFX\Weapons\MacheteSkull\sfx_impact_macheteskull_bones_17_5442F26D.wem</Path>
@@ -1879,6 +1859,10 @@
 				<File Id="888557000" Language="SFX">
 					<ShortName>Impacts\sfx_weapon_impact_tree_hit_09.wav</ShortName>
 					<Path>SFX\Impacts\sfx_weapon_impact_tree_hit_09_5442F26D.wem</Path>
+				</File>
+				<File Id="894659557" Language="SFX">
+					<ShortName>Impacts\sfx_impact_body_cut_05_nv.wav</ShortName>
+					<Path>SFX\Impacts\sfx_impact_body_cut_05_nv_5442F26D.wem</Path>
 				</File>
 				<File Id="896732093" Language="SFX">
 					<ShortName>Characters\Killers\Actions\sfx_killer_grab_02.wav</ShortName>
@@ -1904,9 +1888,13 @@
 					<ShortName>Impacts\sfx_weapon_impact_plastic_add_06.wav</ShortName>
 					<Path>SFX\Impacts\sfx_weapon_impact_plastic_add_06_5442F26D.wem</Path>
 				</File>
-				<File Id="928607924" Language="SFX">
-					<ShortName>Impacts\Weapon_Impact_Body_Cut_Spank\Weapon_Impact_Body_Cut_Spank_05.wav</ShortName>
-					<Path>SFX\Impacts\Weapon_Impact_Body_Cut_Spank\Weapon_Impact_Body_Cut_Spank_05_5442F26D.wem</Path>
+				<File Id="929033675" Language="SFX">
+					<ShortName>Impacts\sfx_weapon_impact_body_hit_05_nv.wav</ShortName>
+					<Path>SFX\Impacts\sfx_weapon_impact_body_hit_05_nv_5442F26D.wem</Path>
+				</File>
+				<File Id="941622510" Language="SFX">
+					<ShortName>Impacts\sfx_impact_body_cut_01_nv.wav</ShortName>
+					<Path>SFX\Impacts\sfx_impact_body_cut_01_nv_5442F26D.wem</Path>
 				</File>
 				<File Id="944864088" Language="SFX">
 					<ShortName>Impacts\sfx_weapon_impact_glass_01.wav</ShortName>
@@ -1932,6 +1920,10 @@
 					<ShortName>Impacts\sfx_weapon_impact_tree_hit_10.wav</ShortName>
 					<Path>SFX\Impacts\sfx_weapon_impact_tree_hit_10_5442F26D.wem</Path>
 				</File>
+				<File Id="955479068" Language="SFX">
+					<ShortName>Impacts\sfx_weapon_impact_body_hit_08_nv.wav</ShortName>
+					<Path>SFX\Impacts\sfx_weapon_impact_body_hit_08_nv_5442F26D.wem</Path>
+				</File>
 				<File Id="957544982" Language="SFX">
 					<ShortName>Impacts\sfx_weapon_impact_rock_debris_05.wav</ShortName>
 					<Path>SFX\Impacts\sfx_weapon_impact_rock_debris_05_5442F26D.wem</Path>
@@ -1955,10 +1947,6 @@
 				<File Id="967116709" Language="SFX">
 					<ShortName>Impacts\sfx_weapon_macheteskull_impact_hit_03.wav</ShortName>
 					<Path>SFX\Impacts\sfx_weapon_macheteskull_impact_hit_03_5442F26D.wem</Path>
-				</File>
-				<File Id="971322556" Language="SFX">
-					<ShortName>Impacts\Weapon_Impact_Body_Heavy\Weapon_Impact_Body_Heavy_06.wav</ShortName>
-					<Path>SFX\Impacts\Weapon_Impact_Body_Heavy\Weapon_Impact_Body_Heavy_06_5442F26D.wem</Path>
 				</File>
 				<File Id="973813730" Language="SFX">
 					<ShortName>Impacts\sfx_impact_body_flesh_04.wav</ShortName>
@@ -12746,7 +12734,6 @@
 				<File Id="921597663"/>
 				<File Id="924769251"/>
 				<File Id="931797649"/>
-				<File Id="936908136"/>
 				<File Id="944984827"/>
 				<File Id="951532578"/>
 				<File Id="991107257"/>
@@ -12822,6 +12809,10 @@
 				<File Id="6185554" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_barefoot_concrete_shuffle_01.wav</ShortName>
 					<Path>SFX\Characters\Footsteps\sfx_footsteps_barefoot_concrete_shuffle_01_5442F26D.wem</Path>
+				</File>
+				<File Id="6668087" Language="SFX">
+					<ShortName>Ambience\Tiles\am_meatlocker_drops_11.wav</ShortName>
+					<Path>SFX\Ambience\Tiles\am_meatlocker_drops_11_C85D148F.wem</Path>
 				</File>
 				<File Id="7176217" Language="SFX">
 					<ShortName>Ambience\Tiles\am_meatlocker_drops_11.wav</ShortName>
@@ -12919,6 +12910,10 @@
 					<ShortName>Characters\Footsteps\sfx_footsteps_sneakers_gravel_run12.wav</ShortName>
 					<Path>SFX\Characters\Footsteps\sfx_footsteps_sneakers_gravel_run12_5442F26D.wem</Path>
 				</File>
+				<File Id="18652354" Language="SFX">
+					<ShortName>Ambience\Tiles\am_meatlocker_drops_13.wav</ShortName>
+					<Path>SFX\Ambience\Tiles\am_meatlocker_drops_13_C85D148F.wem</Path>
+				</File>
 				<File Id="19247391" Language="SFX">
 					<ShortName>HUD\sfx_obsession_start_chase_04.wav</ShortName>
 					<Path>SFX\HUD\sfx_obsession_start_chase_04_5442F26D.wem</Path>
@@ -12937,7 +12932,7 @@
 				</File>
 				<File Id="21751117" Language="SFX">
 					<ShortName>Ambience\Tiles\am_meatlocker_drops_08.wav</ShortName>
-					<Path>SFX\Ambience\Tiles\am_meatlocker_drops_08_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Tiles\am_meatlocker_drops_08_C85D148F.wem</Path>
 				</File>
 				<File Id="21893948" Language="SFX">
 					<ShortName>Events\sfx_killer_gamestart_04.wav</ShortName>
@@ -13787,6 +13782,10 @@
 					<ShortName>Characters\Footsteps\sfx_footsteps_boots_carpet_run09.wav</ShortName>
 					<Path>SFX\Characters\Footsteps\sfx_footsteps_boots_carpet_run09_5442F26D.wem</Path>
 				</File>
+				<File Id="176006073" Language="SFX">
+					<ShortName>Ambience\Tiles\am_meatlocker_drops_08.wav</ShortName>
+					<Path>SFX\Ambience\Tiles\am_meatlocker_drops_08_5442F26D.wem</Path>
+				</File>
 				<File Id="176690626" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_barefoot_dirt_shuffle_05.wav</ShortName>
 					<Path>SFX\Characters\Footsteps\sfx_footsteps_barefoot_dirt_shuffle_05_5442F26D.wem</Path>
@@ -14065,7 +14064,7 @@
 				</File>
 				<File Id="229218644" Language="SFX">
 					<ShortName>Ambience\Tiles\am_meatlocker_drops_12.wav</ShortName>
-					<Path>SFX\Ambience\Tiles\am_meatlocker_drops_12_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Tiles\am_meatlocker_drops_12_C85D148F.wem</Path>
 				</File>
 				<File Id="229693932" Language="SFX">
 					<ShortName>Characters\Killers\Actions\sfx_killer_loud_noise_03.wav</ShortName>
@@ -14261,7 +14260,7 @@
 				</File>
 				<File Id="260609833" Language="SFX">
 					<ShortName>Ambience\Tiles\am_meatlocker_drops_02.wav</ShortName>
-					<Path>SFX\Ambience\Tiles\am_meatlocker_drops_02_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Tiles\am_meatlocker_drops_02_C85D148F.wem</Path>
 				</File>
 				<File Id="262750222" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_barefoot_gravel_land_04.wav</ShortName>
@@ -14326,10 +14325,6 @@
 				<File Id="275974468" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_wind_randoms_06.wav</ShortName>
 					<Path>SFX\Ambience\Emitters\sfx_wind_randoms_06_C85D148F.wem</Path>
-				</File>
-				<File Id="276019195" Language="SFX">
-					<ShortName>Ambience\Tiles\am_meatlocker_drops_12.wav</ShortName>
-					<Path>SFX\Ambience\Tiles\am_meatlocker_drops_12_C85D148F.wem</Path>
 				</File>
 				<File Id="276198129" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_boots_gravel_run17.wav</ShortName>
@@ -14677,7 +14672,7 @@
 				</File>
 				<File Id="320989275" Language="SFX">
 					<ShortName>Ambience\Tiles\am_meatlocker_drops_07.wav</ShortName>
-					<Path>SFX\Ambience\Tiles\am_meatlocker_drops_07_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Tiles\am_meatlocker_drops_07_C85D148F.wem</Path>
 				</File>
 				<File Id="321161675" Language="SFX">
 					<ShortName>Ambience\Tiles\am_mainhouse_creak_01.wav</ShortName>
@@ -14865,7 +14860,7 @@
 				</File>
 				<File Id="350328312" Language="SFX">
 					<ShortName>Ambience\Tiles\am_meatlocker_drops_04.wav</ShortName>
-					<Path>SFX\Ambience\Tiles\am_meatlocker_drops_04_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Tiles\am_meatlocker_drops_04_C85D148F.wem</Path>
 				</File>
 				<File Id="351523855" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_boots_metal_walk19.wav</ShortName>
@@ -14873,7 +14868,7 @@
 				</File>
 				<File Id="351962481" Language="SFX">
 					<ShortName>Ambience\Tiles\am_meatlocker_drops_15.wav</ShortName>
-					<Path>SFX\Ambience\Tiles\am_meatlocker_drops_15_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Tiles\am_meatlocker_drops_15_C85D148F.wem</Path>
 				</File>
 				<File Id="352234395" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_boots_gravel_land6.wav</ShortName>
@@ -14893,7 +14888,7 @@
 				</File>
 				<File Id="355043942" Language="SFX">
 					<ShortName>Ambience\Tiles\am_meatlocker_drops_01.wav</ShortName>
-					<Path>SFX\Ambience\Tiles\am_meatlocker_drops_01_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Tiles\am_meatlocker_drops_01_C85D148F.wem</Path>
 				</File>
 				<File Id="355809979" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_barefoot_wood_walk_07.wav</ShortName>
@@ -14947,6 +14942,10 @@
 					<ShortName>Characters\Body\sfx_character_body_land_concrete_04.wav</ShortName>
 					<Path>SFX\Characters\Body\sfx_character_body_land_concrete_04_5442F26D.wem</Path>
 				</File>
+				<File Id="362775656" Language="SFX">
+					<ShortName>Ambience\Tiles\am_meatlocker_drops_04.wav</ShortName>
+					<Path>SFX\Ambience\Tiles\am_meatlocker_drops_04_5442F26D.wem</Path>
+				</File>
 				<File Id="362888295" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_sneakers_concrete_run20.wav</ShortName>
 					<Path>SFX\Characters\Footsteps\sfx_footsteps_sneakers_concrete_run20_5442F26D.wem</Path>
@@ -14954,10 +14953,6 @@
 				<File Id="363288451" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_boots_dirt_shuffle2.wav</ShortName>
 					<Path>SFX\Characters\Footsteps\sfx_footsteps_boots_dirt_shuffle2_5442F26D.wem</Path>
-				</File>
-				<File Id="363809353" Language="SFX">
-					<ShortName>Ambience\Tiles\am_meatlocker_drops_08.wav</ShortName>
-					<Path>SFX\Ambience\Tiles\am_meatlocker_drops_08_C85D148F.wem</Path>
 				</File>
 				<File Id="363967237" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_barefoot_wood_run_06.wav</ShortName>
@@ -15038,10 +15033,6 @@
 				<File Id="373385555" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_boots_metal_shuffle5.wav</ShortName>
 					<Path>SFX\Characters\Footsteps\sfx_footsteps_boots_metal_shuffle5_5442F26D.wem</Path>
-				</File>
-				<File Id="373574334" Language="SFX">
-					<ShortName>Ambience\Tiles\am_meatlocker_drops_15.wav</ShortName>
-					<Path>SFX\Ambience\Tiles\am_meatlocker_drops_15_C85D148F.wem</Path>
 				</File>
 				<File Id="373742018" Language="SFX">
 					<ShortName>Ambience\Tiles\sfx_storehouse_creak_04.wav</ShortName>
@@ -15146,10 +15137,6 @@
 				<File Id="391149926" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_lumberpile_creaks_horror_02.wav</ShortName>
 					<Path>SFX\Ambience\Emitters\sfx_lumberpile_creaks_horror_02_C85D148F.wem</Path>
-				</File>
-				<File Id="391747594" Language="SFX">
-					<ShortName>Ambience\Tiles\am_meatlocker_drops_02.wav</ShortName>
-					<Path>SFX\Ambience\Tiles\am_meatlocker_drops_02_C85D148F.wem</Path>
 				</File>
 				<File Id="391844182" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_barefoot_metal_run_09.wav</ShortName>
@@ -15362,10 +15349,6 @@
 				<File Id="429135109" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_boots_concrete_walk11.wav</ShortName>
 					<Path>SFX\Characters\Footsteps\sfx_footsteps_boots_concrete_walk11_5442F26D.wem</Path>
-				</File>
-				<File Id="429325255" Language="SFX">
-					<ShortName>Ambience\Tiles\am_meatlocker_drops_07.wav</ShortName>
-					<Path>SFX\Ambience\Tiles\am_meatlocker_drops_07_C85D148F.wem</Path>
 				</File>
 				<File Id="432337940" Language="SFX">
 					<ShortName>Characters\Body\sfx_body_rush_hit_wood_04.wav</ShortName>
@@ -15599,6 +15582,10 @@
 					<ShortName>Characters\Footsteps\sfx_footsteps_mud_walk_15.wav</ShortName>
 					<Path>SFX\Characters\Footsteps\sfx_footsteps_mud_walk_15_5442F26D.wem</Path>
 				</File>
+				<File Id="466133394" Language="SFX">
+					<ShortName>Ambience\Tiles\am_meatlocker_drops_07.wav</ShortName>
+					<Path>SFX\Ambience\Tiles\am_meatlocker_drops_07_5442F26D.wem</Path>
+				</File>
 				<File Id="466631684" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_boots_dirt_run20.wav</ShortName>
 					<Path>SFX\Characters\Footsteps\sfx_footsteps_boots_dirt_run20_5442F26D.wem</Path>
@@ -15731,6 +15718,10 @@
 					<ShortName>Characters\Footsteps\sfx_footsteps_barefoot_metal_shuffle_04.wav</ShortName>
 					<Path>SFX\Characters\Footsteps\sfx_footsteps_barefoot_metal_shuffle_04_5442F26D.wem</Path>
 				</File>
+				<File Id="487991787" Language="SFX">
+					<ShortName>Ambience\Tiles\am_meatlocker_drops_15.wav</ShortName>
+					<Path>SFX\Ambience\Tiles\am_meatlocker_drops_15_5442F26D.wem</Path>
+				</File>
 				<File Id="488512651" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_boots_dirt_run10.wav</ShortName>
 					<Path>SFX\Characters\Footsteps\sfx_footsteps_boots_dirt_run10_5442F26D.wem</Path>
@@ -15742,6 +15733,10 @@
 				<File Id="489064839" Language="SFX">
 					<ShortName>Music\mu_proximity_theme_02_layer_02.wav</ShortName>
 					<Path>SFX\Music\mu_proximity_theme_02_layer_02_D78E037D.wem</Path>
+				</File>
+				<File Id="489441580" Language="SFX">
+					<ShortName>Ambience\Tiles\am_meatlocker_drops_13.wav</ShortName>
+					<Path>SFX\Ambience\Tiles\am_meatlocker_drops_13_5442F26D.wem</Path>
 				</File>
 				<File Id="490026285" Language="SFX">
 					<ShortName>Objects\Windows\sfx_windows_bloc_stop_02.wav</ShortName>
@@ -16015,6 +16010,10 @@
 					<ShortName>Characters\Footsteps\sfx_footsteps_boots_gravel_walk06.wav</ShortName>
 					<Path>SFX\Characters\Footsteps\sfx_footsteps_boots_gravel_walk06_5442F26D.wem</Path>
 				</File>
+				<File Id="534681782" Language="SFX">
+					<ShortName>Ambience\Tiles\am_meatlocker_drops_12.wav</ShortName>
+					<Path>SFX\Ambience\Tiles\am_meatlocker_drops_12_5442F26D.wem</Path>
+				</File>
 				<File Id="534769802" Language="SFX">
 					<ShortName>Music\mu_proximity_theme_05_layer_01.wav</ShortName>
 					<Path>SFX\Music\mu_proximity_theme_05_layer_01_D78E037D.wem</Path>
@@ -16098,6 +16097,10 @@
 				<File Id="546375455" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_sneakers_gravel_walk19.wav</ShortName>
 					<Path>SFX\Characters\Footsteps\sfx_footsteps_sneakers_gravel_walk19_5442F26D.wem</Path>
+				</File>
+				<File Id="546688008" Language="SFX">
+					<ShortName>Ambience\Tiles\am_meatlocker_drops_02.wav</ShortName>
+					<Path>SFX\Ambience\Tiles\am_meatlocker_drops_02_5442F26D.wem</Path>
 				</File>
 				<File Id="547742901" Language="SFX">
 					<ShortName>Ambience\Tiles\am_meatlocker_scream_09.wav</ShortName>
@@ -16346,10 +16349,6 @@
 				<File Id="586057630" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_sneakers_dirt_walk13.wav</ShortName>
 					<Path>SFX\Characters\Footsteps\sfx_footsteps_sneakers_dirt_walk13_5442F26D.wem</Path>
-				</File>
-				<File Id="586811989" Language="SFX">
-					<ShortName>Ambience\Tiles\am_meatlocker_drops_04.wav</ShortName>
-					<Path>SFX\Ambience\Tiles\am_meatlocker_drops_04_C85D148F.wem</Path>
 				</File>
 				<File Id="586930219" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_barefoot_concrete_walk_03.wav</ShortName>
@@ -17175,6 +17174,10 @@
 					<ShortName>Characters\Body\sfx_body_rush_hit_wood_02.wav</ShortName>
 					<Path>SFX\Characters\Body\sfx_body_rush_hit_wood_02_5442F26D.wem</Path>
 				</File>
+				<File Id="744416384" Language="SFX">
+					<ShortName>Ambience\Tiles\am_meatlocker_drops_01.wav</ShortName>
+					<Path>SFX\Ambience\Tiles\am_meatlocker_drops_01_5442F26D.wem</Path>
+				</File>
 				<File Id="744469033" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_garage_creak_02.wav</ShortName>
 					<Path>SFX\Ambience\Emitters\sfx_garage_creak_02_C85D148F.wem</Path>
@@ -17487,10 +17490,6 @@
 					<ShortName>Characters\Footsteps\sfx_footsteps_barefoot_metal_land_05.wav</ShortName>
 					<Path>SFX\Characters\Footsteps\sfx_footsteps_barefoot_metal_land_05_5442F26D.wem</Path>
 				</File>
-				<File Id="797266082" Language="SFX">
-					<ShortName>Ambience\Tiles\am_meatlocker_drops_13.wav</ShortName>
-					<Path>SFX\Ambience\Tiles\am_meatlocker_drops_13_5442F26D.wem</Path>
-				</File>
 				<File Id="800965802" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_drivewaysignal_ring_01.wav</ShortName>
 					<Path>SFX\Ambience\Emitters\sfx_drivewaysignal_ring_01_C85D148F.wem</Path>
@@ -17638,10 +17637,6 @@
 				<File Id="829021170" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_water_land_02.wav</ShortName>
 					<Path>SFX\Characters\Footsteps\sfx_footsteps_water_land_02_5442F26D.wem</Path>
-				</File>
-				<File Id="829098061" Language="SFX">
-					<ShortName>Ambience\Tiles\am_meatlocker_drops_01.wav</ShortName>
-					<Path>SFX\Ambience\Tiles\am_meatlocker_drops_01_C85D148F.wem</Path>
 				</File>
 				<File Id="829610666" Language="SFX">
 					<ShortName>Ambience\Tiles\am_meatlocker_scream_06.wav</ShortName>
@@ -17906,10 +17901,6 @@
 				<File Id="882855659" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_boots_wood_walk12.wav</ShortName>
 					<Path>SFX\Characters\Footsteps\sfx_footsteps_boots_wood_walk12_5442F26D.wem</Path>
-				</File>
-				<File Id="884101944" Language="SFX">
-					<ShortName>Ambience\Tiles\am_meatlocker_drops_11.wav</ShortName>
-					<Path>SFX\Ambience\Tiles\am_meatlocker_drops_11_C85D148F.wem</Path>
 				</File>
 				<File Id="884846318" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_hospital_tv_screams_03.wav</ShortName>
@@ -18526,10 +18517,6 @@
 				<File Id="1021442650" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_character_footstep_tallgrass_04.wav</ShortName>
 					<Path>SFX\Characters\Footsteps\sfx_character_footstep_tallgrass_04_5442F26D.wem</Path>
-				</File>
-				<File Id="1021622407" Language="SFX">
-					<ShortName>Ambience\Tiles\am_meatlocker_drops_13.wav</ShortName>
-					<Path>SFX\Ambience\Tiles\am_meatlocker_drops_13_C85D148F.wem</Path>
 				</File>
 				<File Id="1023167604" Language="SFX">
 					<ShortName>Characters\Slasher\Footsteps\Boots\Mud\Foot_Mud_Land05.wav</ShortName>
@@ -53388,6 +53375,10 @@
 					<ShortName>UI\sfx_ui_bloodweb_reward_popup_01.wav</ShortName>
 					<Path>SFX\UI\sfx_ui_bloodweb_reward_popup_01_5442F26D.wem</Path>
 				</File>
+				<File Id="685646382" Language="SFX">
+					<ShortName>UI\sfx_ui_bloodweb_player_lign_outofpoints_02.wav</ShortName>
+					<Path>SFX\UI\sfx_ui_bloodweb_player_lign_outofpoints_02_5442F26D.wem</Path>
+				</File>
 				<File Id="687415081" Language="SFX">
 					<ShortName>Objects\TheEntity\sfx_theentity_ui_scream_09.wav</ShortName>
 					<Path>SFX\Objects\TheEntity\sfx_theentity_ui_scream_09_5442F26D.wem</Path>
@@ -53459,6 +53450,10 @@
 				<File Id="741888206" Language="SFX">
 					<ShortName>UI\sfx_ui_bloodweb_unlock_popup_01.wav</ShortName>
 					<Path>SFX\UI\sfx_ui_bloodweb_unlock_popup_01_5442F26D.wem</Path>
+				</File>
+				<File Id="742029337" Language="SFX">
+					<ShortName>UI\sfx_ui_bloodweb_player_lign_outofpoints_03.wav</ShortName>
+					<Path>SFX\UI\sfx_ui_bloodweb_player_lign_outofpoints_03_5442F26D.wem</Path>
 				</File>
 				<File Id="747448316" Language="SFX">
 					<ShortName>UI\sfx_ui_bloodweb_reward_02.wav</ShortName>
