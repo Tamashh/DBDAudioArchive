@@ -3,7 +3,7 @@
 	<RootPaths>
 		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Wwise\</ProjectRoot>
 		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Wwise\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\fpoirier_dbd_finland\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<SoundBanksRoot>Z:\fpoirier_dbd_onboarding_art\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
 		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Wwise\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
@@ -91,7 +91,7 @@
 		</File>
 		<File Id="171689495" Language="SFX">
 			<ShortName>Ambience\Emitters\sfx_freezer_01.wav</ShortName>
-			<Path>SFX\Ambience\Emitters\sfx_freezer_01_57FEB5FB.wem</Path>
+			<Path>SFX\Ambience\Emitters\sfx_freezer_01_D78E037D.wem</Path>
 		</File>
 		<File Id="171855504" Language="SFX">
 			<ShortName>Ambience\Tiles\am_shack_02.wav</ShortName>
@@ -173,6 +173,10 @@
 			<ShortName>Ambience\Tiles\am_silo_02.wav</ShortName>
 			<Path>SFX\Ambience\Tiles\am_silo_02_D78E037D.wem</Path>
 		</File>
+		<File Id="353010712" Language="SFX">
+			<ShortName>Ambience\Menus\am_lobby_lunar_01.wav</ShortName>
+			<Path>SFX\Ambience\Menus\am_lobby_lunar_01_D78E037D.wem</Path>
+		</File>
 		<File Id="357265783" Language="SFX">
 			<ShortName>Ambience\Themes\am_boreal_01.wav</ShortName>
 			<Path>SFX\Ambience\Themes\am_boreal_01_D78E037D.wem</Path>
@@ -253,6 +257,10 @@
 			<ShortName>Ambience\Tiles\am_landmark_01.wav</ShortName>
 			<Path>SFX\Ambience\Tiles\am_landmark_01_D78E037D.wem</Path>
 		</File>
+		<File Id="561649423" Language="SFX">
+			<ShortName>Ambience\Emitters\am_asylum_burning_01.wav</ShortName>
+			<Path>SFX\Ambience\Emitters\am_asylum_burning_01_D78E037D.wem</Path>
+		</File>
 		<File Id="586720285" Language="SFX">
 			<ShortName>Ambience\Themes\am_swamp_02.wav</ShortName>
 			<Path>SFX\Ambience\Themes\am_swamp_02_D78E037D.wem</Path>
@@ -312,6 +320,10 @@
 		<File Id="755121140" Language="SFX">
 			<ShortName>Ambience\Tiles\am_storehouse_01.wav</ShortName>
 			<Path>SFX\Ambience\Tiles\am_storehouse_01_D78E037D.wem</Path>
+		</File>
+		<File Id="755385828" Language="SFX">
+			<ShortName>Ambience\Tiles\am_valroom_01.wav</ShortName>
+			<Path>SFX\Ambience\Tiles\am_valroom_01_D78E037D.wem</Path>
 		</File>
 		<File Id="763004204" Language="SFX">
 			<ShortName>Ambience\Tiles\am_hospital_room_02.wav</ShortName>
@@ -611,6 +623,7 @@
 				<Event Id="170575109" Name="AudioEvent_Generator_Break" ObjectPath="\Events\Default Work Unit\Objects\Generator\AudioEvent_Generator_Break"/>
 				<Event Id="1449096343" Name="AudioEvent_Generator_Explode" ObjectPath="\Events\Default Work Unit\Objects\Generator\AudioEvent_Generator_Explode"/>
 				<Event Id="894687673" Name="AudioEvent_Generator_Light_Flicker" ObjectPath="\Events\Default Work Unit\Objects\Generator\AudioEvent_Generator_Light_Flicker"/>
+				<Event Id="3492530440" Name="AudioEvent_Generator_LunarEvent" ObjectPath="\Events\Default Work Unit\Objects\Generator\AudioEvent_Generator_LunarEvent"/>
 				<Event Id="3821365308" Name="AudioEvent_Generator_Piston_Seq1" ObjectPath="\Events\Default Work Unit\Objects\Generator\AudioEvent_Generator_Piston_Seq1"/>
 				<Event Id="3716744997" Name="AudioEvent_Generator_Piston_Seq1_Loop" ObjectPath="\Events\Default Work Unit\Objects\Generator\AudioEvent_Generator_Piston_Seq1_Loop"/>
 				<Event Id="3821365311" Name="AudioEvent_Generator_Piston_Seq2" ObjectPath="\Events\Default Work Unit\Objects\Generator\AudioEvent_Generator_Piston_Seq2"/>
@@ -918,6 +931,32 @@
 					<Path>SFX\Objects\Generator\sfx_generator_spark_short_02_5442F26D.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
+			<ExcludedMemoryFiles>
+				<File Id="334992437" Language="SFX">
+					<ShortName>Objects\Generator\sfx_generator_firecracker_burn_02.wav</ShortName>
+					<Path>SFX\Objects\Generator\sfx_generator_firecracker_burn_02_5442F26D.wem</Path>
+				</File>
+				<File Id="495409650" Language="SFX">
+					<ShortName>Objects\Generator\sfx_generator_fireworks_lunarevent_01.wav</ShortName>
+					<Path>SFX\Objects\Generator\sfx_generator_fireworks_lunarevent_01_5442F26D.wem</Path>
+				</File>
+				<File Id="598876698" Language="SFX">
+					<ShortName>Objects\Generator\sfx_generator_lunarevent_burst_01.wav</ShortName>
+					<Path>SFX\Objects\Generator\sfx_generator_lunarevent_burst_01_5442F26D.wem</Path>
+				</File>
+				<File Id="829312990" Language="SFX">
+					<ShortName>Objects\Generator\sfx_generator_firecracker_burn_01.wav</ShortName>
+					<Path>SFX\Objects\Generator\sfx_generator_firecracker_burn_01_5442F26D.wem</Path>
+				</File>
+				<File Id="872832977" Language="SFX">
+					<ShortName>Objects\Generator\sfx_generator_fireworks_lunarevent_02.wav</ShortName>
+					<Path>SFX\Objects\Generator\sfx_generator_fireworks_lunarevent_02_5442F26D.wem</Path>
+				</File>
+				<File Id="881856244" Language="SFX">
+					<ShortName>Objects\Generator\sfx_generator_firecracker_burn_03.wav</ShortName>
+					<Path>SFX\Objects\Generator\sfx_generator_firecracker_burn_03_5442F26D.wem</Path>
+				</File>
+			</ExcludedMemoryFiles>
 		</SoundBank>
 		<SoundBank Id="442447909" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\Objects\Barrel</ObjectPath>
@@ -1149,6 +1188,10 @@
 				<File Id="921597663"/>
 			</ReferencedStreamedFiles>
 			<IncludedMemoryFiles>
+				<File Id="9996754" Language="SFX">
+					<ShortName>Impacts\Weapon_Impact_Body_Heavy\Weapon_Impact_Body_Heavy_03.wav</ShortName>
+					<Path>SFX\Impacts\Weapon_Impact_Body_Heavy\Weapon_Impact_Body_Heavy_03_5442F26D.wem</Path>
+				</File>
 				<File Id="12491314" Language="SFX">
 					<ShortName>Weapons\MacheteSkull\sfx_impact_macheteskull_bones_11.wav</ShortName>
 					<Path>SFX\Weapons\MacheteSkull\sfx_impact_macheteskull_bones_11_5442F26D.wem</Path>
@@ -1201,6 +1244,10 @@
 					<ShortName>Impacts\sfx_weapon_impact_wood_add_03.wav</ShortName>
 					<Path>SFX\Impacts\sfx_weapon_impact_wood_add_03_5442F26D.wem</Path>
 				</File>
+				<File Id="96164940" Language="SFX">
+					<ShortName>Impacts\Weapon_Impact_Body_Cut_Spank\Weapon_Impact_Body_Cut_Spank_04.wav</ShortName>
+					<Path>SFX\Impacts\Weapon_Impact_Body_Cut_Spank\Weapon_Impact_Body_Cut_Spank_04_5442F26D.wem</Path>
+				</File>
 				<File Id="106943639" Language="SFX">
 					<ShortName>Characters\Killers\Actions\sfx_killer_lick_blood_02.wav</ShortName>
 					<Path>SFX\Characters\Killers\Actions\sfx_killer_lick_blood_02_5442F26D.wem</Path>
@@ -1208,6 +1255,10 @@
 				<File Id="117737842" Language="SFX">
 					<ShortName>Impacts\sfx_impact_body_blade_03.wav</ShortName>
 					<Path>SFX\Impacts\sfx_impact_body_blade_03_5442F26D.wem</Path>
+				</File>
+				<File Id="135659581" Language="SFX">
+					<ShortName>Impacts\Weapon_Impact_Body_Heavy\Weapon_Impact_Body_Heavy_04.wav</ShortName>
+					<Path>SFX\Impacts\Weapon_Impact_Body_Heavy\Weapon_Impact_Body_Heavy_04_5442F26D.wem</Path>
 				</File>
 				<File Id="137665210" Language="SFX">
 					<ShortName>Impacts\sfx_weapon_impact_rock_03.wav</ShortName>
@@ -1220,6 +1271,10 @@
 				<File Id="141001934" Language="SFX">
 					<ShortName>Impacts\sfx_impact_body_slice_03.wav</ShortName>
 					<Path>SFX\Impacts\sfx_impact_body_slice_03_5442F26D.wem</Path>
+				</File>
+				<File Id="147363466" Language="SFX">
+					<ShortName>Impacts\Weapon_Impact_Body_Heavy\Weapon_Impact_Body_Heavy_07.wav</ShortName>
+					<Path>SFX\Impacts\Weapon_Impact_Body_Heavy\Weapon_Impact_Body_Heavy_07_5442F26D.wem</Path>
 				</File>
 				<File Id="147529302" Language="SFX">
 					<ShortName>Impacts\sfx_impact_body_blade_04.wav</ShortName>
@@ -1417,6 +1472,10 @@
 					<ShortName>Impacts\sfx_weapon_impact_dirt_sand_02.wav</ShortName>
 					<Path>SFX\Impacts\sfx_weapon_impact_dirt_sand_02_5442F26D.wem</Path>
 				</File>
+				<File Id="432462664" Language="SFX">
+					<ShortName>Impacts\Weapon_Impact_Body_Heavy\Weapon_Impact_Body_Heavy_01.wav</ShortName>
+					<Path>SFX\Impacts\Weapon_Impact_Body_Heavy\Weapon_Impact_Body_Heavy_01_5442F26D.wem</Path>
+				</File>
 				<File Id="445104777" Language="SFX">
 					<ShortName>Impacts\sfx_weapon_impact_metal_soft_hit_03.wav</ShortName>
 					<Path>SFX\Impacts\sfx_weapon_impact_metal_soft_hit_03_5442F26D.wem</Path>
@@ -1501,6 +1560,10 @@
 					<ShortName>Impacts\sfx_weapon_impact_wood_crack_08.wav</ShortName>
 					<Path>SFX\Impacts\sfx_weapon_impact_wood_crack_08_5442F26D.wem</Path>
 				</File>
+				<File Id="558667636" Language="SFX">
+					<ShortName>Impacts\Weapon_Impact_Body_Cut_Spank\Weapon_Impact_Body_Cut_Spank_03.wav</ShortName>
+					<Path>SFX\Impacts\Weapon_Impact_Body_Cut_Spank\Weapon_Impact_Body_Cut_Spank_03_5442F26D.wem</Path>
+				</File>
 				<File Id="563197974" Language="SFX">
 					<ShortName>Impacts\sfx_weapon_impact_wood_hit_01.wav</ShortName>
 					<Path>SFX\Impacts\sfx_weapon_impact_wood_hit_01_5442F26D.wem</Path>
@@ -1520,6 +1583,10 @@
 				<File Id="574123461" Language="SFX">
 					<ShortName>Impacts\sfx_weapon_impact_rock_debris_04.wav</ShortName>
 					<Path>SFX\Impacts\sfx_weapon_impact_rock_debris_04_5442F26D.wem</Path>
+				</File>
+				<File Id="574394600" Language="SFX">
+					<ShortName>Impacts\Weapon_Impact_Body_Heavy\Weapon_Impact_Body_Heavy_05.wav</ShortName>
+					<Path>SFX\Impacts\Weapon_Impact_Body_Heavy\Weapon_Impact_Body_Heavy_05_5442F26D.wem</Path>
 				</File>
 				<File Id="577927654" Language="SFX">
 					<ShortName>Impacts\sfx_impact_pull_out_slice_03.wav</ShortName>
@@ -1585,6 +1652,10 @@
 					<ShortName>Characters\Killers\Actions\sfx_killer_grab_01.wav</ShortName>
 					<Path>SFX\Characters\Killers\Actions\sfx_killer_grab_01_5442F26D.wem</Path>
 				</File>
+				<File Id="653025239" Language="SFX">
+					<ShortName>Impacts\Weapon_Impact_Body_Heavy\Weapon_Impact_Body_Heavy_02.wav</ShortName>
+					<Path>SFX\Impacts\Weapon_Impact_Body_Heavy\Weapon_Impact_Body_Heavy_02_5442F26D.wem</Path>
+				</File>
 				<File Id="653596973" Language="SFX">
 					<ShortName>Impacts\sfx_impact_body_hit_03.wav</ShortName>
 					<Path>SFX\Impacts\sfx_impact_body_hit_03_5442F26D.wem</Path>
@@ -1620,6 +1691,10 @@
 				<File Id="678559157" Language="SFX">
 					<ShortName>Impacts\sfx_impact_pull_out_slice_01.wav</ShortName>
 					<Path>SFX\Impacts\sfx_impact_pull_out_slice_01_5442F26D.wem</Path>
+				</File>
+				<File Id="683240817" Language="SFX">
+					<ShortName>Impacts\Weapon_Impact_Body_Heavy\Weapon_Impact_Body_Heavy_08.wav</ShortName>
+					<Path>SFX\Impacts\Weapon_Impact_Body_Heavy\Weapon_Impact_Body_Heavy_08_5442F26D.wem</Path>
 				</File>
 				<File Id="684010135" Language="SFX">
 					<ShortName>Impacts\sfx_impact_body_slice_05.wav</ShortName>
@@ -1668,6 +1743,10 @@
 				<File Id="725489715" Language="SFX">
 					<ShortName>Weapons\MacheteSkull\sfx_impact_macheteskull_bones_01.wav</ShortName>
 					<Path>SFX\Weapons\MacheteSkull\sfx_impact_macheteskull_bones_01_5442F26D.wem</Path>
+				</File>
+				<File Id="736687581" Language="SFX">
+					<ShortName>Impacts\Weapon_Impact_Body_Cut_Spank\Weapon_Impact_Body_Cut_Spank_01.wav</ShortName>
+					<Path>SFX\Impacts\Weapon_Impact_Body_Cut_Spank\Weapon_Impact_Body_Cut_Spank_01_5442F26D.wem</Path>
 				</File>
 				<File Id="736844390" Language="SFX">
 					<ShortName>Impacts\sfx_weapon_impact_chainlinkfence_02.wav</ShortName>
@@ -1773,6 +1852,10 @@
 					<ShortName>Impacts\sfx_weapon_impact_rock_debris_01.wav</ShortName>
 					<Path>SFX\Impacts\sfx_weapon_impact_rock_debris_01_5442F26D.wem</Path>
 				</File>
+				<File Id="865561889" Language="SFX">
+					<ShortName>Impacts\Weapon_Impact_Body_Cut_Spank\Weapon_Impact_Body_Cut_Spank_02.wav</ShortName>
+					<Path>SFX\Impacts\Weapon_Impact_Body_Cut_Spank\Weapon_Impact_Body_Cut_Spank_02_5442F26D.wem</Path>
+				</File>
 				<File Id="867930059" Language="SFX">
 					<ShortName>Weapons\MacheteSkull\sfx_impact_macheteskull_bones_17.wav</ShortName>
 					<Path>SFX\Weapons\MacheteSkull\sfx_impact_macheteskull_bones_17_5442F26D.wem</Path>
@@ -1821,6 +1904,10 @@
 					<ShortName>Impacts\sfx_weapon_impact_plastic_add_06.wav</ShortName>
 					<Path>SFX\Impacts\sfx_weapon_impact_plastic_add_06_5442F26D.wem</Path>
 				</File>
+				<File Id="928607924" Language="SFX">
+					<ShortName>Impacts\Weapon_Impact_Body_Cut_Spank\Weapon_Impact_Body_Cut_Spank_05.wav</ShortName>
+					<Path>SFX\Impacts\Weapon_Impact_Body_Cut_Spank\Weapon_Impact_Body_Cut_Spank_05_5442F26D.wem</Path>
+				</File>
 				<File Id="944864088" Language="SFX">
 					<ShortName>Impacts\sfx_weapon_impact_glass_01.wav</ShortName>
 					<Path>SFX\Impacts\sfx_weapon_impact_glass_01_5442F26D.wem</Path>
@@ -1868,6 +1955,10 @@
 				<File Id="967116709" Language="SFX">
 					<ShortName>Impacts\sfx_weapon_macheteskull_impact_hit_03.wav</ShortName>
 					<Path>SFX\Impacts\sfx_weapon_macheteskull_impact_hit_03_5442F26D.wem</Path>
+				</File>
+				<File Id="971322556" Language="SFX">
+					<ShortName>Impacts\Weapon_Impact_Body_Heavy\Weapon_Impact_Body_Heavy_06.wav</ShortName>
+					<Path>SFX\Impacts\Weapon_Impact_Body_Heavy\Weapon_Impact_Body_Heavy_06_5442F26D.wem</Path>
 				</File>
 				<File Id="973813730" Language="SFX">
 					<ShortName>Impacts\sfx_impact_body_flesh_04.wav</ShortName>
@@ -2443,6 +2534,10 @@
 					<ShortName>Characters\Footsteps\sfx_footsteps_sneakers_wood_walk01.wav</ShortName>
 					<Path>SFX\Characters\Footsteps\sfx_footsteps_sneakers_wood_walk01_5442F26D.wem</Path>
 				</File>
+				<File Id="87713694" Language="SFX">
+					<ShortName>Weapons\BoneSaw\BoneSaw_Foley_Blood_cn.wav</ShortName>
+					<Path>SFX\Weapons\BoneSaw\BoneSaw_Foley_Blood_cn_5442F26D.wem</Path>
+				</File>
 				<File Id="88181378" Language="SFX">
 					<ShortName>Characters\Killers\VO\sfx_killer_chuckles_normal_breath_08.wav</ShortName>
 					<Path>SFX\Characters\Killers\VO\sfx_killer_chuckles_normal_breath_08_5442F26D.wem</Path>
@@ -2742,6 +2837,10 @@
 				<File Id="138612173" Language="SFX">
 					<ShortName>Characters\Witch\vo_killer_witch_eat_scream_05.wav</ShortName>
 					<Path>SFX\Characters\Witch\vo_killer_witch_eat_scream_05_5442F26D.wem</Path>
+				</File>
+				<File Id="142417089" Language="SFX">
+					<ShortName>Weapons\SledgeHammer\SledgeHammer_Clean_Foley_cn_02.wav</ShortName>
+					<Path>SFX\Weapons\SledgeHammer\SledgeHammer_Clean_Foley_cn_02_5442F26D.wem</Path>
 				</File>
 				<File Id="142497272" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_sneakers_carpet_run15.wav</ShortName>
@@ -3310,6 +3409,10 @@
 				<File Id="235055277" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_boots_gravel_run22.wav</ShortName>
 					<Path>SFX\Characters\Footsteps\sfx_footsteps_boots_gravel_run22_5442F26D.wem</Path>
+				</File>
+				<File Id="235130849" Language="SFX">
+					<ShortName>Weapons\SledgeHammer\SledgeHammer_Clean_Foley_cn_01.wav</ShortName>
+					<Path>SFX\Weapons\SledgeHammer\SledgeHammer_Clean_Foley_cn_01_5442F26D.wem</Path>
 				</File>
 				<File Id="235438075" Language="SFX">
 					<ShortName>Characters\Killer_Cannibal\vo_killer_cannibal_grunt_hurt_07.wav</ShortName>
@@ -5811,6 +5914,10 @@
 					<ShortName>Characters\Footsteps\sfx_footsteps_boots_dirt_run13.wav</ShortName>
 					<Path>SFX\Characters\Footsteps\sfx_footsteps_boots_dirt_run13_5442F26D.wem</Path>
 				</File>
+				<File Id="619016236" Language="SFX">
+					<ShortName>Weapons\Machete\Machete_Clean_Foley_cn.wav</ShortName>
+					<Path>SFX\Weapons\Machete\Machete_Clean_Foley_cn_5442F26D.wem</Path>
+				</File>
 				<File Id="619053839" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_boots_concrete_walk27.wav</ShortName>
 					<Path>SFX\Characters\Footsteps\sfx_footsteps_boots_concrete_walk27_5442F26D.wem</Path>
@@ -6346,6 +6453,10 @@
 				<File Id="725138476" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_sneakers_dirt_run09.wav</ShortName>
 					<Path>SFX\Characters\Footsteps\sfx_footsteps_sneakers_dirt_run09_5442F26D.wem</Path>
+				</File>
+				<File Id="725419782" Language="SFX">
+					<ShortName>Weapons\Axe\Axe_Clean_Foley_cn.wav</ShortName>
+					<Path>SFX\Weapons\Axe\Axe_Clean_Foley_cn_5442F26D.wem</Path>
 				</File>
 				<File Id="726101381" Language="SFX">
 					<ShortName>Characters\Witch\sfx_killer_witch_eat_03.wav</ShortName>
@@ -9320,6 +9431,10 @@
 					<ShortName>Objects\Blood\sfx_blood_hook_out_02.wav</ShortName>
 					<Path>SFX\Objects\Blood\sfx_blood_hook_out_02_5442F26D.wem</Path>
 				</File>
+				<File Id="478165041" Language="SFX">
+					<ShortName>Stingers\sfx_stinger_07.wav</ShortName>
+					<Path>SFX\Stingers\sfx_stinger_07_5442F26D.wem</Path>
+				</File>
 				<File Id="738619646" Language="SFX">
 					<ShortName>Objects\Blood\sfx_blood_spray_03.wav</ShortName>
 					<Path>SFX\Objects\Blood\sfx_blood_spray_03_5442F26D.wem</Path>
@@ -10184,6 +10299,10 @@
 				<File Id="608129302" Language="SFX">
 					<ShortName>Powers\BearTrap\sfx_beartrap_close_04.wav</ShortName>
 					<Path>SFX\Powers\BearTrap\sfx_beartrap_close_04_5442F26D.wem</Path>
+				</File>
+				<File Id="619016236" Language="SFX">
+					<ShortName>Weapons\Machete\Machete_Clean_Foley_cn.wav</ShortName>
+					<Path>SFX\Weapons\Machete\Machete_Clean_Foley_cn_5442F26D.wem</Path>
 				</File>
 				<File Id="630323030" Language="SFX">
 					<ShortName>Weapons\Machete\sfx_machete_attack_add_01.wav</ShortName>
@@ -11320,6 +11439,10 @@
 					<ShortName>Characters\Killer_Nurse\vo_killer_nurse_teleport_appear_07.wav</ShortName>
 					<Path>SFX\Characters\Killer_Nurse\vo_killer_nurse_teleport_appear_07_5442F26D.wem</Path>
 				</File>
+				<File Id="87713694" Language="SFX">
+					<ShortName>Weapons\BoneSaw\BoneSaw_Foley_Blood_cn.wav</ShortName>
+					<Path>SFX\Weapons\BoneSaw\BoneSaw_Foley_Blood_cn_5442F26D.wem</Path>
+				</File>
 				<File Id="101235081" Language="SFX">
 					<ShortName>Powers\Blink\sfx_blink_disappear_smoke_05.wav</ShortName>
 					<Path>SFX\Powers\Blink\sfx_blink_disappear_smoke_05_5442F26D.wem</Path>
@@ -11635,6 +11758,10 @@
 					<ShortName>Powers\Chainsaw_Cannibal\sfx_chainsaw_cannibal_hit_wall_01.wav</ShortName>
 					<Path>SFX\Powers\Chainsaw_Cannibal\sfx_chainsaw_cannibal_hit_wall_01_5442F26D.wem</Path>
 				</File>
+				<File Id="142417089" Language="SFX">
+					<ShortName>Weapons\SledgeHammer\SledgeHammer_Clean_Foley_cn_02.wav</ShortName>
+					<Path>SFX\Weapons\SledgeHammer\SledgeHammer_Clean_Foley_cn_02_5442F26D.wem</Path>
+				</File>
 				<File Id="157712135" Language="SFX">
 					<ShortName>Powers\Chainsaw_Cannibal\sfx_chainsaw_cannibal_rev_05.wav</ShortName>
 					<Path>SFX\Powers\Chainsaw_Cannibal\sfx_chainsaw_cannibal_rev_05_5442F26D.wem</Path>
@@ -11650,6 +11777,10 @@
 				<File Id="233688877" Language="SFX">
 					<ShortName>Powers\Chainsaw_Cannibal\sfx_chainsaw_cannibal_rev_09.wav</ShortName>
 					<Path>SFX\Powers\Chainsaw_Cannibal\sfx_chainsaw_cannibal_rev_09_5442F26D.wem</Path>
+				</File>
+				<File Id="235130849" Language="SFX">
+					<ShortName>Weapons\SledgeHammer\SledgeHammer_Clean_Foley_cn_01.wav</ShortName>
+					<Path>SFX\Weapons\SledgeHammer\SledgeHammer_Clean_Foley_cn_01_5442F26D.wem</Path>
 				</File>
 				<File Id="235438075" Language="SFX">
 					<ShortName>Characters\Killer_Cannibal\vo_killer_cannibal_grunt_hurt_07.wav</ShortName>
@@ -12193,6 +12324,10 @@
 					<ShortName>Characters\Killer_Huntress\vo_killer_huntress_hurt_014.wav</ShortName>
 					<Path>SFX\Characters\Killer_Huntress\vo_killer_huntress_hurt_014_5442F26D.wem</Path>
 				</File>
+				<File Id="725419782" Language="SFX">
+					<ShortName>Weapons\Axe\Axe_Clean_Foley_cn.wav</ShortName>
+					<Path>SFX\Weapons\Axe\Axe_Clean_Foley_cn_5442F26D.wem</Path>
+				</File>
 				<File Id="726728836" Language="SFX">
 					<ShortName>Powers\Hatchet\sfx_hatchet_charge_cue_03.wav</ShortName>
 					<Path>SFX\Powers\Hatchet\sfx_hatchet_charge_cue_03_5442F26D.wem</Path>
@@ -12332,6 +12467,7 @@
 				<Event Id="1299154124" Name="AudioEvent_Am_BadHouse_Basement" ObjectPath="\Events\Default Work Unit\Ambience\Tiles\AudioEvent_Am_BadHouse_Basement"/>
 				<Event Id="994336920" Name="AudioEvent_Am_Basement" ObjectPath="\Events\Default Work Unit\Ambience\Tiles\AudioEvent_Am_Basement"/>
 				<Event Id="3242956229" Name="AudioEvent_Am_Basement_Stairs" ObjectPath="\Events\Default Work Unit\Ambience\Tiles\AudioEvent_Am_Basement_Stairs"/>
+				<Event Id="796314095" Name="AudioEvent_Am_Bus" ObjectPath="\Events\Default Work Unit\Ambience\Tiles\AudioEvent_Am_Bus"/>
 				<Event Id="3918571897" Name="AudioEvent_Am_CarCrusher" ObjectPath="\Events\Default Work Unit\Ambience\Tiles\AudioEvent_Am_CarCrusher"/>
 				<Event Id="2420199222" Name="AudioEvent_Am_Crane" ObjectPath="\Events\Default Work Unit\Ambience\Tiles\AudioEvent_Am_Crane"/>
 				<Event Id="1411103358" Name="AudioEvent_Am_Escape" ObjectPath="\Events\Default Work Unit\Ambience\Tiles\AudioEvent_Am_Escape"/>
@@ -12346,6 +12482,7 @@
 				<Event Id="2460797613" Name="AudioEvent_Am_Forest_Rain" ObjectPath="\Events\Default Work Unit\Ambience\Tiles\AudioEvent_Am_Forest_Rain"/>
 				<Event Id="1362895114" Name="AudioEvent_Am_Foundry" ObjectPath="\Events\Default Work Unit\Ambience\Tiles\AudioEvent_Am_Foundry"/>
 				<Event Id="1455859368" Name="AudioEvent_Am_Garage" ObjectPath="\Events\Default Work Unit\Ambience\Tiles\AudioEvent_Am_Garage"/>
+				<Event Id="1221811416" Name="AudioEvent_Am_Garden" ObjectPath="\Events\Default Work Unit\Ambience\Tiles\AudioEvent_Am_Garden"/>
 				<Event Id="2763936741" Name="AudioEvent_Am_Junkyard" ObjectPath="\Events\Default Work Unit\Ambience\Tiles\AudioEvent_Am_Junkyard"/>
 				<Event Id="3918339184" Name="AudioEvent_Am_MainHouse" ObjectPath="\Events\Default Work Unit\Ambience\Tiles\AudioEvent_Am_MainHouse"/>
 				<Event Id="449648833" Name="AudioEvent_Am_MainHouse_UnderRain" ObjectPath="\Events\Default Work Unit\Ambience\Tiles\AudioEvent_Am_MainHouse_UnderRain"/>
@@ -12361,7 +12498,6 @@
 				<Event Id="475992701" Name="AudioEvent_Ember_Loop_Start" ObjectPath="\Events\Default Work Unit\Objects\Ember\AudioEvent_Ember_Loop_Start"/>
 				<Event Id="1382783681" Name="AudioEvent_Ember_Walk_In" ObjectPath="\Events\Default Work Unit\Objects\Ember\AudioEvent_Ember_Walk_In"/>
 				<Event Id="245486570" Name="AudioEvent_Emitter_Asylum" ObjectPath="\Events\Default Work Unit\Ambience\Emitters_3D\AudioEvent_Emitter_Asylum"/>
-				<Event Id="603974483" Name="AudioEvent_Emitter_Criquets" ObjectPath="\Events\Default Work Unit\Ambience\Emitters_3D\AudioEvent_Emitter_Criquets"/>
 				<Event Id="2068926218" Name="AudioEvent_Emitter_DrivewaySignal" ObjectPath="\Events\Default Work Unit\Ambience\Emitters_3D\AudioEvent_Emitter_DrivewaySignal"/>
 				<Event Id="3096054250" Name="AudioEvent_Emitter_Escape" ObjectPath="\Events\Default Work Unit\Ambience\Emitters_3D\AudioEvent_Emitter_Escape"/>
 				<Event Id="1829049560" Name="AudioEvent_Emitter_Freezer" ObjectPath="\Events\Default Work Unit\Ambience\Emitters_3D\AudioEvent_Emitter_Freezer"/>
@@ -12451,6 +12587,7 @@
 				<Event Id="1039953048" Name="AudioEvent_LoudNoise" ObjectPath="\Events\Default Work Unit\Objects\LoudNoise\AudioEvent_LoudNoise"/>
 				<Event Id="692218234" Name="AudioEvent_Master_Reset_RTPC" ObjectPath="\Events\Default Work Unit\System\AudioEvent_Master_Reset_RTPC"/>
 				<Event Id="311264366" Name="AudioEvent_Meathook_Break" ObjectPath="\Events\Default Work Unit\Objects\Meathook\AudioEvent_Meathook_Break"/>
+				<Event Id="614673893" Name="AudioEvent_Meathook_LunarEvent" ObjectPath="\Events\Default Work Unit\Objects\Meathook\AudioEvent_Meathook_LunarEvent"/>
 				<Event Id="2595504042" Name="AudioEvent_Meathook_Metal_Drop" ObjectPath="\Events\Default Work Unit\Objects\Meathook\AudioEvent_Meathook_Metal_Drop"/>
 				<Event Id="1141870373" Name="AudioEvent_Meathook_Sabotage" ObjectPath="\Events\Default Work Unit\Objects\Meathook\AudioEvent_Meathook_Sabotage"/>
 				<Event Id="1358231084" Name="AudioEvent_Meathook_Sabotage_Fail" ObjectPath="\Events\Default Work Unit\Objects\Meathook\AudioEvent_Meathook_Sabotage_Fail"/>
@@ -12587,6 +12724,7 @@
 				<File Id="522173071"/>
 				<File Id="547594302"/>
 				<File Id="560804154"/>
+				<File Id="561649423"/>
 				<File Id="593053437"/>
 				<File Id="612850896"/>
 				<File Id="625560927"/>
@@ -12596,6 +12734,7 @@
 				<File Id="714364001"/>
 				<File Id="749577061"/>
 				<File Id="755121140"/>
+				<File Id="755385828"/>
 				<File Id="763004204"/>
 				<File Id="764014823"/>
 				<File Id="789214120"/>
@@ -12762,7 +12901,7 @@
 				</File>
 				<File Id="16662287" Language="SFX">
 					<ShortName>Ambience\Animals\sfx_wolves_05.wav</ShortName>
-					<Path>SFX\Ambience\Animals\sfx_wolves_05_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Animals\sfx_wolves_05_C85D148F.wem</Path>
 				</File>
 				<File Id="17051491" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_boots_concrete_walk05.wav</ShortName>
@@ -12804,10 +12943,6 @@
 					<ShortName>Events\sfx_killer_gamestart_04.wav</ShortName>
 					<Path>SFX\Events\sfx_killer_gamestart_04_8D277B84.wem</Path>
 				</File>
-				<File Id="22090566" Language="SFX">
-					<ShortName>Characters\Killers\Actions\sfx_killer_loud_noise_01.wav</ShortName>
-					<Path>SFX\Characters\Killers\Actions\sfx_killer_loud_noise_01_5442F26D.wem</Path>
-				</File>
 				<File Id="22262819" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_barefoot_concrete_walk_06.wav</ShortName>
 					<Path>SFX\Characters\Footsteps\sfx_footsteps_barefoot_concrete_walk_06_5442F26D.wem</Path>
@@ -12823,10 +12958,6 @@
 				<File Id="24182417" Language="SFX">
 					<ShortName>Objects\ExitDoor\sfx_exitdoor_open_mechanic_background_01.wav</ShortName>
 					<Path>SFX\Objects\ExitDoor\sfx_exitdoor_open_mechanic_background_01_5442F26D.wem</Path>
-				</File>
-				<File Id="25637721" Language="SFX">
-					<ShortName>Ambience\Emitters\sfx_hospital_sparks_01.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_hospital_sparks_01_5442F26D.wem</Path>
 				</File>
 				<File Id="26148360" Language="SFX">
 					<ShortName>Objects\ExitDoor\sfx_exitdoor_open_mechanic_03.wav</ShortName>
@@ -12938,7 +13069,7 @@
 				</File>
 				<File Id="46318822" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_dog_06.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_dog_06_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_dog_06_C85D148F.wem</Path>
 				</File>
 				<File Id="46829596" Language="SFX">
 					<ShortName>Objects\Windows\sfx_windows_bloc_crisp_05.wav</ShortName>
@@ -12958,7 +13089,7 @@
 				</File>
 				<File Id="48215336" Language="SFX">
 					<ShortName>Ambience\Animals\sfx_wolves_06.wav</ShortName>
-					<Path>SFX\Ambience\Animals\sfx_wolves_06_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Animals\sfx_wolves_06_C85D148F.wem</Path>
 				</File>
 				<File Id="49156923" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_boots_carpet_shuffle3.wav</ShortName>
@@ -13002,11 +13133,11 @@
 				</File>
 				<File Id="55713497" Language="SFX">
 					<ShortName>Ambience\Animals\sfx_wolves_01.wav</ShortName>
-					<Path>SFX\Ambience\Animals\sfx_wolves_01_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Animals\sfx_wolves_01_C85D148F.wem</Path>
 				</File>
 				<File Id="55756115" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_hospital_tv_screams_02.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_hospital_tv_screams_02_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_hospital_tv_screams_02_C85D148F.wem</Path>
 				</File>
 				<File Id="56223687" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_sneakers_metal_run07.wav</ShortName>
@@ -13018,7 +13149,7 @@
 				</File>
 				<File Id="57446976" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_hospital_tv_screams_01.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_hospital_tv_screams_01_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_hospital_tv_screams_01_C85D148F.wem</Path>
 				</File>
 				<File Id="58493131" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_boots_metal_land2.wav</ShortName>
@@ -13046,7 +13177,7 @@
 				</File>
 				<File Id="65718062" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_lumber_creak_05.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_lumber_creak_05_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_lumber_creak_05_C85D148F.wem</Path>
 				</File>
 				<File Id="66125656" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_sneakers_dirt_walk14.wav</ShortName>
@@ -13162,7 +13293,7 @@
 				</File>
 				<File Id="84219178" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_police_radio_03.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_police_radio_03_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_police_radio_03_C85D148F.wem</Path>
 				</File>
 				<File Id="85013827" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_sneakers_dirt_walk12.wav</ShortName>
@@ -13246,7 +13377,7 @@
 				</File>
 				<File Id="95093201" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_police_radio_02.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_police_radio_02_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_police_radio_02_C85D148F.wem</Path>
 				</File>
 				<File Id="95216078" Language="SFX">
 					<ShortName>Objects\Meathook\sfx_meathook_shake_hard_01.wav</ShortName>
@@ -13306,7 +13437,7 @@
 				</File>
 				<File Id="106618139" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_wind_randoms_08.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_wind_randoms_08_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_wind_randoms_08_C85D148F.wem</Path>
 				</File>
 				<File Id="107163497" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_sneakers_dirt_walk02.wav</ShortName>
@@ -13350,7 +13481,7 @@
 				</File>
 				<File Id="114394945" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_escape_loop_01.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_escape_loop_01_57FEB5FB.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_escape_loop_01_D78E037D.wem</Path>
 				</File>
 				<File Id="114578215" Language="SFX">
 					<ShortName>Ambience\Tiles\am_meatlocker_scream_04.wav</ShortName>
@@ -13450,7 +13581,7 @@
 				</File>
 				<File Id="132416087" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_horror_randoms_01.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_horror_randoms_01_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_horror_randoms_01_C85D148F.wem</Path>
 				</File>
 				<File Id="133557632" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_shuffle_mud_17.wav</ShortName>
@@ -13462,7 +13593,7 @@
 				</File>
 				<File Id="134463313" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_hospital_random_01.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_hospital_random_01_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_hospital_random_01_C85D148F.wem</Path>
 				</File>
 				<File Id="134862685" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_sneakers_wood_walk17.wav</ShortName>
@@ -13496,6 +13627,10 @@
 					<ShortName>Events\sfx_event_survivor_killed_02.wav</ShortName>
 					<Path>SFX\Events\sfx_event_survivor_killed_02_8D277B84.wem</Path>
 				</File>
+				<File Id="144435739" Language="SFX">
+					<ShortName>Ambience\Emitters\CentralModule_screams_cn\CentralModule_screams_cn_10.wav</ShortName>
+					<Path>SFX\Ambience\Emitters\CentralModule_screams_cn\CentralModule_screams_cn_10_C85D148F.wem</Path>
+				</File>
 				<File Id="144696174" Language="SFX">
 					<ShortName>Objects\Dust\sfx_dust_fall_02.wav</ShortName>
 					<Path>SFX\Objects\Dust\sfx_dust_fall_02_5442F26D.wem</Path>
@@ -13514,7 +13649,7 @@
 				</File>
 				<File Id="146993549" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_hospital_phone_01.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_hospital_phone_01_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_hospital_phone_01_C85D148F.wem</Path>
 				</File>
 				<File Id="147247500" Language="SFX">
 					<ShortName>Ambience\LimitPoint\am_limitpoint_voice_01.wav</ShortName>
@@ -13602,7 +13737,7 @@
 				</File>
 				<File Id="167226553" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_dog_04.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_dog_04_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_dog_04_C85D148F.wem</Path>
 				</File>
 				<File Id="167737286" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_sneakers_metal_shuffle4.wav</ShortName>
@@ -13638,19 +13773,15 @@
 				</File>
 				<File Id="174866273" Language="SFX">
 					<ShortName>Ambience\Animals\sfx_wolves_02.wav</ShortName>
-					<Path>SFX\Ambience\Animals\sfx_wolves_02_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Animals\sfx_wolves_02_C85D148F.wem</Path>
 				</File>
 				<File Id="174955043" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_lumberpile_creaks_horror_05.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_lumberpile_creaks_horror_05_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_lumberpile_creaks_horror_05_C85D148F.wem</Path>
 				</File>
 				<File Id="175530407" Language="SFX">
 					<ShortName>Music\mu_killer_chase_02.wav</ShortName>
 					<Path>SFX\Music\mu_killer_chase_02_D78E037D.wem</Path>
-				</File>
-				<File Id="175592572" Language="SFX">
-					<ShortName>Ambience\Emitters\sfx_hospital_sparks_02.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_hospital_sparks_02_5442F26D.wem</Path>
 				</File>
 				<File Id="175892726" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_boots_carpet_run09.wav</ShortName>
@@ -13666,7 +13797,7 @@
 				</File>
 				<File Id="178135503" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_hospital_tv_screams_04.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_hospital_tv_screams_04_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_hospital_tv_screams_04_C85D148F.wem</Path>
 				</File>
 				<File Id="179634957" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_mud_walk_21.wav</ShortName>
@@ -13682,7 +13813,7 @@
 				</File>
 				<File Id="181074032" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_watertower_creak_04.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_watertower_creak_04_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_watertower_creak_04_C85D148F.wem</Path>
 				</File>
 				<File Id="183303393" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_mud_walk_01.wav</ShortName>
@@ -13790,7 +13921,7 @@
 				</File>
 				<File Id="206525089" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_slaughtertree_scream_04.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_slaughtertree_scream_04_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_slaughtertree_scream_04_C85D148F.wem</Path>
 				</File>
 				<File Id="207355603" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_boots_gravel_run01.wav</ShortName>
@@ -13862,7 +13993,7 @@
 				</File>
 				<File Id="220363027" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_horror_randoms_06.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_horror_randoms_06_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_horror_randoms_06_C85D148F.wem</Path>
 				</File>
 				<File Id="222044232" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_boots_concrete_land5.wav</ShortName>
@@ -13994,7 +14125,7 @@
 				</File>
 				<File Id="239105917" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_hospital_tv_signal_01.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_hospital_tv_signal_01_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_hospital_tv_signal_01_C85D148F.wem</Path>
 				</File>
 				<File Id="239737496" Language="SFX">
 					<ShortName>Ambience\LimitPoint\am_limitpoint_voice_06.wav</ShortName>
@@ -14178,7 +14309,7 @@
 				</File>
 				<File Id="269222864" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_lumber_creak_01.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_lumber_creak_01_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_lumber_creak_01_C85D148F.wem</Path>
 				</File>
 				<File Id="271164918" Language="SFX">
 					<ShortName>Characters\Killers\Actions\sfx_killer_bodymove_default_06.wav</ShortName>
@@ -14194,7 +14325,7 @@
 				</File>
 				<File Id="275974468" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_wind_randoms_06.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_wind_randoms_06_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_wind_randoms_06_C85D148F.wem</Path>
 				</File>
 				<File Id="276019195" Language="SFX">
 					<ShortName>Ambience\Tiles\am_meatlocker_drops_12.wav</ShortName>
@@ -14230,7 +14361,7 @@
 				</File>
 				<File Id="279659551" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_wind_randoms_09.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_wind_randoms_09_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_wind_randoms_09_C85D148F.wem</Path>
 				</File>
 				<File Id="281402576" Language="SFX">
 					<ShortName>HUD\sfx_hud_sacrifice_struggle_02.wav</ShortName>
@@ -14314,7 +14445,7 @@
 				</File>
 				<File Id="292720855" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_watertower_creak_06.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_watertower_creak_06_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_watertower_creak_06_C85D148F.wem</Path>
 				</File>
 				<File Id="293127212" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_boots_metal_shuffle1.wav</ShortName>
@@ -14386,7 +14517,7 @@
 				</File>
 				<File Id="301769248" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_crow_03.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_crow_03_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_crow_03_C85D148F.wem</Path>
 				</File>
 				<File Id="302114387" Language="SFX">
 					<ShortName>Ambience\LimitPoint\am_limitpoint_voice_07.wav</ShortName>
@@ -14414,7 +14545,7 @@
 				</File>
 				<File Id="304877276" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_police_radio_01.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_police_radio_01_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_police_radio_01_C85D148F.wem</Path>
 				</File>
 				<File Id="305140164" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_boots_wood_run16.wav</ShortName>
@@ -14426,7 +14557,7 @@
 				</File>
 				<File Id="306739867" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_police_radio_04.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_police_radio_04_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_police_radio_04_C85D148F.wem</Path>
 				</File>
 				<File Id="307724731" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_barefoot_dirt_run_11.wav</ShortName>
@@ -14458,7 +14589,7 @@
 				</File>
 				<File Id="311608315" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_crow_04.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_crow_04_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_crow_04_C85D148F.wem</Path>
 				</File>
 				<File Id="311771244" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_sneakers_concrete_walk16.wav</ShortName>
@@ -14552,6 +14683,10 @@
 					<ShortName>Ambience\Tiles\am_mainhouse_creak_01.wav</ShortName>
 					<Path>SFX\Ambience\Tiles\am_mainhouse_creak_01_C85D148F.wem</Path>
 				</File>
+				<File Id="321476458" Language="SFX">
+					<ShortName>Ambience\Emitters\CentralModule_screams_cn\CentralModule_screams_cn_02.wav</ShortName>
+					<Path>SFX\Ambience\Emitters\CentralModule_screams_cn\CentralModule_screams_cn_02_C85D148F.wem</Path>
+				</File>
 				<File Id="323207192" Language="SFX">
 					<ShortName>Objects\Meathook\sfx_meathook_shake_hard_05.wav</ShortName>
 					<Path>SFX\Objects\Meathook\sfx_meathook_shake_hard_05_5442F26D.wem</Path>
@@ -14612,6 +14747,10 @@
 					<ShortName>Characters\Footsteps\sfx_footsteps_boots_wood_walk10.wav</ShortName>
 					<Path>SFX\Characters\Footsteps\sfx_footsteps_boots_wood_walk10_5442F26D.wem</Path>
 				</File>
+				<File Id="330306193" Language="SFX">
+					<ShortName>Ambience\Emitters\CentralModule_screams_cn\CentralModule_screams_cn_06.wav</ShortName>
+					<Path>SFX\Ambience\Emitters\CentralModule_screams_cn\CentralModule_screams_cn_06_C85D148F.wem</Path>
+				</File>
 				<File Id="331124204" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_boots_metal_walk12.wav</ShortName>
 					<Path>SFX\Characters\Footsteps\sfx_footsteps_boots_metal_walk12_5442F26D.wem</Path>
@@ -14619,6 +14758,10 @@
 				<File Id="331152069" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_sneakers_concrete_run18.wav</ShortName>
 					<Path>SFX\Characters\Footsteps\sfx_footsteps_sneakers_concrete_run18_5442F26D.wem</Path>
+				</File>
+				<File Id="331389477" Language="SFX">
+					<ShortName>Ambience\Emitters\CentralModule_screams_cn\CentralModule_screams_cn_03.wav</ShortName>
+					<Path>SFX\Ambience\Emitters\CentralModule_screams_cn\CentralModule_screams_cn_03_C85D148F.wem</Path>
 				</File>
 				<File Id="332312995" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_boots_concrete_walk10.wav</ShortName>
@@ -14658,7 +14801,7 @@
 				</File>
 				<File Id="337400313" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_wind_randoms_04.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_wind_randoms_04_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_wind_randoms_04_C85D148F.wem</Path>
 				</File>
 				<File Id="338059344" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_sneakers_gravel_run18.wav</ShortName>
@@ -14703,10 +14846,6 @@
 				<File Id="346758910" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_boots_wood_walk13.wav</ShortName>
 					<Path>SFX\Characters\Footsteps\sfx_footsteps_boots_wood_walk13_5442F26D.wem</Path>
-				</File>
-				<File Id="346825706" Language="SFX">
-					<ShortName>Ambience\Emitters\sfx_hospital_sparks_03.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_hospital_sparks_03_5442F26D.wem</Path>
 				</File>
 				<File Id="347138300" Language="SFX">
 					<ShortName>Objects\Windows\sfx_windows_bloc_crisp_04.wav</ShortName>
@@ -14770,7 +14909,7 @@
 				</File>
 				<File Id="356828989" Language="SFX">
 					<ShortName>Ambience\Animals\sfx_wolves_04.wav</ShortName>
-					<Path>SFX\Ambience\Animals\sfx_wolves_04_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Animals\sfx_wolves_04_C85D148F.wem</Path>
 				</File>
 				<File Id="357374568" Language="SFX">
 					<ShortName>Characters\Body\sfx_budy_rush_clothes_03.wav</ShortName>
@@ -15006,7 +15145,7 @@
 				</File>
 				<File Id="391149926" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_lumberpile_creaks_horror_02.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_lumberpile_creaks_horror_02_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_lumberpile_creaks_horror_02_C85D148F.wem</Path>
 				</File>
 				<File Id="391747594" Language="SFX">
 					<ShortName>Ambience\Tiles\am_meatlocker_drops_02.wav</ShortName>
@@ -15022,7 +15161,7 @@
 				</File>
 				<File Id="393503785" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_hospital_tv_screams_07.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_hospital_tv_screams_07_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_hospital_tv_screams_07_C85D148F.wem</Path>
 				</File>
 				<File Id="393567506" Language="SFX">
 					<ShortName>Objects\Meathook\sfx_meathook_shake_light_02.wav</ShortName>
@@ -15258,7 +15397,7 @@
 				</File>
 				<File Id="436929059" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_hospital_random_03.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_hospital_random_03_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_hospital_random_03_C85D148F.wem</Path>
 				</File>
 				<File Id="437044995" Language="SFX">
 					<ShortName>Objects\Chains\sfx_hook_put_on_chain_01.wav</ShortName>
@@ -15294,7 +15433,7 @@
 				</File>
 				<File Id="443822115" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_dog_03.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_dog_03_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_dog_03_C85D148F.wem</Path>
 				</File>
 				<File Id="444471551" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_sneakers_concrete_walk09.wav</ShortName>
@@ -15410,7 +15549,7 @@
 				</File>
 				<File Id="461331700" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_mainhouse_center_candle_02.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_mainhouse_center_candle_02_57FEB5FB.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_mainhouse_center_candle_02_D78E037D.wem</Path>
 				</File>
 				<File Id="461497296" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_boots_dirt_walk12.wav</ShortName>
@@ -15470,11 +15609,11 @@
 				</File>
 				<File Id="469170373" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_horror_randoms_04.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_horror_randoms_04_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_horror_randoms_04_C85D148F.wem</Path>
 				</File>
 				<File Id="470643065" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_dog_02.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_dog_02_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_dog_02_C85D148F.wem</Path>
 				</File>
 				<File Id="471677204" Language="SFX">
 					<ShortName>Objects\TheEntity\sfx_theentity_scream_02.wav</ShortName>
@@ -15482,7 +15621,7 @@
 				</File>
 				<File Id="472141628" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_hospital_tv_screams_06.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_hospital_tv_screams_06_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_hospital_tv_screams_06_C85D148F.wem</Path>
 				</File>
 				<File Id="472910016" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_boots_metal_walk20.wav</ShortName>
@@ -15494,7 +15633,7 @@
 				</File>
 				<File Id="475708532" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_shack_rain_01.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_shack_rain_01_57FEB5FB.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_shack_rain_01_D78E037D.wem</Path>
 				</File>
 				<File Id="475757908" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_sneakers_gravel_walk08.wav</ShortName>
@@ -15586,7 +15725,7 @@
 				</File>
 				<File Id="487878227" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_hospital_random_02.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_hospital_random_02_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_hospital_random_02_C85D148F.wem</Path>
 				</File>
 				<File Id="487909378" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_barefoot_metal_shuffle_04.wav</ShortName>
@@ -15622,7 +15761,7 @@
 				</File>
 				<File Id="491439204" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_mainhouse_center_candle_01.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_mainhouse_center_candle_01_57FEB5FB.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_mainhouse_center_candle_01_D78E037D.wem</Path>
 				</File>
 				<File Id="492479325" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_boots_concrete_run09.wav</ShortName>
@@ -15718,7 +15857,7 @@
 				</File>
 				<File Id="508116883" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_wind_randoms_02.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_wind_randoms_02_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_wind_randoms_02_C85D148F.wem</Path>
 				</File>
 				<File Id="508131470" Language="SFX">
 					<ShortName>Objects\Dust\sfx_dust_fall_debris_03.wav</ShortName>
@@ -15731,6 +15870,10 @@
 				<File Id="509096861" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_barefoot_dirt_run_06.wav</ShortName>
 					<Path>SFX\Characters\Footsteps\sfx_footsteps_barefoot_dirt_run_06_5442F26D.wem</Path>
+				</File>
+				<File Id="510265385" Language="SFX">
+					<ShortName>Ambience\Emitters\CentralModule_screams_cn\CentralModule_screams_cn_08.wav</ShortName>
+					<Path>SFX\Ambience\Emitters\CentralModule_screams_cn\CentralModule_screams_cn_08_C85D148F.wem</Path>
 				</File>
 				<File Id="510412612" Language="SFX">
 					<ShortName>Objects\TheEntity\am_theentity_background_whale_11.wav</ShortName>
@@ -15766,7 +15909,7 @@
 				</File>
 				<File Id="513698999" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_watertower_creak_01.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_watertower_creak_01_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_watertower_creak_01_C85D148F.wem</Path>
 				</File>
 				<File Id="513826273" Language="SFX">
 					<ShortName>Characters\Body\sfx_character_body_land_gravel_02.wav</ShortName>
@@ -15798,7 +15941,7 @@
 				</File>
 				<File Id="518477412" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_dog_01.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_dog_01_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_dog_01_C85D148F.wem</Path>
 				</File>
 				<File Id="519183881" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_barefoot_dirt_walk_11.wav</ShortName>
@@ -15814,7 +15957,7 @@
 				</File>
 				<File Id="520992023" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_slaughtertree_scream_03.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_slaughtertree_scream_03_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_slaughtertree_scream_03_C85D148F.wem</Path>
 				</File>
 				<File Id="521488233" Language="SFX">
 					<ShortName>Ambience\Tiles\am_meatlocker_drops_05.wav</ShortName>
@@ -15830,7 +15973,7 @@
 				</File>
 				<File Id="522579247" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_watertower_creak_03.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_watertower_creak_03_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_watertower_creak_03_C85D148F.wem</Path>
 				</File>
 				<File Id="522596041" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_sneakers_mud_run_05.wav</ShortName>
@@ -15890,7 +16033,7 @@
 				</File>
 				<File Id="538016693" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_wind_randoms_07.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_wind_randoms_07_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_wind_randoms_07_C85D148F.wem</Path>
 				</File>
 				<File Id="539357167" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_barefoot_concrete_run_06.wav</ShortName>
@@ -15910,7 +16053,7 @@
 				</File>
 				<File Id="540345985" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_crow_05.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_crow_05_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_crow_05_C85D148F.wem</Path>
 				</File>
 				<File Id="541053764" Language="SFX">
 					<ShortName>Objects\Windows\sfx_windows_bloc_wood_crack_06.wav</ShortName>
@@ -15946,7 +16089,7 @@
 				</File>
 				<File Id="545236135" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_watertower_creak_07.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_watertower_creak_07_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_watertower_creak_07_C85D148F.wem</Path>
 				</File>
 				<File Id="545508947" Language="SFX">
 					<ShortName>HUD\sfx_hud_hatch_open_02.wav</ShortName>
@@ -16040,10 +16183,6 @@
 					<ShortName>Characters\Footsteps\sfx_footsteps_sneakers_metal_run09.wav</ShortName>
 					<Path>SFX\Characters\Footsteps\sfx_footsteps_sneakers_metal_run09_5442F26D.wem</Path>
 				</File>
-				<File Id="561649423" Language="SFX">
-					<ShortName>Ambience\Emitters\am_asylum_burning_01.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\am_asylum_burning_01_57FEB5FB.wem</Path>
-				</File>
 				<File Id="562401285" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_sneakers_concrete_walk06.wav</ShortName>
 					<Path>SFX\Characters\Footsteps\sfx_footsteps_sneakers_concrete_walk06_5442F26D.wem</Path>
@@ -16070,7 +16209,7 @@
 				</File>
 				<File Id="565387561" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_horror_randoms_05.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_horror_randoms_05_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_horror_randoms_05_C85D148F.wem</Path>
 				</File>
 				<File Id="566082365" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_foot_noise_wood_plank_02.wav</ShortName>
@@ -16272,10 +16411,6 @@
 					<ShortName>Characters\Footsteps\sfx_footsteps_boots_concrete_run04.wav</ShortName>
 					<Path>SFX\Characters\Footsteps\sfx_footsteps_boots_concrete_run04_5442F26D.wem</Path>
 				</File>
-				<File Id="595157295" Language="SFX">
-					<ShortName>Ambience\Emitters\sfx_hospital_sparks_04.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_hospital_sparks_04_5442F26D.wem</Path>
-				</File>
 				<File Id="595577128" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_boots_wood_walk08.wav</ShortName>
 					<Path>SFX\Characters\Footsteps\sfx_footsteps_boots_wood_walk08_5442F26D.wem</Path>
@@ -16342,7 +16477,7 @@
 				</File>
 				<File Id="607169045" Language="SFX">
 					<ShortName>Ambience\Emitters\am_asylum_angel_01.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\am_asylum_angel_01_57FEB5FB.wem</Path>
+					<Path>SFX\Ambience\Emitters\am_asylum_angel_01_D78E037D.wem</Path>
 				</File>
 				<File Id="607407287" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_boots_metal_run17.wav</ShortName>
@@ -16364,10 +16499,6 @@
 					<ShortName>Characters\Footsteps\sfx_footsteps_boots_metal_shuffle4.wav</ShortName>
 					<Path>SFX\Characters\Footsteps\sfx_footsteps_boots_metal_shuffle4_5442F26D.wem</Path>
 				</File>
-				<File Id="609753295" Language="SFX">
-					<ShortName>Ambience\Emitters\sfx_criquets_01.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_criquets_01_57FEB5FB.wem</Path>
-				</File>
 				<File Id="610165474" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_barefoot_gravel_run_11.wav</ShortName>
 					<Path>SFX\Characters\Footsteps\sfx_footsteps_barefoot_gravel_run_11_5442F26D.wem</Path>
@@ -16378,7 +16509,7 @@
 				</File>
 				<File Id="610862293" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_lumber_creak_02.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_lumber_creak_02_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_lumber_creak_02_C85D148F.wem</Path>
 				</File>
 				<File Id="611251707" Language="SFX">
 					<ShortName>HUD\sfx_hud_survivor_get_killed_01.wav</ShortName>
@@ -16426,7 +16557,7 @@
 				</File>
 				<File Id="622821285" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_horror_randoms_02.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_horror_randoms_02_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_horror_randoms_02_C85D148F.wem</Path>
 				</File>
 				<File Id="623193105" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_sneakers_metal_land2.wav</ShortName>
@@ -16588,6 +16719,10 @@
 					<ShortName>Objects\Hook\sfx_hook_body_01.wav</ShortName>
 					<Path>SFX\Objects\Hook\sfx_hook_body_01_5442F26D.wem</Path>
 				</File>
+				<File Id="653554528" Language="SFX">
+					<ShortName>Ambience\Emitters\CentralModule_screams_cn\CentralModule_screams_cn_05.wav</ShortName>
+					<Path>SFX\Ambience\Emitters\CentralModule_screams_cn\CentralModule_screams_cn_05_C85D148F.wem</Path>
+				</File>
 				<File Id="653626063" Language="SFX">
 					<ShortName>Ambience\LimitPoint\am_limitpoint_voice_10.wav</ShortName>
 					<Path>SFX\Ambience\LimitPoint\am_limitpoint_voice_10_8D277B84.wem</Path>
@@ -16598,7 +16733,7 @@
 				</File>
 				<File Id="654773952" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_hospital_tv_signal_07.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_hospital_tv_signal_07_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_hospital_tv_signal_07_C85D148F.wem</Path>
 				</File>
 				<File Id="655581009" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_boots_gravel_run21.wav</ShortName>
@@ -16618,7 +16753,7 @@
 				</File>
 				<File Id="662372735" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_lumber_creak_04.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_lumber_creak_04_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_lumber_creak_04_C85D148F.wem</Path>
 				</File>
 				<File Id="663063090" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_character_footstep_bush_end_02.wav</ShortName>
@@ -16666,7 +16801,7 @@
 				</File>
 				<File Id="677387944" Language="SFX">
 					<ShortName>Ambience\Animals\sfx_wolves_03.wav</ShortName>
-					<Path>SFX\Ambience\Animals\sfx_wolves_03_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Animals\sfx_wolves_03_C85D148F.wem</Path>
 				</File>
 				<File Id="678105298" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_barefoot_gravel_land_02.wav</ShortName>
@@ -16702,7 +16837,7 @@
 				</File>
 				<File Id="680646662" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_crow_01.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_crow_01_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_crow_01_C85D148F.wem</Path>
 				</File>
 				<File Id="681368896" Language="SFX">
 					<ShortName>Objects\ExitDoor\sfx_exitdoor_spark_short_04.wav</ShortName>
@@ -16762,7 +16897,7 @@
 				</File>
 				<File Id="691237656" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_hospital_tv_signal_03.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_hospital_tv_signal_03_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_hospital_tv_signal_03_C85D148F.wem</Path>
 				</File>
 				<File Id="691656799" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_sneakers_dirt_shuffle2.wav</ShortName>
@@ -16798,7 +16933,7 @@
 				</File>
 				<File Id="696070560" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_hospital_tv_signal_06.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_hospital_tv_signal_06_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_hospital_tv_signal_06_C85D148F.wem</Path>
 				</File>
 				<File Id="696820082" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_boots_concrete_walk01.wav</ShortName>
@@ -16886,7 +17021,7 @@
 				</File>
 				<File Id="708955702" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_wind_randoms_03.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_wind_randoms_03_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_wind_randoms_03_C85D148F.wem</Path>
 				</File>
 				<File Id="709189983" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_sneakers_gravel_walk18.wav</ShortName>
@@ -16934,7 +17069,7 @@
 				</File>
 				<File Id="722644575" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_slaughtertree_scream_02.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_slaughtertree_scream_02_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_slaughtertree_scream_02_C85D148F.wem</Path>
 				</File>
 				<File Id="723923440" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_sneakers_wood_run08.wav</ShortName>
@@ -17027,6 +17162,10 @@
 				<File Id="741934117" Language="SFX">
 					<ShortName>Objects\TheEntity\am_theentity_background_whale_04.wav</ShortName>
 					<Path>SFX\Objects\TheEntity\am_theentity_background_whale_04_5442F26D.wem</Path>
+				</File>
+				<File Id="743181190" Language="SFX">
+					<ShortName>Ambience\Emitters\CentralModule_screams_cn\CentralModule_screams_cn_07.wav</ShortName>
+					<Path>SFX\Ambience\Emitters\CentralModule_screams_cn\CentralModule_screams_cn_07_C85D148F.wem</Path>
 				</File>
 				<File Id="743356062" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_barefoot_metal_run_11.wav</ShortName>
@@ -17132,10 +17271,6 @@
 					<ShortName>Objects\Meathook\sfx_meathook_shake_metal_03.wav</ShortName>
 					<Path>SFX\Objects\Meathook\sfx_meathook_shake_metal_03_5442F26D.wem</Path>
 				</File>
-				<File Id="755385828" Language="SFX">
-					<ShortName>Ambience\Tiles\am_valroom_01.wav</ShortName>
-					<Path>SFX\Ambience\Tiles\am_valroom_01_C85D148F.wem</Path>
-				</File>
 				<File Id="755918919" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_sneakers_metal_walk03.wav</ShortName>
 					<Path>SFX\Characters\Footsteps\sfx_footsteps_sneakers_metal_walk03_5442F26D.wem</Path>
@@ -17162,7 +17297,7 @@
 				</File>
 				<File Id="764415551" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_hospital_tv_signal_05.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_hospital_tv_signal_05_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_hospital_tv_signal_05_C85D148F.wem</Path>
 				</File>
 				<File Id="764774097" Language="SFX">
 					<ShortName>Music\mu_proximity_theme_06_layer_02.wav</ShortName>
@@ -17358,7 +17493,7 @@
 				</File>
 				<File Id="800965802" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_drivewaysignal_ring_01.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_drivewaysignal_ring_01_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_drivewaysignal_ring_01_C85D148F.wem</Path>
 				</File>
 				<File Id="801250536" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_sneakers_concrete_land6.wav</ShortName>
@@ -17374,7 +17509,7 @@
 				</File>
 				<File Id="802885474" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_lumberpile_creaks_horror_01.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_lumberpile_creaks_horror_01_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_lumberpile_creaks_horror_01_C85D148F.wem</Path>
 				</File>
 				<File Id="803535955" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_sneakers_gravel_walk07.wav</ShortName>
@@ -17398,7 +17533,7 @@
 				</File>
 				<File Id="807757615" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_hospital_tv_signal_04.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_hospital_tv_signal_04_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_hospital_tv_signal_04_C85D148F.wem</Path>
 				</File>
 				<File Id="811466270" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_water_land_05.wav</ShortName>
@@ -17470,7 +17605,7 @@
 				</File>
 				<File Id="824973461" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_hospital_random_04.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_hospital_random_04_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_hospital_random_04_C85D148F.wem</Path>
 				</File>
 				<File Id="825120280" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_shuffle_mud_23.wav</ShortName>
@@ -17670,7 +17805,7 @@
 				</File>
 				<File Id="863837880" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_horror_randoms_07.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_horror_randoms_07_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_horror_randoms_07_C85D148F.wem</Path>
 				</File>
 				<File Id="863842079" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_barefoot_concrete_run_15.wav</ShortName>
@@ -17687,6 +17822,10 @@
 				<File Id="865302661" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_barefoot_gravel_shuffle_04.wav</ShortName>
 					<Path>SFX\Characters\Footsteps\sfx_footsteps_barefoot_gravel_shuffle_04_5442F26D.wem</Path>
+				</File>
+				<File Id="865847140" Language="SFX">
+					<ShortName>Ambience\Emitters\CentralModule_screams_cn\CentralModule_screams_cn_09.wav</ShortName>
+					<Path>SFX\Ambience\Emitters\CentralModule_screams_cn\CentralModule_screams_cn_09_C85D148F.wem</Path>
 				</File>
 				<File Id="866883279" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_barefoot_dirt_land_02.wav</ShortName>
@@ -17774,7 +17913,7 @@
 				</File>
 				<File Id="884846318" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_hospital_tv_screams_03.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_hospital_tv_screams_03_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_hospital_tv_screams_03_C85D148F.wem</Path>
 				</File>
 				<File Id="884921669" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_boots_metal_walk05.wav</ShortName>
@@ -17782,7 +17921,7 @@
 				</File>
 				<File Id="885049582" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_watertower_creak_05.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_watertower_creak_05_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_watertower_creak_05_C85D148F.wem</Path>
 				</File>
 				<File Id="885883133" Language="SFX">
 					<ShortName>Characters\Slasher\Footsteps\Boots\Mud\Foot_Mud_Land11.wav</ShortName>
@@ -17892,6 +18031,10 @@
 					<ShortName>Characters\Body\sfx_body_rush_slide_debris_03.wav</ShortName>
 					<Path>SFX\Characters\Body\sfx_body_rush_slide_debris_03_5442F26D.wem</Path>
 				</File>
+				<File Id="909102672" Language="SFX">
+					<ShortName>Ambience\Emitters\CentralModule_screams_cn\CentralModule_screams_cn_04.wav</ShortName>
+					<Path>SFX\Ambience\Emitters\CentralModule_screams_cn\CentralModule_screams_cn_04_C85D148F.wem</Path>
+				</File>
 				<File Id="909438540" Language="SFX">
 					<ShortName>Characters\Survivors\Actions\sfx_survivor_bodymove_default_10.wav</ShortName>
 					<Path>SFX\Characters\Survivors\Actions\sfx_survivor_bodymove_default_10_5442F26D.wem</Path>
@@ -17910,7 +18053,7 @@
 				</File>
 				<File Id="910475023" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_hospital_tv_screams_05.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_hospital_tv_screams_05_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_hospital_tv_screams_05_C85D148F.wem</Path>
 				</File>
 				<File Id="910770115" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_sneakers_carpet_walk06.wav</ShortName>
@@ -17974,7 +18117,7 @@
 				</File>
 				<File Id="926220802" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_lumber_creak_03.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_lumber_creak_03_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_lumber_creak_03_C85D148F.wem</Path>
 				</File>
 				<File Id="926335267" Language="SFX">
 					<ShortName>Ambience\Tiles\am_warehouse_creak_02.wav</ShortName>
@@ -18042,7 +18185,7 @@
 				</File>
 				<File Id="939583458" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_slaughtertree_scream_01.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_slaughtertree_scream_01_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_slaughtertree_scream_01_C85D148F.wem</Path>
 				</File>
 				<File Id="940497750" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_sneakers_metal_run17.wav</ShortName>
@@ -18120,6 +18263,10 @@
 					<ShortName>Characters\Footsteps\sfx_character_footstep_bush_end_05.wav</ShortName>
 					<Path>SFX\Characters\Footsteps\sfx_character_footstep_bush_end_05_5442F26D.wem</Path>
 				</File>
+				<File Id="955153411" Language="SFX">
+					<ShortName>Ambience\Emitters\CentralModule_screams_cn\CentralModule_screams_cn_01.wav</ShortName>
+					<Path>SFX\Ambience\Emitters\CentralModule_screams_cn\CentralModule_screams_cn_01_C85D148F.wem</Path>
+				</File>
 				<File Id="956329422" Language="SFX">
 					<ShortName>Ambience\Tiles\am_hospital_room_01.wav</ShortName>
 					<Path>SFX\Ambience\Tiles\am_hospital_room_01_C85D148F.wem</Path>
@@ -18194,7 +18341,7 @@
 				</File>
 				<File Id="976686726" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_wind_randoms_05.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_wind_randoms_05_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_wind_randoms_05_C85D148F.wem</Path>
 				</File>
 				<File Id="976909282" Language="SFX">
 					<ShortName>Objects\Meathook\sfx_meathook_sabotage_explosion_02.wav</ShortName>
@@ -18346,15 +18493,15 @@
 				</File>
 				<File Id="1010342775" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_lumberpile_creaks_horror_03.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_lumberpile_creaks_horror_03_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_lumberpile_creaks_horror_03_C85D148F.wem</Path>
 				</File>
 				<File Id="1011170966" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_watertower_creak_02.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_watertower_creak_02_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_watertower_creak_02_C85D148F.wem</Path>
 				</File>
 				<File Id="1011447115" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_slaughtertree_scream_05.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_slaughtertree_scream_05_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_slaughtertree_scream_05_C85D148F.wem</Path>
 				</File>
 				<File Id="1012846264" Language="SFX">
 					<ShortName>Objects\Meathook\sfx_meathook_wood_fall_03.wav</ShortName>
@@ -18414,7 +18561,7 @@
 				</File>
 				<File Id="1026015609" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_wind_randoms_01.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_wind_randoms_01_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_wind_randoms_01_C85D148F.wem</Path>
 				</File>
 				<File Id="1026172750" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_barefoot_metal_land_04.wav</ShortName>
@@ -18454,7 +18601,7 @@
 				</File>
 				<File Id="1030509417" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_lumberpile_creaks_horror_04.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_lumberpile_creaks_horror_04_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_lumberpile_creaks_horror_04_C85D148F.wem</Path>
 				</File>
 				<File Id="1030603360" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_boots_dirt_walk05.wav</ShortName>
@@ -18516,10 +18663,6 @@
 					<ShortName>Characters\Footsteps\sfx_footsteps_boots_dirt_land6.wav</ShortName>
 					<Path>SFX\Characters\Footsteps\sfx_footsteps_boots_dirt_land6_5442F26D.wem</Path>
 				</File>
-				<File Id="1037283460" Language="SFX">
-					<ShortName>Ambience\Emitters\sfx_hospital_sparks_05.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_hospital_sparks_05_5442F26D.wem</Path>
-				</File>
 				<File Id="1037784568" Language="SFX">
 					<ShortName>Perks\sfx_perks_whispers_voice_08.wav</ShortName>
 					<Path>SFX\Perks\sfx_perks_whispers_voice_08_5442F26D.wem</Path>
@@ -18538,7 +18681,7 @@
 				</File>
 				<File Id="1041012833" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_crow_02.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_crow_02_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_crow_02_C85D148F.wem</Path>
 				</File>
 				<File Id="1041587145" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_sneakers_wood_walk12.wav</ShortName>
@@ -18554,7 +18697,7 @@
 				</File>
 				<File Id="1043159515" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_dog_05.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_dog_05_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_dog_05_C85D148F.wem</Path>
 				</File>
 				<File Id="1043490853" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_boots_gravel_run15.wav</ShortName>
@@ -18630,7 +18773,7 @@
 				</File>
 				<File Id="1056862114" Language="SFX">
 					<ShortName>Ambience\Emitters\sfx_hospital_tv_signal_02.wav</ShortName>
-					<Path>SFX\Ambience\Emitters\sfx_hospital_tv_signal_02_5442F26D.wem</Path>
+					<Path>SFX\Ambience\Emitters\sfx_hospital_tv_signal_02_C85D148F.wem</Path>
 				</File>
 				<File Id="1058408956" Language="SFX">
 					<ShortName>Characters\Body\sfx_budy_rush_clothes_01.wav</ShortName>
@@ -18854,6 +18997,10 @@
 					<ShortName>Objects\TheEntity\sfx_theentity_background_short_01.wav</ShortName>
 					<Path>SFX\Objects\TheEntity\sfx_theentity_background_short_01_5442F26D.wem</Path>
 				</File>
+				<File Id="334992437" Language="SFX">
+					<ShortName>Objects\Generator\sfx_generator_firecracker_burn_02.wav</ShortName>
+					<Path>SFX\Objects\Generator\sfx_generator_firecracker_burn_02_5442F26D.wem</Path>
+				</File>
 				<File Id="335290276" Language="SFX">
 					<ShortName>Objects\Generator\sfx_genenator_punch_04.wav</ShortName>
 					<Path>SFX\Objects\Generator\sfx_genenator_punch_04_5442F26D.wem</Path>
@@ -18926,6 +19073,10 @@
 					<ShortName>Objects\TheEntity\sfx_theentity_long_02.wav</ShortName>
 					<Path>SFX\Objects\TheEntity\sfx_theentity_long_02_5442F26D.wem</Path>
 				</File>
+				<File Id="495409650" Language="SFX">
+					<ShortName>Objects\Generator\sfx_generator_fireworks_lunarevent_01.wav</ShortName>
+					<Path>SFX\Objects\Generator\sfx_generator_fireworks_lunarevent_01_5442F26D.wem</Path>
+				</File>
 				<File Id="503996595" Language="SFX">
 					<ShortName>Objects\TheEntity\sfx_theentity_daddyfinger_explosion_02.wav</ShortName>
 					<Path>SFX\Objects\TheEntity\sfx_theentity_daddyfinger_explosion_02_8D277B84.wem</Path>
@@ -18957,6 +19108,10 @@
 				<File Id="595997187" Language="SFX">
 					<ShortName>Objects\TheEntity\sfx_theentity_crisp_short_09.wav</ShortName>
 					<Path>SFX\Objects\TheEntity\sfx_theentity_crisp_short_09_5442F26D.wem</Path>
+				</File>
+				<File Id="598876698" Language="SFX">
+					<ShortName>Objects\Generator\sfx_generator_lunarevent_burst_01.wav</ShortName>
+					<Path>SFX\Objects\Generator\sfx_generator_lunarevent_burst_01_5442F26D.wem</Path>
 				</File>
 				<File Id="613277574" Language="SFX">
 					<ShortName>Objects\TheEntity\sfx_theentity_spider_attack_02.wav</ShortName>
@@ -19046,6 +19201,10 @@
 					<ShortName>Objects\TheEntity\sfx_theentity_short_01.wav</ShortName>
 					<Path>SFX\Objects\TheEntity\sfx_theentity_short_01_5442F26D.wem</Path>
 				</File>
+				<File Id="829312990" Language="SFX">
+					<ShortName>Objects\Generator\sfx_generator_firecracker_burn_01.wav</ShortName>
+					<Path>SFX\Objects\Generator\sfx_generator_firecracker_burn_01_5442F26D.wem</Path>
+				</File>
 				<File Id="831928474" Language="SFX">
 					<ShortName>Objects\TheEntity\sfx_theentity_background_whale_11.wav</ShortName>
 					<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_11_5442F26D.wem</Path>
@@ -19070,9 +19229,17 @@
 					<ShortName>Objects\TheEntity\sfx_theentity_daddyfinger_appear_02.wav</ShortName>
 					<Path>SFX\Objects\TheEntity\sfx_theentity_daddyfinger_appear_02_5442F26D.wem</Path>
 				</File>
+				<File Id="872832977" Language="SFX">
+					<ShortName>Objects\Generator\sfx_generator_fireworks_lunarevent_02.wav</ShortName>
+					<Path>SFX\Objects\Generator\sfx_generator_fireworks_lunarevent_02_5442F26D.wem</Path>
+				</File>
 				<File Id="878745222" Language="SFX">
 					<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_crisp_09.wav</ShortName>
 					<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_crisp_09_5442F26D.wem</Path>
+				</File>
+				<File Id="881856244" Language="SFX">
+					<ShortName>Objects\Generator\sfx_generator_firecracker_burn_03.wav</ShortName>
+					<Path>SFX\Objects\Generator\sfx_generator_firecracker_burn_03_5442F26D.wem</Path>
 				</File>
 				<File Id="893120797" Language="SFX">
 					<ShortName>Objects\TheEntity\sfx_theentity_background_01.wav</ShortName>
@@ -19637,6 +19804,10 @@
 				<File Id="8580747" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_sneakers_gravel_run13.wav</ShortName>
 					<Path>SFX\Characters\Footsteps\sfx_footsteps_sneakers_gravel_run13_5442F26D.wem</Path>
+				</File>
+				<File Id="8973344" Language="SFX">
+					<ShortName>Characters\Claudette\vo_claudette_scream_short_03.wav</ShortName>
+					<Path>SFX\Characters\Claudette\vo_claudette_scream_short_03_5442F26D.wem</Path>
 				</File>
 				<File Id="9129450" Language="SFX">
 					<ShortName>Characters\Survivor_Male_06\vo_survivor_male_06_dying_nurse_02.wav</ShortName>
@@ -21858,6 +22029,10 @@
 					<ShortName>Characters\Meg\vo_meg_running_18.wav</ShortName>
 					<Path>SFX\Characters\Meg\vo_meg_running_18_5442F26D.wem</Path>
 				</File>
+				<File Id="121374809" Language="SFX">
+					<ShortName>Characters\Jake\vo_jake_hurt_hard_11_cn.wav</ShortName>
+					<Path>SFX\Characters\Jake\vo_jake_hurt_hard_11_cn_5442F26D.wem</Path>
+				</File>
 				<File Id="121442360" Language="SFX">
 					<ShortName>Characters\Feng\vo_feng_dying_085.wav</ShortName>
 					<Path>SFX\Characters\Feng\vo_feng_dying_085_5442F26D.wem</Path>
@@ -21961,6 +22136,10 @@
 				<File Id="127105439" Language="SFX">
 					<ShortName>Characters\Dwight\vo_dwight_land_light_05.wav</ShortName>
 					<Path>SFX\Characters\Dwight\vo_dwight_land_light_05_5442F26D.wem</Path>
+				</File>
+				<File Id="127414590" Language="SFX">
+					<ShortName>Characters\Jake\vo_jake_hurt_hard_15_cn.wav</ShortName>
+					<Path>SFX\Characters\Jake\vo_jake_hurt_hard_15_cn_5442F26D.wem</Path>
 				</File>
 				<File Id="127428990" Language="SFX">
 					<ShortName>Characters\Survivor_Female_06\vo_survivor_female_06_injured_013.wav</ShortName>
@@ -23574,6 +23753,10 @@
 					<ShortName>Characters\Nea\vo_nea_dying_cry_12.wav</ShortName>
 					<Path>SFX\Characters\Nea\vo_nea_dying_cry_12_5442F26D.wem</Path>
 				</File>
+				<File Id="218946442" Language="SFX">
+					<ShortName>Characters\Survivor_Male_07\Dave_hooked-cm_09.wav</ShortName>
+					<Path>SFX\Characters\Survivor_Male_07\Dave_hooked-cm_09_5442F26D.wem</Path>
+				</File>
 				<File Id="218963853" Language="SFX">
 					<ShortName>Characters\Survivor_Male_07\Dave_healing-cm_046.wav</ShortName>
 					<Path>SFX\Characters\Survivor_Male_07\Dave_healing-cm_046_5442F26D.wem</Path>
@@ -24653,6 +24836,10 @@
 				<File Id="271999811" Language="SFX">
 					<ShortName>Characters\Survivor_Male_07\Dave_dead-cm_01.wav</ShortName>
 					<Path>SFX\Characters\Survivor_Male_07\Dave_dead-cm_01_5442F26D.wem</Path>
+				</File>
+				<File Id="272130136" Language="SFX">
+					<ShortName>Characters\Jake\vo_jake_hurt_hard_10_cn.wav</ShortName>
+					<Path>SFX\Characters\Jake\vo_jake_hurt_hard_10_cn_5442F26D.wem</Path>
 				</File>
 				<File Id="272908893" Language="SFX">
 					<ShortName>Characters\Bill\vo_bill_nurse_63.wav</ShortName>
@@ -26602,10 +26789,6 @@
 					<ShortName>Characters\Footsteps\sfx_footsteps_sneakers_wood_run10.wav</ShortName>
 					<Path>SFX\Characters\Footsteps\sfx_footsteps_sneakers_wood_run10_5442F26D.wem</Path>
 				</File>
-				<File Id="365028092" Language="SFX">
-					<ShortName>Characters\Dwight\vo_dwight_hurt_hard_15.wav</ShortName>
-					<Path>SFX\Characters\Dwight\vo_dwight_hurt_hard_15_5442F26D.wem</Path>
-				</File>
 				<File Id="365221150" Language="SFX">
 					<ShortName>Characters\Survivor_Female_06\vo_survivor_female_06_hurt_light_017.wav</ShortName>
 					<Path>SFX\Characters\Survivor_Female_06\vo_survivor_female_06_hurt_light_017_5442F26D.wem</Path>
@@ -26965,6 +27148,10 @@
 				<File Id="378906084" Language="SFX">
 					<ShortName>Characters\Ace\Sebastien_scream_short 8.wav</ShortName>
 					<Path>SFX\Characters\Ace\Sebastien_scream_short 8_5442F26D.wem</Path>
+				</File>
+				<File Id="379511313" Language="SFX">
+					<ShortName>Characters\Dwight\vo_dwight_injured_cry_19.wav</ShortName>
+					<Path>SFX\Characters\Dwight\vo_dwight_injured_cry_19_5442F26D.wem</Path>
 				</File>
 				<File Id="380198885" Language="SFX">
 					<ShortName>Characters\Survivor_Male_07\Dave_effort_light_02-cm_010.wav</ShortName>
@@ -29806,6 +29993,10 @@
 					<ShortName>Music\mu_proximity_theme_02_layer_03.wav</ShortName>
 					<Path>SFX\Music\mu_proximity_theme_02_layer_03_D78E037D.wem</Path>
 				</File>
+				<File Id="523164902" Language="SFX">
+					<ShortName>Characters\Jake\vo_jake_hurt_hard_14_cn.wav</ShortName>
+					<Path>SFX\Characters\Jake\vo_jake_hurt_hard_14_cn_5442F26D.wem</Path>
+				</File>
 				<File Id="523175486" Language="SFX">
 					<ShortName>Characters\Survivor_Female_06\vo_survivor_female_06_effort_light_045.wav</ShortName>
 					<Path>SFX\Characters\Survivor_Female_06\vo_survivor_female_06_effort_light_045_5442F26D.wem</Path>
@@ -32090,6 +32281,10 @@
 					<ShortName>Characters\Claudette\vo_claudette_injured_hurt_13.wav</ShortName>
 					<Path>SFX\Characters\Claudette\vo_claudette_injured_hurt_13_5442F26D.wem</Path>
 				</File>
+				<File Id="638494387" Language="SFX">
+					<ShortName>Characters\Dwight\vo_dwight_scream_long_01.wav</ShortName>
+					<Path>SFX\Characters\Dwight\vo_dwight_scream_long_01_5442F26D.wem</Path>
+				</File>
 				<File Id="638516197" Language="SFX">
 					<ShortName>Characters\Nea\vo_nea_injured_cry_05.wav</ShortName>
 					<Path>SFX\Characters\Nea\vo_nea_injured_cry_05_5442F26D.wem</Path>
@@ -32261,6 +32456,10 @@
 				<File Id="647023715" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_mud_walk_03.wav</ShortName>
 					<Path>SFX\Characters\Footsteps\sfx_footsteps_mud_walk_03_5442F26D.wem</Path>
+				</File>
+				<File Id="647163372" Language="SFX">
+					<ShortName>Characters\Dwight\vo_dwight_injured_cry_10.wav</ShortName>
+					<Path>SFX\Characters\Dwight\vo_dwight_injured_cry_10_5442F26D.wem</Path>
 				</File>
 				<File Id="647378161" Language="SFX">
 					<ShortName>Characters\David\vo_david_running_18i.wav</ShortName>
@@ -32737,6 +32936,10 @@
 				<File Id="673117617" Language="SFX">
 					<ShortName>Characters\Survivor_Female_06\vo_survivor_female_06_injured_046.wav</ShortName>
 					<Path>SFX\Characters\Survivor_Female_06\vo_survivor_female_06_injured_046_5442F26D.wem</Path>
+				</File>
+				<File Id="673387971" Language="SFX">
+					<ShortName>Characters\Claudette\vo_claudette_hooked_breath_cn_20.wav</ShortName>
+					<Path>SFX\Characters\Claudette\vo_claudette_hooked_breath_cn_20_5442F26D.wem</Path>
 				</File>
 				<File Id="673725601" Language="SFX">
 					<ShortName>Characters\Survivor_Male_07\Dave_scream_short_hit-cm_09.wav</ShortName>
@@ -34942,6 +35145,10 @@
 					<ShortName>Characters\Footsteps\sfx_footsteps_boots_carpet_run15.wav</ShortName>
 					<Path>SFX\Characters\Footsteps\sfx_footsteps_boots_carpet_run15_5442F26D.wem</Path>
 				</File>
+				<File Id="777354069" Language="SFX">
+					<ShortName>Characters\Dwight\vo_dwight_injured_cry_05.wav</ShortName>
+					<Path>SFX\Characters\Dwight\vo_dwight_injured_cry_05_5442F26D.wem</Path>
+				</File>
 				<File Id="777683899" Language="SFX">
 					<ShortName>Characters\David\vo_david_running_22a.wav</ShortName>
 					<Path>SFX\Characters\David\vo_david_running_22a_5442F26D.wem</Path>
@@ -35482,10 +35689,6 @@
 					<ShortName>Characters\David\vo_david_effort_light_06.wav</ShortName>
 					<Path>SFX\Characters\David\vo_david_effort_light_06_5442F26D.wem</Path>
 				</File>
-				<File Id="805593810" Language="SFX">
-					<ShortName>Characters\Dwight\vo_dwight_hurt_hard_14.wav</ShortName>
-					<Path>SFX\Characters\Dwight\vo_dwight_hurt_hard_14_5442F26D.wem</Path>
-				</File>
 				<File Id="805630430" Language="SFX">
 					<ShortName>Characters\Survivor_Male_06\vo_survivor_male_06_effort_light_36.wav</ShortName>
 					<Path>SFX\Characters\Survivor_Male_06\vo_survivor_male_06_effort_light_36_5442F26D.wem</Path>
@@ -35545,6 +35748,10 @@
 				<File Id="807598868" Language="SFX">
 					<ShortName>Characters\Bill\vo_bill_land_light_05.wav</ShortName>
 					<Path>SFX\Characters\Bill\vo_bill_land_light_05_5442F26D.wem</Path>
+				</File>
+				<File Id="808204168" Language="SFX">
+					<ShortName>Characters\Dwight\vo_dwight_injured_cry_08.wav</ShortName>
+					<Path>SFX\Characters\Dwight\vo_dwight_injured_cry_08_5442F26D.wem</Path>
 				</File>
 				<File Id="808403770" Language="SFX">
 					<ShortName>Characters\Survivor_Female_06\vo_survivor_female_06_hooked_019.wav</ShortName>
@@ -36758,6 +36965,10 @@
 					<ShortName>Characters\Dwight\vo_dwight_hooked_pain_18.wav</ShortName>
 					<Path>SFX\Characters\Dwight\vo_dwight_hooked_pain_18_5442F26D.wem</Path>
 				</File>
+				<File Id="865647787" Language="SFX">
+					<ShortName>Characters\Dwight\vo_dwight_injured_cry_16.wav</ShortName>
+					<Path>SFX\Characters\Dwight\vo_dwight_injured_cry_16_5442F26D.wem</Path>
+				</File>
 				<File Id="865989904" Language="SFX">
 					<ShortName>Characters\Survivor_Male_06\vo_survivor_male_06_hooked_80.wav</ShortName>
 					<Path>SFX\Characters\Survivor_Male_06\vo_survivor_male_06_hooked_80_5442F26D.wem</Path>
@@ -37830,6 +38041,10 @@
 					<ShortName>Characters\Survivor_Female_06\vo_survivor_female_06_captured_046.wav</ShortName>
 					<Path>SFX\Characters\Survivor_Female_06\vo_survivor_female_06_captured_046_5442F26D.wem</Path>
 				</File>
+				<File Id="914363176" Language="SFX">
+					<ShortName>Characters\Jake\vo_jake_hurt_hard_09_cn.wav</ShortName>
+					<Path>SFX\Characters\Jake\vo_jake_hurt_hard_09_cn_5442F26D.wem</Path>
+				</File>
 				<File Id="914543608" Language="SFX">
 					<ShortName>Characters\Nea\vo_nea_normal_breath_03.wav</ShortName>
 					<Path>SFX\Characters\Nea\vo_nea_normal_breath_03_5442F26D.wem</Path>
@@ -37881,6 +38096,10 @@
 				<File Id="917755974" Language="SFX">
 					<ShortName>Characters\Bill\vo_bill_falling_57.wav</ShortName>
 					<Path>SFX\Characters\Bill\vo_bill_falling_57_5442F26D.wem</Path>
+				</File>
+				<File Id="917867005" Language="SFX">
+					<ShortName>Characters\Dwight\vo_dwight_scream_short_06.wav</ShortName>
+					<Path>SFX\Characters\Dwight\vo_dwight_scream_short_06_5442F26D.wem</Path>
 				</File>
 				<File Id="918084033" Language="SFX">
 					<ShortName>Characters\Feng\vo_feng_hooked_027.wav</ShortName>
@@ -38465,6 +38684,10 @@
 				<File Id="948558909" Language="SFX">
 					<ShortName>Characters\David\vo_david_hooked_068.wav</ShortName>
 					<Path>SFX\Characters\David\vo_david_hooked_068_5442F26D.wem</Path>
+				</File>
+				<File Id="948651367" Language="SFX">
+					<ShortName>Characters\Claudette\vo_claudette_hooked_effort_cn_10.wav</ShortName>
+					<Path>SFX\Characters\Claudette\vo_claudette_hooked_effort_cn_10_5442F26D.wem</Path>
 				</File>
 				<File Id="948807430" Language="SFX">
 					<ShortName>Characters\Survivor_Female_06\vo_survivor_female_06_scream_short_012.wav</ShortName>
@@ -40018,6 +40241,10 @@
 					<ShortName>Characters\Bill\vo_bill_hurt_hard_04.wav</ShortName>
 					<Path>SFX\Characters\Bill\vo_bill_hurt_hard_04_5442F26D.wem</Path>
 				</File>
+				<File Id="1028457911" Language="SFX">
+					<ShortName>Characters\Dwight\vo_dwight_injured_cry_17.wav</ShortName>
+					<Path>SFX\Characters\Dwight\vo_dwight_injured_cry_17_5442F26D.wem</Path>
+				</File>
 				<File Id="1028677278" Language="SFX">
 					<ShortName>Characters\Bill\vo_bill_dying_25.wav</ShortName>
 					<Path>SFX\Characters\Bill\vo_bill_dying_25_5442F26D.wem</Path>
@@ -40029,6 +40256,10 @@
 				<File Id="1028908435" Language="SFX">
 					<ShortName>Characters\Footsteps\sfx_footsteps_sneakers_dirt_run14.wav</ShortName>
 					<Path>SFX\Characters\Footsteps\sfx_footsteps_sneakers_dirt_run14_5442F26D.wem</Path>
+				</File>
+				<File Id="1029625712" Language="SFX">
+					<ShortName>Characters\Dwight\vo_dwight_injured_cry_15.wav</ShortName>
+					<Path>SFX\Characters\Dwight\vo_dwight_injured_cry_15_5442F26D.wem</Path>
 				</File>
 				<File Id="1029725142" Language="SFX">
 					<ShortName>Characters\Jake\vo_jake_hurt_light_17.wav</ShortName>
@@ -40282,6 +40513,10 @@
 					<ShortName>Characters\Bill\vo_bill_dying_39.wav</ShortName>
 					<Path>SFX\Characters\Bill\vo_bill_dying_39_5442F26D.wem</Path>
 				</File>
+				<File Id="1042281211" Language="SFX">
+					<ShortName>Characters\Claudette\vo_claudette_hooked_effort_cn_11.wav</ShortName>
+					<Path>SFX\Characters\Claudette\vo_claudette_hooked_effort_cn_11_5442F26D.wem</Path>
+				</File>
 				<File Id="1042509905" Language="SFX">
 					<ShortName>Characters\Survivors\Actions\sfx_survivor_bodymove_default_07.wav</ShortName>
 					<Path>SFX\Characters\Survivors\Actions\sfx_survivor_bodymove_default_07_5442F26D.wem</Path>
@@ -40289,6 +40524,10 @@
 				<File Id="1042601610" Language="SFX">
 					<ShortName>Characters\Nea\vo_nea_captured_cry_07.wav</ShortName>
 					<Path>SFX\Characters\Nea\vo_nea_captured_cry_07_5442F26D.wem</Path>
+				</File>
+				<File Id="1042716773" Language="SFX">
+					<ShortName>Characters\Dwight\vo_dwight_injured_cry_18.wav</ShortName>
+					<Path>SFX\Characters\Dwight\vo_dwight_injured_cry_18_5442F26D.wem</Path>
 				</File>
 				<File Id="1042743080" Language="SFX">
 					<ShortName>Characters\Claudette\vo_claudette_injured_effort_06.wav</ShortName>
@@ -41130,15 +41369,14 @@
 				<Event Id="366534112" Name="AudioEvent_BlackSmoke_Dissolve" ObjectPath="\Events\Default Work Unit\Objects\BlackSmoke\AudioEvent_BlackSmoke_Dissolve"/>
 				<Event Id="60386814" Name="AudioEvent_BlackSmoke_Dissolve_Killer" ObjectPath="\Events\Default Work Unit\Objects\BlackSmoke\AudioEvent_BlackSmoke_Dissolve_Killer"/>
 				<Event Id="4082451837" Name="AudioEvent_BlackSmoke_Dissolve_Survivor" ObjectPath="\Events\Default Work Unit\Objects\BlackSmoke\AudioEvent_BlackSmoke_Dissolve_Survivor"/>
-				<Event Id="454336589" Name="AudioEvent_BloodWeb_Close" ObjectPath="\Events\Default Work Unit\UI\BloodWeb\AudioEvent_BloodWeb_Close"/>
-				<Event Id="1352075277" Name="AudioEvent_BloodWeb_Entity_Appears" ObjectPath="\Events\Default Work Unit\UI\BloodWeb\AudioEvent_BloodWeb_Entity_Appears"/>
-				<Event Id="2316194033" Name="AudioEvent_BloodWeb_Generation" ObjectPath="\Events\Default Work Unit\UI\BloodWeb\AudioEvent_BloodWeb_Generation"/>
-				<Event Id="2732000632" Name="AudioEvent_BloodWeb_Player_Node_Box_Open" ObjectPath="\Events\Default Work Unit\UI\BloodWeb\AudioEvent_BloodWeb_Player_Node_Box_Open"/>
-				<Event Id="3012273941" Name="AudioEvent_BloodWeb_Prestiging" ObjectPath="\Events\Default Work Unit\UI\BloodWeb\AudioEvent_BloodWeb_Prestiging"/>
-				<Event Id="157620833" Name="AudioEvent_BloodWeb_Reward_Popup" ObjectPath="\Events\Default Work Unit\UI\BloodWeb\AudioEvent_BloodWeb_Reward_Popup"/>
-				<Event Id="426858252" Name="AudioEvent_BloodWeb_Unlock_Popup" ObjectPath="\Events\Default Work Unit\UI\BloodWeb\AudioEvent_BloodWeb_Unlock_Popup"/>
-				<Event Id="248076550" Name="AudioEvent_BloodWeb_Unlock_Unlocking" ObjectPath="\Events\Default Work Unit\UI\BloodWeb\AudioEvent_BloodWeb_Unlock_Unlocking"/>
-				<Event Id="3831241674" Name="AudioEvent_BloodWeb_WipeOut" ObjectPath="\Events\Default Work Unit\UI\BloodWeb\AudioEvent_BloodWeb_WipeOut"/>
+				<Event Id="454336589" Name="AudioEvent_BloodWeb_Close" ObjectPath="\Events\Default Work Unit\Menu\BloodWeb\AudioEvent_BloodWeb_Close"/>
+				<Event Id="1352075277" Name="AudioEvent_BloodWeb_Entity_Appears" ObjectPath="\Events\Default Work Unit\Menu\BloodWeb\AudioEvent_BloodWeb_Entity_Appears"/>
+				<Event Id="2316194033" Name="AudioEvent_BloodWeb_Generation" ObjectPath="\Events\Default Work Unit\Menu\BloodWeb\AudioEvent_BloodWeb_Generation"/>
+				<Event Id="3012273941" Name="AudioEvent_BloodWeb_Prestiging" ObjectPath="\Events\Default Work Unit\Menu\BloodWeb\AudioEvent_BloodWeb_Prestiging"/>
+				<Event Id="157620833" Name="AudioEvent_BloodWeb_Reward_Popup" ObjectPath="\Events\Default Work Unit\Menu\BloodWeb\AudioEvent_BloodWeb_Reward_Popup"/>
+				<Event Id="426858252" Name="AudioEvent_BloodWeb_Unlock_Popup" ObjectPath="\Events\Default Work Unit\Menu\BloodWeb\AudioEvent_BloodWeb_Unlock_Popup"/>
+				<Event Id="248076550" Name="AudioEvent_BloodWeb_Unlock_Unlocking" ObjectPath="\Events\Default Work Unit\Menu\BloodWeb\AudioEvent_BloodWeb_Unlock_Unlocking"/>
+				<Event Id="3831241674" Name="AudioEvent_BloodWeb_WipeOut" ObjectPath="\Events\Default Work Unit\Menu\BloodWeb\AudioEvent_BloodWeb_WipeOut"/>
 				<Event Id="1884281999" Name="AudioEvent_Escape_Bloc_Start" ObjectPath="\Events\Default Work Unit\Objects\ExitDoor\AudioEvent_Escape_Bloc_Start"/>
 				<Event Id="3573642261" Name="AudioEvent_Escape_Bloc_Stop" ObjectPath="\Events\Default Work Unit\Objects\ExitDoor\AudioEvent_Escape_Bloc_Stop"/>
 				<Event Id="3611935999" Name="AudioEvent_Gameflow_GameStart" ObjectPath="\Events\Default Work Unit\Gameflow\AudioEvent_Gameflow_GameStart"/>
@@ -41149,33 +41387,33 @@
 				<Event Id="1370037918" Name="AudioEvent_Gameflow_Spectate" ObjectPath="\Events\Default Work Unit\Gameflow\AudioEvent_Gameflow_Spectate"/>
 				<Event Id="3373423115" Name="AudioEvent_Gameflow_Tallyscreen_Killer" ObjectPath="\Events\Default Work Unit\Gameflow\AudioEvent_Gameflow_Tallyscreen_Killer"/>
 				<Event Id="4164556940" Name="AudioEvent_Gameflow_Tallyscreen_Survivor" ObjectPath="\Events\Default Work Unit\Gameflow\AudioEvent_Gameflow_Tallyscreen_Survivor"/>
-				<Event Id="1367697027" Name="AudioEvent_Loadout_Close" ObjectPath="\Events\Default Work Unit\UI\Loadout\AudioEvent_Loadout_Close"/>
-				<Event Id="1589356021" Name="AudioEvent_Loadout_Open" ObjectPath="\Events\Default Work Unit\UI\Loadout\AudioEvent_Loadout_Open"/>
-				<Event Id="4294426689" Name="AudioEvent_Loadout_Select" ObjectPath="\Events\Default Work Unit\UI\Loadout\AudioEvent_Loadout_Select"/>
+				<Event Id="1367697027" Name="AudioEvent_Loadout_Close" ObjectPath="\Events\Default Work Unit\Menu\Loadout\AudioEvent_Loadout_Close"/>
+				<Event Id="1589356021" Name="AudioEvent_Loadout_Open" ObjectPath="\Events\Default Work Unit\Menu\Loadout\AudioEvent_Loadout_Open"/>
+				<Event Id="4294426689" Name="AudioEvent_Loadout_Select" ObjectPath="\Events\Default Work Unit\Menu\Loadout\AudioEvent_Loadout_Select"/>
 				<Event Id="1039953048" Name="AudioEvent_LoudNoise" ObjectPath="\Events\Default Work Unit\Objects\LoudNoise\AudioEvent_LoudNoise"/>
-				<Event Id="2116888097" Name="AudioEvent_MainMenu_Found" ObjectPath="\Events\Default Work Unit\UI\MainMenu\AudioEvent_MainMenu_Found"/>
-				<Event Id="788720384" Name="AudioEvent_MainMenu_Profil_Close" ObjectPath="\Events\Default Work Unit\UI\MainMenu\AudioEvent_MainMenu_Profil_Close"/>
-				<Event Id="2259556148" Name="AudioEvent_MainMenu_Profil_Open" ObjectPath="\Events\Default Work Unit\UI\MainMenu\AudioEvent_MainMenu_Profil_Open"/>
+				<Event Id="2116888097" Name="AudioEvent_MainMenu_Found" ObjectPath="\Events\Default Work Unit\Menu\MainMenu\AudioEvent_MainMenu_Found"/>
+				<Event Id="788720384" Name="AudioEvent_MainMenu_Profil_Close" ObjectPath="\Events\Default Work Unit\Menu\MainMenu\AudioEvent_MainMenu_Profil_Close"/>
+				<Event Id="2259556148" Name="AudioEvent_MainMenu_Profil_Open" ObjectPath="\Events\Default Work Unit\Menu\MainMenu\AudioEvent_MainMenu_Profil_Open"/>
 				<Event Id="692218234" Name="AudioEvent_Master_Reset_RTPC" ObjectPath="\Events\Default Work Unit\System\AudioEvent_Master_Reset_RTPC"/>
 				<Event Id="1358231084" Name="AudioEvent_Meathook_Sabotage_Fail" ObjectPath="\Events\Default Work Unit\Objects\Meathook\AudioEvent_Meathook_Sabotage_Fail"/>
-				<Event Id="2252564523" Name="AudioEvent_Offering_Card_Burn" ObjectPath="\Events\Default Work Unit\UI\Offering\AudioEvent_Offering_Card_Burn"/>
-				<Event Id="3445274837" Name="AudioEvent_Offering_Card_Flip" ObjectPath="\Events\Default Work Unit\UI\Offering\AudioEvent_Offering_Card_Flip"/>
-				<Event Id="4217559337" Name="AudioEvent_Offering_Card_Pop" ObjectPath="\Events\Default Work Unit\UI\Offering\AudioEvent_Offering_Card_Pop"/>
+				<Event Id="2252564523" Name="AudioEvent_Offering_Card_Burn" ObjectPath="\Events\Default Work Unit\Menu\Offering\AudioEvent_Offering_Card_Burn"/>
+				<Event Id="3445274837" Name="AudioEvent_Offering_Card_Flip" ObjectPath="\Events\Default Work Unit\Menu\Offering\AudioEvent_Offering_Card_Flip"/>
+				<Event Id="4217559337" Name="AudioEvent_Offering_Card_Pop" ObjectPath="\Events\Default Work Unit\Menu\Offering\AudioEvent_Offering_Card_Pop"/>
 				<Event Id="2358581064" Name="AudioEvent_Placefire_Loop" ObjectPath="\Events\Default Work Unit\Objects\Placefire\AudioEvent_Placefire_Loop"/>
 				<Event Id="1453802913" Name="audioevent_sacrifice_complete" ObjectPath="\Events\Default Work Unit\Objects\TheEntity\audioevent_sacrifice_complete"/>
 				<Event Id="3734973314" Name="audioevent_sacrifice_idle" ObjectPath="\Events\Default Work Unit\Objects\TheEntity\audioevent_sacrifice_idle"/>
 				<Event Id="2065045372" Name="audioevent_sacrifice_reaction_start" ObjectPath="\Events\Default Work Unit\Objects\TheEntity\audioevent_sacrifice_reaction_start"/>
 				<Event Id="991002769" Name="audioevent_sacrifice_struggle" ObjectPath="\Events\Default Work Unit\Objects\TheEntity\audioevent_sacrifice_struggle"/>
-				<Event Id="4001008649" Name="AudioEvent_ShrineOfSecrets_Reveal" ObjectPath="\Events\Default Work Unit\UI\ShrineOfSecrets\AudioEvent_ShrineOfSecrets_Reveal"/>
+				<Event Id="4001008649" Name="AudioEvent_ShrineOfSecrets_Reveal" ObjectPath="\Events\Default Work Unit\Menu\ShrineOfSecrets\AudioEvent_ShrineOfSecrets_Reveal"/>
 				<Event Id="3972205050" Name="audioevent_theentity_daddyfinger_appear" ObjectPath="\Events\Default Work Unit\Objects\TheEntity\audioevent_theentity_daddyfinger_appear"/>
 				<Event Id="924838014" Name="audioevent_theentity_daddyfinger_explosion" ObjectPath="\Events\Default Work Unit\Objects\TheEntity\audioevent_theentity_daddyfinger_explosion"/>
 				<Event Id="3997097954" Name="audioevent_theentity_spider_appear" ObjectPath="\Events\Default Work Unit\Objects\TheEntity\audioevent_theentity_spider_appear"/>
 				<Event Id="1556877473" Name="audioevent_theentity_spider_attack" ObjectPath="\Events\Default Work Unit\Objects\TheEntity\audioevent_theentity_spider_attack"/>
 				<Event Id="3385112907" Name="audioevent_theentity_spider_move_long" ObjectPath="\Events\Default Work Unit\Objects\TheEntity\audioevent_theentity_spider_move_long"/>
 				<Event Id="3697839237" Name="audioevent_theentity_spider_move_short" ObjectPath="\Events\Default Work Unit\Objects\TheEntity\audioevent_theentity_spider_move_short"/>
-				<Event Id="3725379338" Name="AudioEvent_UI_Popup_Large_Open" ObjectPath="\Events\Default Work Unit\UI\Default\AudioEvent_UI_Popup_Large_Open"/>
-				<Event Id="1892607578" Name="AudioEvent_UI_Popup_Small_Close" ObjectPath="\Events\Default Work Unit\UI\Default\AudioEvent_UI_Popup_Small_Close"/>
-				<Event Id="2907380062" Name="AudioEvent_UI_Popup_Small_Open" ObjectPath="\Events\Default Work Unit\UI\Default\AudioEvent_UI_Popup_Small_Open"/>
+				<Event Id="3725379338" Name="AudioEvent_UI_Popup_Large_Open" ObjectPath="\Events\Default Work Unit\Menu\Default\AudioEvent_UI_Popup_Large_Open"/>
+				<Event Id="1892607578" Name="AudioEvent_UI_Popup_Small_Close" ObjectPath="\Events\Default Work Unit\Menu\Default\AudioEvent_UI_Popup_Small_Close"/>
+				<Event Id="2907380062" Name="AudioEvent_UI_Popup_Small_Open" ObjectPath="\Events\Default Work Unit\Menu\Default\AudioEvent_UI_Popup_Small_Open"/>
 				<Event Id="448623733" Name="AudioEvent_Windows_Bloc_Start" ObjectPath="\Events\Default Work Unit\Objects\Windows\AudioEvent_Windows_Bloc_Start"/>
 				<Event Id="1931579607" Name="AudioEvent_Windows_Bloc_Stop" ObjectPath="\Events\Default Work Unit\Objects\Windows\AudioEvent_Windows_Bloc_Stop"/>
 			</IncludedEvents>
@@ -42033,10 +42271,6 @@
 					<ShortName>Characters\Dwight\vo_dwight_effort_hard_05.wav</ShortName>
 					<Path>SFX\Characters\Dwight\vo_dwight_effort_hard_05_5442F26D.wem</Path>
 				</File>
-				<File Id="365028092" Language="SFX">
-					<ShortName>Characters\Dwight\vo_dwight_hurt_hard_15.wav</ShortName>
-					<Path>SFX\Characters\Dwight\vo_dwight_hurt_hard_15_5442F26D.wem</Path>
-				</File>
 				<File Id="368708084" Language="SFX">
 					<ShortName>Characters\Dwight\vo_dwight_scream_long_02.wav</ShortName>
 					<Path>SFX\Characters\Dwight\vo_dwight_scream_long_02_5442F26D.wem</Path>
@@ -42056,6 +42290,10 @@
 				<File Id="378146350" Language="SFX">
 					<ShortName>Characters\Dwight\vo_dwight_hooked_pain_15.wav</ShortName>
 					<Path>SFX\Characters\Dwight\vo_dwight_hooked_pain_15_5442F26D.wem</Path>
+				</File>
+				<File Id="379511313" Language="SFX">
+					<ShortName>Characters\Dwight\vo_dwight_injured_cry_19.wav</ShortName>
+					<Path>SFX\Characters\Dwight\vo_dwight_injured_cry_19_5442F26D.wem</Path>
 				</File>
 				<File Id="380491759" Language="SFX">
 					<ShortName>Characters\Dwight\vo_dwight_hooked_choke_08.wav</ShortName>
@@ -42229,6 +42467,14 @@
 					<ShortName>Characters\Dwight\vo_dwight_effort_hard_07.wav</ShortName>
 					<Path>SFX\Characters\Dwight\vo_dwight_effort_hard_07_5442F26D.wem</Path>
 				</File>
+				<File Id="638494387" Language="SFX">
+					<ShortName>Characters\Dwight\vo_dwight_scream_long_01.wav</ShortName>
+					<Path>SFX\Characters\Dwight\vo_dwight_scream_long_01_5442F26D.wem</Path>
+				</File>
+				<File Id="647163372" Language="SFX">
+					<ShortName>Characters\Dwight\vo_dwight_injured_cry_10.wav</ShortName>
+					<Path>SFX\Characters\Dwight\vo_dwight_injured_cry_10_5442F26D.wem</Path>
+				</File>
 				<File Id="654291981" Language="SFX">
 					<ShortName>Characters\Dwight\vo_dwight_hooked_pain_13.wav</ShortName>
 					<Path>SFX\Characters\Dwight\vo_dwight_hooked_pain_13_5442F26D.wem</Path>
@@ -42349,6 +42595,10 @@
 					<ShortName>Characters\Dwight\vo_dwight_hooked_pain_02.wav</ShortName>
 					<Path>SFX\Characters\Dwight\vo_dwight_hooked_pain_02_5442F26D.wem</Path>
 				</File>
+				<File Id="777354069" Language="SFX">
+					<ShortName>Characters\Dwight\vo_dwight_injured_cry_05.wav</ShortName>
+					<Path>SFX\Characters\Dwight\vo_dwight_injured_cry_05_5442F26D.wem</Path>
+				</File>
 				<File Id="788235058" Language="SFX">
 					<ShortName>Characters\Dwight\vo_dwight_injured_hurt_08.wav</ShortName>
 					<Path>SFX\Characters\Dwight\vo_dwight_injured_hurt_08_5442F26D.wem</Path>
@@ -42361,9 +42611,9 @@
 					<ShortName>Characters\Dwight\vo_dwight_dying_cry_10.wav</ShortName>
 					<Path>SFX\Characters\Dwight\vo_dwight_dying_cry_10_5442F26D.wem</Path>
 				</File>
-				<File Id="805593810" Language="SFX">
-					<ShortName>Characters\Dwight\vo_dwight_hurt_hard_14.wav</ShortName>
-					<Path>SFX\Characters\Dwight\vo_dwight_hurt_hard_14_5442F26D.wem</Path>
+				<File Id="808204168" Language="SFX">
+					<ShortName>Characters\Dwight\vo_dwight_injured_cry_08.wav</ShortName>
+					<Path>SFX\Characters\Dwight\vo_dwight_injured_cry_08_5442F26D.wem</Path>
 				</File>
 				<File Id="808660399" Language="SFX">
 					<ShortName>Characters\Dwight\vo_dwight_hurt_light_11.wav</ShortName>
@@ -42417,6 +42667,10 @@
 					<ShortName>Characters\Dwight\vo_dwight_hooked_pain_18.wav</ShortName>
 					<Path>SFX\Characters\Dwight\vo_dwight_hooked_pain_18_5442F26D.wem</Path>
 				</File>
+				<File Id="865647787" Language="SFX">
+					<ShortName>Characters\Dwight\vo_dwight_injured_cry_16.wav</ShortName>
+					<Path>SFX\Characters\Dwight\vo_dwight_injured_cry_16_5442F26D.wem</Path>
+				</File>
 				<File Id="869761450" Language="SFX">
 					<ShortName>Characters\Dwight\vo_dwight_effort_hard_03.wav</ShortName>
 					<Path>SFX\Characters\Dwight\vo_dwight_effort_hard_03_5442F26D.wem</Path>
@@ -42468,6 +42722,10 @@
 				<File Id="916513221" Language="SFX">
 					<ShortName>Characters\Dwight\vo_dwight_scream_short_09.wav</ShortName>
 					<Path>SFX\Characters\Dwight\vo_dwight_scream_short_09_5442F26D.wem</Path>
+				</File>
+				<File Id="917867005" Language="SFX">
+					<ShortName>Characters\Dwight\vo_dwight_scream_short_06.wav</ShortName>
+					<Path>SFX\Characters\Dwight\vo_dwight_scream_short_06_5442F26D.wem</Path>
 				</File>
 				<File Id="918311731" Language="SFX">
 					<ShortName>Characters\Dwight\vo_dwight_hooked_pain_16.wav</ShortName>
@@ -42561,6 +42819,14 @@
 					<ShortName>Characters\Dwight\vo_dwight_running_breath_10.wav</ShortName>
 					<Path>SFX\Characters\Dwight\vo_dwight_running_breath_10_5442F26D.wem</Path>
 				</File>
+				<File Id="1028457911" Language="SFX">
+					<ShortName>Characters\Dwight\vo_dwight_injured_cry_17.wav</ShortName>
+					<Path>SFX\Characters\Dwight\vo_dwight_injured_cry_17_5442F26D.wem</Path>
+				</File>
+				<File Id="1029625712" Language="SFX">
+					<ShortName>Characters\Dwight\vo_dwight_injured_cry_15.wav</ShortName>
+					<Path>SFX\Characters\Dwight\vo_dwight_injured_cry_15_5442F26D.wem</Path>
+				</File>
 				<File Id="1040415011" Language="SFX">
 					<ShortName>Characters\Dwight\vo_dwight_effort_light_05.wav</ShortName>
 					<Path>SFX\Characters\Dwight\vo_dwight_effort_light_05_5442F26D.wem</Path>
@@ -42572,6 +42838,10 @@
 				<File Id="1041237474" Language="SFX">
 					<ShortName>Characters\Dwight\vo_dwight_hooked_breath_01.wav</ShortName>
 					<Path>SFX\Characters\Dwight\vo_dwight_hooked_breath_01_5442F26D.wem</Path>
+				</File>
+				<File Id="1042716773" Language="SFX">
+					<ShortName>Characters\Dwight\vo_dwight_injured_cry_18.wav</ShortName>
+					<Path>SFX\Characters\Dwight\vo_dwight_injured_cry_18_5442F26D.wem</Path>
 				</File>
 				<File Id="1053839301" Language="SFX">
 					<ShortName>Characters\Dwight\vo_dwight_hooked_hurt_09.wav</ShortName>
@@ -42696,9 +42966,17 @@
 					<ShortName>Characters\Jake\vo_jake_hooked_effort_18.wav</ShortName>
 					<Path>SFX\Characters\Jake\vo_jake_hooked_effort_18_5442F26D.wem</Path>
 				</File>
+				<File Id="121374809" Language="SFX">
+					<ShortName>Characters\Jake\vo_jake_hurt_hard_11_cn.wav</ShortName>
+					<Path>SFX\Characters\Jake\vo_jake_hurt_hard_11_cn_5442F26D.wem</Path>
+				</File>
 				<File Id="123358678" Language="SFX">
 					<ShortName>Characters\Jake\vo_jake_hurt_hard_14.wav</ShortName>
 					<Path>SFX\Characters\Jake\vo_jake_hurt_hard_14_5442F26D.wem</Path>
+				</File>
+				<File Id="127414590" Language="SFX">
+					<ShortName>Characters\Jake\vo_jake_hurt_hard_15_cn.wav</ShortName>
+					<Path>SFX\Characters\Jake\vo_jake_hurt_hard_15_cn_5442F26D.wem</Path>
 				</File>
 				<File Id="134408115" Language="SFX">
 					<ShortName>Characters\Jake\vo_jake_dead_03.wav</ShortName>
@@ -42787,6 +43065,10 @@
 				<File Id="271173218" Language="SFX">
 					<ShortName>Characters\Jake\vo_jake_hurt_hard_17.wav</ShortName>
 					<Path>SFX\Characters\Jake\vo_jake_hurt_hard_17_5442F26D.wem</Path>
+				</File>
+				<File Id="272130136" Language="SFX">
+					<ShortName>Characters\Jake\vo_jake_hurt_hard_10_cn.wav</ShortName>
+					<Path>SFX\Characters\Jake\vo_jake_hurt_hard_10_cn_5442F26D.wem</Path>
 				</File>
 				<File Id="276800412" Language="SFX">
 					<ShortName>Characters\Jake\vo_jake_injured_cry_09.wav</ShortName>
@@ -42963,6 +43245,10 @@
 				<File Id="515343175" Language="SFX">
 					<ShortName>Characters\Jake\vo_jake_injured_cry_07.wav</ShortName>
 					<Path>SFX\Characters\Jake\vo_jake_injured_cry_07_5442F26D.wem</Path>
+				</File>
+				<File Id="523164902" Language="SFX">
+					<ShortName>Characters\Jake\vo_jake_hurt_hard_14_cn.wav</ShortName>
+					<Path>SFX\Characters\Jake\vo_jake_hurt_hard_14_cn_5442F26D.wem</Path>
 				</File>
 				<File Id="533431587" Language="SFX">
 					<ShortName>Characters\Jake\vo_jake_injured_hurt_16.wav</ShortName>
@@ -43271,6 +43557,10 @@
 				<File Id="911520450" Language="SFX">
 					<ShortName>Characters\Jake\vo_jake_hurt_light_01.wav</ShortName>
 					<Path>SFX\Characters\Jake\vo_jake_hurt_light_01_5442F26D.wem</Path>
+				</File>
+				<File Id="914363176" Language="SFX">
+					<ShortName>Characters\Jake\vo_jake_hurt_hard_09_cn.wav</ShortName>
+					<Path>SFX\Characters\Jake\vo_jake_hurt_hard_09_cn_5442F26D.wem</Path>
 				</File>
 				<File Id="925606725" Language="SFX">
 					<ShortName>Characters\Jake\vo_jake_falling_04.wav</ShortName>
@@ -50175,6 +50465,10 @@
 					<ShortName>Characters\Survivor_Male_07\Dave_effort_hard-cm_024.wav</ShortName>
 					<Path>SFX\Characters\Survivor_Male_07\Dave_effort_hard-cm_024_5442F26D.wem</Path>
 				</File>
+				<File Id="218946442" Language="SFX">
+					<ShortName>Characters\Survivor_Male_07\Dave_hooked-cm_09.wav</ShortName>
+					<Path>SFX\Characters\Survivor_Male_07\Dave_hooked-cm_09_5442F26D.wem</Path>
+				</File>
 				<File Id="218963853" Language="SFX">
 					<ShortName>Characters\Survivor_Male_07\Dave_healing-cm_046.wav</ShortName>
 					<Path>SFX\Characters\Survivor_Male_07\Dave_healing-cm_046_5442F26D.wem</Path>
@@ -52167,6 +52461,89 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
+		<SoundBank Id="4109189013" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Objects\Fireworks</ObjectPath>
+			<ShortName>Fireworks</ShortName>
+			<Path>Fireworks.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1310711375" Name="AudioEvent_Fireworks_Burst_Menu" ObjectPath="\Events\Default Work Unit\Objects\Fireworks\AudioEvent_Fireworks_Burst_Menu"/>
+				<Event Id="2025483392" Name="AudioEvent_Fireworks_Solo_Menu" ObjectPath="\Events\Default Work Unit\Objects\Fireworks\AudioEvent_Fireworks_Solo_Menu"/>
+				<Event Id="1831933054" Name="AudioEvent_Fireworks_Sphere_Menu" ObjectPath="\Events\Default Work Unit\Objects\Fireworks\AudioEvent_Fireworks_Sphere_Menu"/>
+				<Event Id="3816367177" Name="AudioEvent_Fireworks_Tail_Menu" ObjectPath="\Events\Default Work Unit\Objects\Fireworks\AudioEvent_Fireworks_Tail_Menu"/>
+				<Event Id="3492530440" Name="AudioEvent_Generator_LunarEvent" ObjectPath="\Events\Default Work Unit\Objects\Generator\AudioEvent_Generator_LunarEvent"/>
+				<Event Id="614673893" Name="AudioEvent_Meathook_LunarEvent" ObjectPath="\Events\Default Work Unit\Objects\Meathook\AudioEvent_Meathook_LunarEvent"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="122469895" Language="SFX">
+					<ShortName>Objects\Fireworks\sfx_fireworks_burst_01.wav</ShortName>
+					<Path>SFX\Objects\Fireworks\sfx_fireworks_burst_01_5442F26D.wem</Path>
+				</File>
+				<File Id="148582358" Language="SFX">
+					<ShortName>Objects\Fireworks\sfx_fireworks_solo_02.wav</ShortName>
+					<Path>SFX\Objects\Fireworks\sfx_fireworks_solo_02_5442F26D.wem</Path>
+				</File>
+				<File Id="154112688" Language="SFX">
+					<ShortName>Objects\Fireworks\sfx_fireworks_burst_02.wav</ShortName>
+					<Path>SFX\Objects\Fireworks\sfx_fireworks_burst_02_5442F26D.wem</Path>
+				</File>
+				<File Id="159073775" Language="SFX">
+					<ShortName>Objects\Fireworks\sfx_fireworks_tail_01.wav</ShortName>
+					<Path>SFX\Objects\Fireworks\sfx_fireworks_tail_01_5442F26D.wem</Path>
+				</File>
+				<File Id="177497820" Language="SFX">
+					<ShortName>Objects\Fireworks\sfx_fireworks_tail_03.wav</ShortName>
+					<Path>SFX\Objects\Fireworks\sfx_fireworks_tail_03_5442F26D.wem</Path>
+				</File>
+				<File Id="334992437" Language="SFX">
+					<ShortName>Objects\Generator\sfx_generator_firecracker_burn_02.wav</ShortName>
+					<Path>SFX\Objects\Generator\sfx_generator_firecracker_burn_02_5442F26D.wem</Path>
+				</File>
+				<File Id="422005072" Language="SFX">
+					<ShortName>Objects\Fireworks\sfx_fireworks_sphere_02.wav</ShortName>
+					<Path>SFX\Objects\Fireworks\sfx_fireworks_sphere_02_5442F26D.wem</Path>
+				</File>
+				<File Id="495409650" Language="SFX">
+					<ShortName>Objects\Generator\sfx_generator_fireworks_lunarevent_01.wav</ShortName>
+					<Path>SFX\Objects\Generator\sfx_generator_fireworks_lunarevent_01_5442F26D.wem</Path>
+				</File>
+				<File Id="598876698" Language="SFX">
+					<ShortName>Objects\Generator\sfx_generator_lunarevent_burst_01.wav</ShortName>
+					<Path>SFX\Objects\Generator\sfx_generator_lunarevent_burst_01_5442F26D.wem</Path>
+				</File>
+				<File Id="603514639" Language="SFX">
+					<ShortName>Objects\Fireworks\sfx_fireworks_solo_03.wav</ShortName>
+					<Path>SFX\Objects\Fireworks\sfx_fireworks_solo_03_5442F26D.wem</Path>
+				</File>
+				<File Id="829312990" Language="SFX">
+					<ShortName>Objects\Generator\sfx_generator_firecracker_burn_01.wav</ShortName>
+					<Path>SFX\Objects\Generator\sfx_generator_firecracker_burn_01_5442F26D.wem</Path>
+				</File>
+				<File Id="847702565" Language="SFX">
+					<ShortName>Objects\Fireworks\sfx_fireworks_sphere_01.wav</ShortName>
+					<Path>SFX\Objects\Fireworks\sfx_fireworks_sphere_01_5442F26D.wem</Path>
+				</File>
+				<File Id="872832977" Language="SFX">
+					<ShortName>Objects\Generator\sfx_generator_fireworks_lunarevent_02.wav</ShortName>
+					<Path>SFX\Objects\Generator\sfx_generator_fireworks_lunarevent_02_5442F26D.wem</Path>
+				</File>
+				<File Id="881856244" Language="SFX">
+					<ShortName>Objects\Generator\sfx_generator_firecracker_burn_03.wav</ShortName>
+					<Path>SFX\Objects\Generator\sfx_generator_firecracker_burn_03_5442F26D.wem</Path>
+				</File>
+				<File Id="998439276" Language="SFX">
+					<ShortName>Objects\Fireworks\sfx_fireworks_solo_01.wav</ShortName>
+					<Path>SFX\Objects\Fireworks\sfx_fireworks_solo_01_5442F26D.wem</Path>
+				</File>
+				<File Id="1017539861" Language="SFX">
+					<ShortName>Objects\Fireworks\sfx_fireworks_solo_04.wav</ShortName>
+					<Path>SFX\Objects\Fireworks\sfx_fireworks_solo_04_5442F26D.wem</Path>
+				</File>
+				<File Id="1064818936" Language="SFX">
+					<ShortName>Objects\Fireworks\sfx_fireworks_tail_02.wav</ShortName>
+					<Path>SFX\Objects\Fireworks\sfx_fireworks_tail_02_5442F26D.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
 		<SoundBank Id="4149531102" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\Global_Splash</ObjectPath>
 			<ShortName>Global_Splash</ShortName>
@@ -52175,58 +52552,59 @@
 				<Event Id="2522883151" Name="AudioEvent_Blood_Body_Hit" ObjectPath="\Events\Default Work Unit\Objects\Blood\AudioEvent_Blood_Body_Hit"/>
 				<Event Id="1094282593" Name="AudioEvent_Blood_Screen" ObjectPath="\Events\Default Work Unit\Objects\Blood\AudioEvent_Blood_Screen"/>
 				<Event Id="449443416" Name="AudioEvent_Blood_Splash" ObjectPath="\Events\Default Work Unit\Objects\Blood\AudioEvent_Blood_Splash"/>
-				<Event Id="550171570" Name="AudioEvent_BloodWeb_Back" ObjectPath="\Events\Default Work Unit\UI\BloodWeb\AudioEvent_BloodWeb_Back"/>
-				<Event Id="4135613243" Name="AudioEvent_BloodWeb_Back_Highlight" ObjectPath="\Events\Default Work Unit\UI\BloodWeb\AudioEvent_BloodWeb_Back_Highlight"/>
-				<Event Id="454336589" Name="AudioEvent_BloodWeb_Close" ObjectPath="\Events\Default Work Unit\UI\BloodWeb\AudioEvent_BloodWeb_Close"/>
-				<Event Id="2640307892" Name="AudioEvent_BloodWeb_Entity_Angry" ObjectPath="\Events\Default Work Unit\UI\BloodWeb\AudioEvent_BloodWeb_Entity_Angry"/>
-				<Event Id="1352075277" Name="AudioEvent_BloodWeb_Entity_Appears" ObjectPath="\Events\Default Work Unit\UI\BloodWeb\AudioEvent_BloodWeb_Entity_Appears"/>
-				<Event Id="2856822796" Name="AudioEvent_BloodWeb_Entity_Lign_Progressing_Start" ObjectPath="\Events\Default Work Unit\UI\BloodWeb\AudioEvent_BloodWeb_Entity_Lign_Progressing_Start"/>
-				<Event Id="2504182432" Name="AudioEvent_BloodWeb_Entity_Lign_Progressing_Stop" ObjectPath="\Events\Default Work Unit\UI\BloodWeb\AudioEvent_BloodWeb_Entity_Lign_Progressing_Stop"/>
-				<Event Id="53081346" Name="AudioEvent_BloodWeb_Entity_Node_Captured" ObjectPath="\Events\Default Work Unit\UI\BloodWeb\AudioEvent_BloodWeb_Entity_Node_Captured"/>
-				<Event Id="2316194033" Name="AudioEvent_BloodWeb_Generation" ObjectPath="\Events\Default Work Unit\UI\BloodWeb\AudioEvent_BloodWeb_Generation"/>
-				<Event Id="278999265" Name="AudioEvent_BloodWeb_Highlight" ObjectPath="\Events\Default Work Unit\UI\BloodWeb\AudioEvent_BloodWeb_Highlight"/>
-				<Event Id="676211463" Name="AudioEvent_BloodWeb_Open" ObjectPath="\Events\Default Work Unit\UI\BloodWeb\AudioEvent_BloodWeb_Open"/>
-				<Event Id="1863436948" Name="AudioEvent_BloodWeb_Perk_New" ObjectPath="\Events\Default Work Unit\UI\BloodWeb\AudioEvent_BloodWeb_Perk_New"/>
-				<Event Id="1124953353" Name="AudioEvent_BloodWeb_Player_BloodPoints_Spend" ObjectPath="\Events\Default Work Unit\UI\BloodWeb\AudioEvent_BloodWeb_Player_BloodPoints_Spend"/>
-				<Event Id="707966001" Name="AudioEvent_BloodWeb_Player_Lign_Depletion_Start" ObjectPath="\Events\Default Work Unit\UI\BloodWeb\AudioEvent_BloodWeb_Player_Lign_Depletion_Start"/>
-				<Event Id="698449067" Name="AudioEvent_BloodWeb_Player_Lign_Depletion_Stop" ObjectPath="\Events\Default Work Unit\UI\BloodWeb\AudioEvent_BloodWeb_Player_Lign_Depletion_Stop"/>
-				<Event Id="1868447374" Name="AudioEvent_BloodWeb_Player_Lign_OutOfPoints" ObjectPath="\Events\Default Work Unit\UI\BloodWeb\AudioEvent_BloodWeb_Player_Lign_OutOfPoints"/>
-				<Event Id="4067396822" Name="AudioEvent_BloodWeb_Player_Lign_Progressing_Start" ObjectPath="\Events\Default Work Unit\UI\BloodWeb\AudioEvent_BloodWeb_Player_Lign_Progressing_Start"/>
-				<Event Id="2644319958" Name="AudioEvent_BloodWeb_Player_Lign_Progressing_Stop" ObjectPath="\Events\Default Work Unit\UI\BloodWeb\AudioEvent_BloodWeb_Player_Lign_Progressing_Stop"/>
-				<Event Id="2732000632" Name="AudioEvent_BloodWeb_Player_Node_Box_Open" ObjectPath="\Events\Default Work Unit\UI\BloodWeb\AudioEvent_BloodWeb_Player_Node_Box_Open"/>
-				<Event Id="1294359220" Name="AudioEvent_BloodWeb_Player_Node_Captured" ObjectPath="\Events\Default Work Unit\UI\BloodWeb\AudioEvent_BloodWeb_Player_Node_Captured"/>
-				<Event Id="3243739530" Name="AudioEvent_BloodWeb_Player_Node_Highlight" ObjectPath="\Events\Default Work Unit\UI\BloodWeb\AudioEvent_BloodWeb_Player_Node_Highlight"/>
-				<Event Id="987333326" Name="AudioEvent_BloodWeb_Player_Node_Inacessible" ObjectPath="\Events\Default Work Unit\UI\BloodWeb\AudioEvent_BloodWeb_Player_Node_Inacessible"/>
-				<Event Id="3161119036" Name="AudioEvent_BloodWeb_Player_Node_Locked" ObjectPath="\Events\Default Work Unit\UI\BloodWeb\AudioEvent_BloodWeb_Player_Node_Locked"/>
-				<Event Id="3810767611" Name="AudioEvent_BloodWeb_Player_Node_Press" ObjectPath="\Events\Default Work Unit\UI\BloodWeb\AudioEvent_BloodWeb_Player_Node_Press"/>
-				<Event Id="2545236561" Name="AudioEvent_BloodWeb_Player_Node_Release" ObjectPath="\Events\Default Work Unit\UI\BloodWeb\AudioEvent_BloodWeb_Player_Node_Release"/>
-				<Event Id="2900914641" Name="AudioEvent_BloodWeb_Player_Node_Shrink" ObjectPath="\Events\Default Work Unit\UI\BloodWeb\AudioEvent_BloodWeb_Player_Node_Shrink"/>
-				<Event Id="3012273941" Name="AudioEvent_BloodWeb_Prestiging" ObjectPath="\Events\Default Work Unit\UI\BloodWeb\AudioEvent_BloodWeb_Prestiging"/>
-				<Event Id="967130698" Name="AudioEvent_BloodWeb_Reward_Level1" ObjectPath="\Events\Default Work Unit\UI\BloodWeb\AudioEvent_BloodWeb_Reward_Level1"/>
-				<Event Id="967130697" Name="AudioEvent_BloodWeb_Reward_Level2" ObjectPath="\Events\Default Work Unit\UI\BloodWeb\AudioEvent_BloodWeb_Reward_Level2"/>
-				<Event Id="967130696" Name="AudioEvent_BloodWeb_Reward_Level3" ObjectPath="\Events\Default Work Unit\UI\BloodWeb\AudioEvent_BloodWeb_Reward_Level3"/>
-				<Event Id="967130703" Name="AudioEvent_BloodWeb_Reward_Level4" ObjectPath="\Events\Default Work Unit\UI\BloodWeb\AudioEvent_BloodWeb_Reward_Level4"/>
-				<Event Id="967130702" Name="AudioEvent_BloodWeb_Reward_Level5" ObjectPath="\Events\Default Work Unit\UI\BloodWeb\AudioEvent_BloodWeb_Reward_Level5"/>
-				<Event Id="157620833" Name="AudioEvent_BloodWeb_Reward_Popup" ObjectPath="\Events\Default Work Unit\UI\BloodWeb\AudioEvent_BloodWeb_Reward_Popup"/>
-				<Event Id="4136858203" Name="AudioEvent_BloodWeb_Select" ObjectPath="\Events\Default Work Unit\UI\BloodWeb\AudioEvent_BloodWeb_Select"/>
-				<Event Id="2621078810" Name="AudioEvent_BloodWeb_Unlock_Highlight" ObjectPath="\Events\Default Work Unit\UI\BloodWeb\AudioEvent_BloodWeb_Unlock_Highlight"/>
-				<Event Id="2272002331" Name="AudioEvent_BloodWeb_Unlock_No" ObjectPath="\Events\Default Work Unit\UI\BloodWeb\AudioEvent_BloodWeb_Unlock_No"/>
-				<Event Id="426858252" Name="AudioEvent_BloodWeb_Unlock_Popup" ObjectPath="\Events\Default Work Unit\UI\BloodWeb\AudioEvent_BloodWeb_Unlock_Popup"/>
-				<Event Id="248076550" Name="AudioEvent_BloodWeb_Unlock_Unlocking" ObjectPath="\Events\Default Work Unit\UI\BloodWeb\AudioEvent_BloodWeb_Unlock_Unlocking"/>
-				<Event Id="1071407055" Name="AudioEvent_BloodWeb_Unlock_Yes" ObjectPath="\Events\Default Work Unit\UI\BloodWeb\AudioEvent_BloodWeb_Unlock_Yes"/>
-				<Event Id="3831241674" Name="AudioEvent_BloodWeb_WipeOut" ObjectPath="\Events\Default Work Unit\UI\BloodWeb\AudioEvent_BloodWeb_WipeOut"/>
+				<Event Id="550171570" Name="AudioEvent_BloodWeb_Back" ObjectPath="\Events\Default Work Unit\Menu\BloodWeb\AudioEvent_BloodWeb_Back"/>
+				<Event Id="4135613243" Name="AudioEvent_BloodWeb_Back_Highlight" ObjectPath="\Events\Default Work Unit\Menu\BloodWeb\AudioEvent_BloodWeb_Back_Highlight"/>
+				<Event Id="454336589" Name="AudioEvent_BloodWeb_Close" ObjectPath="\Events\Default Work Unit\Menu\BloodWeb\AudioEvent_BloodWeb_Close"/>
+				<Event Id="2640307892" Name="AudioEvent_BloodWeb_Entity_Angry" ObjectPath="\Events\Default Work Unit\Menu\BloodWeb\AudioEvent_BloodWeb_Entity_Angry"/>
+				<Event Id="1352075277" Name="AudioEvent_BloodWeb_Entity_Appears" ObjectPath="\Events\Default Work Unit\Menu\BloodWeb\AudioEvent_BloodWeb_Entity_Appears"/>
+				<Event Id="2856822796" Name="AudioEvent_BloodWeb_Entity_Lign_Progressing_Start" ObjectPath="\Events\Default Work Unit\Menu\BloodWeb\AudioEvent_BloodWeb_Entity_Lign_Progressing_Start"/>
+				<Event Id="2504182432" Name="AudioEvent_BloodWeb_Entity_Lign_Progressing_Stop" ObjectPath="\Events\Default Work Unit\Menu\BloodWeb\AudioEvent_BloodWeb_Entity_Lign_Progressing_Stop"/>
+				<Event Id="53081346" Name="AudioEvent_BloodWeb_Entity_Node_Captured" ObjectPath="\Events\Default Work Unit\Menu\BloodWeb\AudioEvent_BloodWeb_Entity_Node_Captured"/>
+				<Event Id="2316194033" Name="AudioEvent_BloodWeb_Generation" ObjectPath="\Events\Default Work Unit\Menu\BloodWeb\AudioEvent_BloodWeb_Generation"/>
+				<Event Id="278999265" Name="AudioEvent_BloodWeb_Highlight" ObjectPath="\Events\Default Work Unit\Menu\BloodWeb\AudioEvent_BloodWeb_Highlight"/>
+				<Event Id="676211463" Name="AudioEvent_BloodWeb_Open" ObjectPath="\Events\Default Work Unit\Menu\BloodWeb\AudioEvent_BloodWeb_Open"/>
+				<Event Id="1863436948" Name="AudioEvent_BloodWeb_Perk_New" ObjectPath="\Events\Default Work Unit\Menu\BloodWeb\AudioEvent_BloodWeb_Perk_New"/>
+				<Event Id="1124953353" Name="AudioEvent_BloodWeb_Player_BloodPoints_Spend" ObjectPath="\Events\Default Work Unit\Menu\BloodWeb\AudioEvent_BloodWeb_Player_BloodPoints_Spend"/>
+				<Event Id="707966001" Name="AudioEvent_BloodWeb_Player_Lign_Depletion_Start" ObjectPath="\Events\Default Work Unit\Menu\BloodWeb\AudioEvent_BloodWeb_Player_Lign_Depletion_Start"/>
+				<Event Id="698449067" Name="AudioEvent_BloodWeb_Player_Lign_Depletion_Stop" ObjectPath="\Events\Default Work Unit\Menu\BloodWeb\AudioEvent_BloodWeb_Player_Lign_Depletion_Stop"/>
+				<Event Id="1868447374" Name="AudioEvent_BloodWeb_Player_Lign_OutOfPoints" ObjectPath="\Events\Default Work Unit\Menu\BloodWeb\AudioEvent_BloodWeb_Player_Lign_OutOfPoints"/>
+				<Event Id="4067396822" Name="AudioEvent_BloodWeb_Player_Lign_Progressing_Start" ObjectPath="\Events\Default Work Unit\Menu\BloodWeb\AudioEvent_BloodWeb_Player_Lign_Progressing_Start"/>
+				<Event Id="2644319958" Name="AudioEvent_BloodWeb_Player_Lign_Progressing_Stop" ObjectPath="\Events\Default Work Unit\Menu\BloodWeb\AudioEvent_BloodWeb_Player_Lign_Progressing_Stop"/>
+				<Event Id="2732000632" Name="AudioEvent_BloodWeb_Player_Node_Box_Open" ObjectPath="\Events\Default Work Unit\Menu\BloodWeb\AudioEvent_BloodWeb_Player_Node_Box_Open"/>
+				<Event Id="1294359220" Name="AudioEvent_BloodWeb_Player_Node_Captured" ObjectPath="\Events\Default Work Unit\Menu\BloodWeb\AudioEvent_BloodWeb_Player_Node_Captured"/>
+				<Event Id="3243739530" Name="AudioEvent_BloodWeb_Player_Node_Highlight" ObjectPath="\Events\Default Work Unit\Menu\BloodWeb\AudioEvent_BloodWeb_Player_Node_Highlight"/>
+				<Event Id="987333326" Name="AudioEvent_BloodWeb_Player_Node_Inacessible" ObjectPath="\Events\Default Work Unit\Menu\BloodWeb\AudioEvent_BloodWeb_Player_Node_Inacessible"/>
+				<Event Id="3161119036" Name="AudioEvent_BloodWeb_Player_Node_Locked" ObjectPath="\Events\Default Work Unit\Menu\BloodWeb\AudioEvent_BloodWeb_Player_Node_Locked"/>
+				<Event Id="3810767611" Name="AudioEvent_BloodWeb_Player_Node_Press" ObjectPath="\Events\Default Work Unit\Menu\BloodWeb\AudioEvent_BloodWeb_Player_Node_Press"/>
+				<Event Id="2545236561" Name="AudioEvent_BloodWeb_Player_Node_Release" ObjectPath="\Events\Default Work Unit\Menu\BloodWeb\AudioEvent_BloodWeb_Player_Node_Release"/>
+				<Event Id="2900914641" Name="AudioEvent_BloodWeb_Player_Node_Shrink" ObjectPath="\Events\Default Work Unit\Menu\BloodWeb\AudioEvent_BloodWeb_Player_Node_Shrink"/>
+				<Event Id="3012273941" Name="AudioEvent_BloodWeb_Prestiging" ObjectPath="\Events\Default Work Unit\Menu\BloodWeb\AudioEvent_BloodWeb_Prestiging"/>
+				<Event Id="967130698" Name="AudioEvent_BloodWeb_Reward_Level1" ObjectPath="\Events\Default Work Unit\Menu\BloodWeb\AudioEvent_BloodWeb_Reward_Level1"/>
+				<Event Id="967130697" Name="AudioEvent_BloodWeb_Reward_Level2" ObjectPath="\Events\Default Work Unit\Menu\BloodWeb\AudioEvent_BloodWeb_Reward_Level2"/>
+				<Event Id="967130696" Name="AudioEvent_BloodWeb_Reward_Level3" ObjectPath="\Events\Default Work Unit\Menu\BloodWeb\AudioEvent_BloodWeb_Reward_Level3"/>
+				<Event Id="967130703" Name="AudioEvent_BloodWeb_Reward_Level4" ObjectPath="\Events\Default Work Unit\Menu\BloodWeb\AudioEvent_BloodWeb_Reward_Level4"/>
+				<Event Id="967130702" Name="AudioEvent_BloodWeb_Reward_Level5" ObjectPath="\Events\Default Work Unit\Menu\BloodWeb\AudioEvent_BloodWeb_Reward_Level5"/>
+				<Event Id="2795028762" Name="AudioEvent_BloodWeb_Reward_Lunar_Event" ObjectPath="\Events\Default Work Unit\Menu\BloodWeb\AudioEvent_BloodWeb_Reward_Lunar_Event"/>
+				<Event Id="157620833" Name="AudioEvent_BloodWeb_Reward_Popup" ObjectPath="\Events\Default Work Unit\Menu\BloodWeb\AudioEvent_BloodWeb_Reward_Popup"/>
+				<Event Id="4136858203" Name="AudioEvent_BloodWeb_Select" ObjectPath="\Events\Default Work Unit\Menu\BloodWeb\AudioEvent_BloodWeb_Select"/>
+				<Event Id="2621078810" Name="AudioEvent_BloodWeb_Unlock_Highlight" ObjectPath="\Events\Default Work Unit\Menu\BloodWeb\AudioEvent_BloodWeb_Unlock_Highlight"/>
+				<Event Id="2272002331" Name="AudioEvent_BloodWeb_Unlock_No" ObjectPath="\Events\Default Work Unit\Menu\BloodWeb\AudioEvent_BloodWeb_Unlock_No"/>
+				<Event Id="426858252" Name="AudioEvent_BloodWeb_Unlock_Popup" ObjectPath="\Events\Default Work Unit\Menu\BloodWeb\AudioEvent_BloodWeb_Unlock_Popup"/>
+				<Event Id="248076550" Name="AudioEvent_BloodWeb_Unlock_Unlocking" ObjectPath="\Events\Default Work Unit\Menu\BloodWeb\AudioEvent_BloodWeb_Unlock_Unlocking"/>
+				<Event Id="1071407055" Name="AudioEvent_BloodWeb_Unlock_Yes" ObjectPath="\Events\Default Work Unit\Menu\BloodWeb\AudioEvent_BloodWeb_Unlock_Yes"/>
+				<Event Id="3831241674" Name="AudioEvent_BloodWeb_WipeOut" ObjectPath="\Events\Default Work Unit\Menu\BloodWeb\AudioEvent_BloodWeb_WipeOut"/>
 				<Event Id="3415013186" Name="AudioEvent_Chainsaw_Cannibal_Cancel" ObjectPath="\Events\Default Work Unit\Powers\Chainsaw_Cannibal\AudioEvent_Chainsaw_Cannibal_Cancel"/>
 				<Event Id="2439225420" Name="AudioEvent_Chainsaw_Cannibal_Hit_Survivor" ObjectPath="\Events\Default Work Unit\Powers\Chainsaw_Cannibal\AudioEvent_Chainsaw_Cannibal_Hit_Survivor"/>
 				<Event Id="1919296220" Name="AudioEvent_Chainsaw_Cannibal_Hit_Survivor_Special" ObjectPath="\Events\Default Work Unit\Powers\Chainsaw_Cannibal\AudioEvent_Chainsaw_Cannibal_Hit_Survivor_Special"/>
 				<Event Id="3573224859" Name="AudioEvent_Chainsaw_Hit_Survivor" ObjectPath="\Events\Default Work Unit\Powers\Chainsaw\AudioEvent_Chainsaw_Hit_Survivor"/>
 				<Event Id="1336715243" Name="AudioEvent_Chainsaw_Hit_Survivor_Special" ObjectPath="\Events\Default Work Unit\Powers\Chainsaw\AudioEvent_Chainsaw_Hit_Survivor_Special"/>
-				<Event Id="2588453487" Name="AudioEvent_Character_Back" ObjectPath="\Events\Default Work Unit\UI\Character\AudioEvent_Character_Back"/>
-				<Event Id="1736149054" Name="AudioEvent_Character_Back_Highlight" ObjectPath="\Events\Default Work Unit\UI\Character\AudioEvent_Character_Back_Highlight"/>
-				<Event Id="2025882966" Name="AudioEvent_Character_Highlight" ObjectPath="\Events\Default Work Unit\UI\Character\AudioEvent_Character_Highlight"/>
-				<Event Id="2298430338" Name="AudioEvent_Character_Select" ObjectPath="\Events\Default Work Unit\UI\Character\AudioEvent_Character_Select"/>
-				<Event Id="4270365069" Name="AudioEvent_DailyRituals_Completed" ObjectPath="\Events\Default Work Unit\UI\DailyRituals\AudioEvent_DailyRituals_Completed"/>
-				<Event Id="389878383" Name="AudioEvent_DailyRituals_Delete" ObjectPath="\Events\Default Work Unit\UI\DailyRituals\AudioEvent_DailyRituals_Delete"/>
-				<Event Id="3485753549" Name="AudioEvent_DailyRituals_Reveal" ObjectPath="\Events\Default Work Unit\UI\DailyRituals\AudioEvent_DailyRituals_Reveal"/>
+				<Event Id="2588453487" Name="AudioEvent_Character_Back" ObjectPath="\Events\Default Work Unit\Menu\Character\AudioEvent_Character_Back"/>
+				<Event Id="1736149054" Name="AudioEvent_Character_Back_Highlight" ObjectPath="\Events\Default Work Unit\Menu\Character\AudioEvent_Character_Back_Highlight"/>
+				<Event Id="2025882966" Name="AudioEvent_Character_Highlight" ObjectPath="\Events\Default Work Unit\Menu\Character\AudioEvent_Character_Highlight"/>
+				<Event Id="2298430338" Name="AudioEvent_Character_Select" ObjectPath="\Events\Default Work Unit\Menu\Character\AudioEvent_Character_Select"/>
+				<Event Id="4270365069" Name="AudioEvent_DailyRituals_Completed" ObjectPath="\Events\Default Work Unit\Menu\DailyRituals\AudioEvent_DailyRituals_Completed"/>
+				<Event Id="389878383" Name="AudioEvent_DailyRituals_Delete" ObjectPath="\Events\Default Work Unit\Menu\DailyRituals\AudioEvent_DailyRituals_Delete"/>
+				<Event Id="3485753549" Name="AudioEvent_DailyRituals_Reveal" ObjectPath="\Events\Default Work Unit\Menu\DailyRituals\AudioEvent_DailyRituals_Reveal"/>
 				<Event Id="544384141" Name="AudioEvent_Gameflow_Defeated_Killer" ObjectPath="\Events\Default Work Unit\Gameflow\AudioEvent_Gameflow_Defeated_Killer"/>
 				<Event Id="3312498366" Name="AudioEvent_Gameflow_Defeated_Survivor" ObjectPath="\Events\Default Work Unit\Gameflow\AudioEvent_Gameflow_Defeated_Survivor"/>
 				<Event Id="410408290" Name="AudioEvent_Gameflow_Escape" ObjectPath="\Events\Default Work Unit\Gameflow\AudioEvent_Gameflow_Escape"/>
@@ -52246,102 +52624,102 @@
 				<Event Id="4164556940" Name="AudioEvent_Gameflow_Tallyscreen_Survivor" ObjectPath="\Events\Default Work Unit\Gameflow\AudioEvent_Gameflow_Tallyscreen_Survivor"/>
 				<Event Id="4227628759" Name="AudioEvent_Gameflow_Victory_Killer" ObjectPath="\Events\Default Work Unit\Gameflow\AudioEvent_Gameflow_Victory_Killer"/>
 				<Event Id="2423535568" Name="AudioEvent_Gameflow_Victory_Survivor" ObjectPath="\Events\Default Work Unit\Gameflow\AudioEvent_Gameflow_Victory_Survivor"/>
-				<Event Id="242355436" Name="AudioEvent_Inventory_Back" ObjectPath="\Events\Default Work Unit\UI\Inventory\AudioEvent_Inventory_Back"/>
-				<Event Id="569857353" Name="AudioEvent_Inventory_Back_Highlight" ObjectPath="\Events\Default Work Unit\UI\Inventory\AudioEvent_Inventory_Back_Highlight"/>
-				<Event Id="2942931131" Name="AudioEvent_Inventory_Highlight" ObjectPath="\Events\Default Work Unit\UI\Inventory\AudioEvent_Inventory_Highlight"/>
-				<Event Id="746262569" Name="AudioEvent_Inventory_Select" ObjectPath="\Events\Default Work Unit\UI\Inventory\AudioEvent_Inventory_Select"/>
-				<Event Id="949569452" Name="AudioEvent_Inventory_Unselect" ObjectPath="\Events\Default Work Unit\UI\Inventory\AudioEvent_Inventory_Unselect"/>
+				<Event Id="242355436" Name="AudioEvent_Inventory_Back" ObjectPath="\Events\Default Work Unit\Menu\Inventory\AudioEvent_Inventory_Back"/>
+				<Event Id="569857353" Name="AudioEvent_Inventory_Back_Highlight" ObjectPath="\Events\Default Work Unit\Menu\Inventory\AudioEvent_Inventory_Back_Highlight"/>
+				<Event Id="2942931131" Name="AudioEvent_Inventory_Highlight" ObjectPath="\Events\Default Work Unit\Menu\Inventory\AudioEvent_Inventory_Highlight"/>
+				<Event Id="746262569" Name="AudioEvent_Inventory_Select" ObjectPath="\Events\Default Work Unit\Menu\Inventory\AudioEvent_Inventory_Select"/>
+				<Event Id="949569452" Name="AudioEvent_Inventory_Unselect" ObjectPath="\Events\Default Work Unit\Menu\Inventory\AudioEvent_Inventory_Unselect"/>
 				<Event Id="2286840008" Name="AudioEvent_Killer_Witch_Eat" ObjectPath="\Events\Default Work Unit\Characters\Killer\Specific\AudioEvent_Killer_Witch_Eat"/>
-				<Event Id="2643612647" Name="AudioEvent_LegalText_Accept" ObjectPath="\Events\Default Work Unit\UI\LegalText\AudioEvent_LegalText_Accept"/>
-				<Event Id="232616807" Name="AudioEvent_LegalText_Decline" ObjectPath="\Events\Default Work Unit\UI\LegalText\AudioEvent_LegalText_Decline"/>
-				<Event Id="1618488169" Name="AudioEvent_LegalText_Highlight" ObjectPath="\Events\Default Work Unit\UI\LegalText\AudioEvent_LegalText_Highlight"/>
+				<Event Id="2643612647" Name="AudioEvent_LegalText_Accept" ObjectPath="\Events\Default Work Unit\Menu\LegalText\AudioEvent_LegalText_Accept"/>
+				<Event Id="232616807" Name="AudioEvent_LegalText_Decline" ObjectPath="\Events\Default Work Unit\Menu\LegalText\AudioEvent_LegalText_Decline"/>
+				<Event Id="1618488169" Name="AudioEvent_LegalText_Highlight" ObjectPath="\Events\Default Work Unit\Menu\LegalText\AudioEvent_LegalText_Highlight"/>
 				<Event Id="1839631019" Name="AudioEvent_Light_Static" ObjectPath="\Events\Default Work Unit\Objects\Light\AudioEvent_Light_Static"/>
 				<Event Id="3977161448" Name="AudioEvent_Light_Static_Loop" ObjectPath="\Events\Default Work Unit\Objects\Light\AudioEvent_Light_Static_Loop"/>
-				<Event Id="2785622308" Name="AudioEvent_Loadout_Back" ObjectPath="\Events\Default Work Unit\UI\Loadout\AudioEvent_Loadout_Back"/>
-				<Event Id="1739807473" Name="AudioEvent_Loadout_Back_Highlight" ObjectPath="\Events\Default Work Unit\UI\Loadout\AudioEvent_Loadout_Back_Highlight"/>
-				<Event Id="1367697027" Name="AudioEvent_Loadout_Close" ObjectPath="\Events\Default Work Unit\UI\Loadout\AudioEvent_Loadout_Close"/>
-				<Event Id="1644534355" Name="AudioEvent_Loadout_Highlight" ObjectPath="\Events\Default Work Unit\UI\Loadout\AudioEvent_Loadout_Highlight"/>
-				<Event Id="1589356021" Name="AudioEvent_Loadout_Open" ObjectPath="\Events\Default Work Unit\UI\Loadout\AudioEvent_Loadout_Open"/>
-				<Event Id="4294426689" Name="AudioEvent_Loadout_Select" ObjectPath="\Events\Default Work Unit\UI\Loadout\AudioEvent_Loadout_Select"/>
-				<Event Id="2507586451" Name="AudioEvent_Loadout_SwitchRole_To_Killer" ObjectPath="\Events\Default Work Unit\UI\Loadout\AudioEvent_Loadout_SwitchRole_To_Killer"/>
-				<Event Id="880530196" Name="AudioEvent_Loadout_SwitchRole_To_Survivor" ObjectPath="\Events\Default Work Unit\UI\Loadout\AudioEvent_Loadout_SwitchRole_To_Survivor"/>
-				<Event Id="910637810" Name="AudioEvent_MainMenu_Back" ObjectPath="\Events\Default Work Unit\UI\MainMenu\AudioEvent_MainMenu_Back"/>
-				<Event Id="3045473161" Name="AudioEvent_MainMenu_BloodWeb" ObjectPath="\Events\Default Work Unit\UI\MainMenu\AudioEvent_MainMenu_BloodWeb"/>
-				<Event Id="2227795076" Name="AudioEvent_MainMenu_Character" ObjectPath="\Events\Default Work Unit\UI\MainMenu\AudioEvent_MainMenu_Character"/>
-				<Event Id="2116888097" Name="AudioEvent_MainMenu_Found" ObjectPath="\Events\Default Work Unit\UI\MainMenu\AudioEvent_MainMenu_Found"/>
-				<Event Id="91034913" Name="AudioEvent_MainMenu_Highlight" ObjectPath="\Events\Default Work Unit\UI\MainMenu\AudioEvent_MainMenu_Highlight"/>
-				<Event Id="4188805327" Name="AudioEvent_MainMenu_Join" ObjectPath="\Events\Default Work Unit\UI\MainMenu\AudioEvent_MainMenu_Join"/>
-				<Event Id="289305653" Name="AudioEvent_MainMenu_Loadout" ObjectPath="\Events\Default Work Unit\UI\MainMenu\AudioEvent_MainMenu_Loadout"/>
-				<Event Id="788720384" Name="AudioEvent_MainMenu_Profil_Close" ObjectPath="\Events\Default Work Unit\UI\MainMenu\AudioEvent_MainMenu_Profil_Close"/>
-				<Event Id="2259556148" Name="AudioEvent_MainMenu_Profil_Open" ObjectPath="\Events\Default Work Unit\UI\MainMenu\AudioEvent_MainMenu_Profil_Open"/>
-				<Event Id="3757773312" Name="AudioEvent_MainMenu_Ready" ObjectPath="\Events\Default Work Unit\UI\MainMenu\AudioEvent_MainMenu_Ready"/>
-				<Event Id="2544026964" Name="AudioEvent_MainMenu_Ready_All" ObjectPath="\Events\Default Work Unit\UI\MainMenu\AudioEvent_MainMenu_Ready_All"/>
-				<Event Id="2511577919" Name="AudioEvent_MainMenu_Ready_Other" ObjectPath="\Events\Default Work Unit\UI\MainMenu\AudioEvent_MainMenu_Ready_Other"/>
-				<Event Id="3130831417" Name="AudioEvent_MainMenu_Start" ObjectPath="\Events\Default Work Unit\UI\MainMenu\AudioEvent_MainMenu_Start"/>
-				<Event Id="3938071716" Name="AudioEvent_MainMenu_SwitchRole_ToKiller" ObjectPath="\Events\Default Work Unit\UI\MainMenu\AudioEvent_MainMenu_SwitchRole_ToKiller"/>
-				<Event Id="4062771299" Name="AudioEvent_MainMenu_SwitchRole_ToSurvivor" ObjectPath="\Events\Default Work Unit\UI\MainMenu\AudioEvent_MainMenu_SwitchRole_ToSurvivor"/>
-				<Event Id="2139896655" Name="AudioEvent_MainMenu_Unready" ObjectPath="\Events\Default Work Unit\UI\MainMenu\AudioEvent_MainMenu_Unready"/>
+				<Event Id="2785622308" Name="AudioEvent_Loadout_Back" ObjectPath="\Events\Default Work Unit\Menu\Loadout\AudioEvent_Loadout_Back"/>
+				<Event Id="1739807473" Name="AudioEvent_Loadout_Back_Highlight" ObjectPath="\Events\Default Work Unit\Menu\Loadout\AudioEvent_Loadout_Back_Highlight"/>
+				<Event Id="1367697027" Name="AudioEvent_Loadout_Close" ObjectPath="\Events\Default Work Unit\Menu\Loadout\AudioEvent_Loadout_Close"/>
+				<Event Id="1644534355" Name="AudioEvent_Loadout_Highlight" ObjectPath="\Events\Default Work Unit\Menu\Loadout\AudioEvent_Loadout_Highlight"/>
+				<Event Id="1589356021" Name="AudioEvent_Loadout_Open" ObjectPath="\Events\Default Work Unit\Menu\Loadout\AudioEvent_Loadout_Open"/>
+				<Event Id="4294426689" Name="AudioEvent_Loadout_Select" ObjectPath="\Events\Default Work Unit\Menu\Loadout\AudioEvent_Loadout_Select"/>
+				<Event Id="2507586451" Name="AudioEvent_Loadout_SwitchRole_To_Killer" ObjectPath="\Events\Default Work Unit\Menu\Loadout\AudioEvent_Loadout_SwitchRole_To_Killer"/>
+				<Event Id="880530196" Name="AudioEvent_Loadout_SwitchRole_To_Survivor" ObjectPath="\Events\Default Work Unit\Menu\Loadout\AudioEvent_Loadout_SwitchRole_To_Survivor"/>
+				<Event Id="910637810" Name="AudioEvent_MainMenu_Back" ObjectPath="\Events\Default Work Unit\Menu\MainMenu\AudioEvent_MainMenu_Back"/>
+				<Event Id="3045473161" Name="AudioEvent_MainMenu_BloodWeb" ObjectPath="\Events\Default Work Unit\Menu\MainMenu\AudioEvent_MainMenu_BloodWeb"/>
+				<Event Id="2227795076" Name="AudioEvent_MainMenu_Character" ObjectPath="\Events\Default Work Unit\Menu\MainMenu\AudioEvent_MainMenu_Character"/>
+				<Event Id="2116888097" Name="AudioEvent_MainMenu_Found" ObjectPath="\Events\Default Work Unit\Menu\MainMenu\AudioEvent_MainMenu_Found"/>
+				<Event Id="91034913" Name="AudioEvent_MainMenu_Highlight" ObjectPath="\Events\Default Work Unit\Menu\MainMenu\AudioEvent_MainMenu_Highlight"/>
+				<Event Id="4188805327" Name="AudioEvent_MainMenu_Join" ObjectPath="\Events\Default Work Unit\Menu\MainMenu\AudioEvent_MainMenu_Join"/>
+				<Event Id="289305653" Name="AudioEvent_MainMenu_Loadout" ObjectPath="\Events\Default Work Unit\Menu\MainMenu\AudioEvent_MainMenu_Loadout"/>
+				<Event Id="788720384" Name="AudioEvent_MainMenu_Profil_Close" ObjectPath="\Events\Default Work Unit\Menu\MainMenu\AudioEvent_MainMenu_Profil_Close"/>
+				<Event Id="2259556148" Name="AudioEvent_MainMenu_Profil_Open" ObjectPath="\Events\Default Work Unit\Menu\MainMenu\AudioEvent_MainMenu_Profil_Open"/>
+				<Event Id="3757773312" Name="AudioEvent_MainMenu_Ready" ObjectPath="\Events\Default Work Unit\Menu\MainMenu\AudioEvent_MainMenu_Ready"/>
+				<Event Id="2544026964" Name="AudioEvent_MainMenu_Ready_All" ObjectPath="\Events\Default Work Unit\Menu\MainMenu\AudioEvent_MainMenu_Ready_All"/>
+				<Event Id="2511577919" Name="AudioEvent_MainMenu_Ready_Other" ObjectPath="\Events\Default Work Unit\Menu\MainMenu\AudioEvent_MainMenu_Ready_Other"/>
+				<Event Id="3130831417" Name="AudioEvent_MainMenu_Start" ObjectPath="\Events\Default Work Unit\Menu\MainMenu\AudioEvent_MainMenu_Start"/>
+				<Event Id="3938071716" Name="AudioEvent_MainMenu_SwitchRole_ToKiller" ObjectPath="\Events\Default Work Unit\Menu\MainMenu\AudioEvent_MainMenu_SwitchRole_ToKiller"/>
+				<Event Id="4062771299" Name="AudioEvent_MainMenu_SwitchRole_ToSurvivor" ObjectPath="\Events\Default Work Unit\Menu\MainMenu\AudioEvent_MainMenu_SwitchRole_ToSurvivor"/>
+				<Event Id="2139896655" Name="AudioEvent_MainMenu_Unready" ObjectPath="\Events\Default Work Unit\Menu\MainMenu\AudioEvent_MainMenu_Unready"/>
 				<Event Id="1594088186" Name="AudioEvent_Master_Mute_OFF" ObjectPath="\Events\Default Work Unit\System\AudioEvent_Master_Mute_OFF"/>
 				<Event Id="276221052" Name="AudioEvent_Master_Mute_ON" ObjectPath="\Events\Default Work Unit\System\AudioEvent_Master_Mute_ON"/>
 				<Event Id="692218234" Name="AudioEvent_Master_Reset_RTPC" ObjectPath="\Events\Default Work Unit\System\AudioEvent_Master_Reset_RTPC"/>
 				<Event Id="2272735067" Name="AudioEvent_Music_Mute_Off" ObjectPath="\Events\Default Work Unit\System\AudioEvent_Music_Mute_Off"/>
 				<Event Id="400674279" Name="AudioEvent_Music_Mute_On" ObjectPath="\Events\Default Work Unit\System\AudioEvent_Music_Mute_On"/>
-				<Event Id="2252564523" Name="AudioEvent_Offering_Card_Burn" ObjectPath="\Events\Default Work Unit\UI\Offering\AudioEvent_Offering_Card_Burn"/>
-				<Event Id="3445274837" Name="AudioEvent_Offering_Card_Flip" ObjectPath="\Events\Default Work Unit\UI\Offering\AudioEvent_Offering_Card_Flip"/>
-				<Event Id="4217559337" Name="AudioEvent_Offering_Card_Pop" ObjectPath="\Events\Default Work Unit\UI\Offering\AudioEvent_Offering_Card_Pop"/>
-				<Event Id="4189245168" Name="AudioEvent_Overlay_Back" ObjectPath="\Events\Default Work Unit\UI\Overlay\AudioEvent_Overlay_Back"/>
-				<Event Id="4216517851" Name="AudioEvent_Overlay_Controls" ObjectPath="\Events\Default Work Unit\UI\Overlay\AudioEvent_Overlay_Controls"/>
-				<Event Id="350845468" Name="AudioEvent_Overlay_Help" ObjectPath="\Events\Default Work Unit\UI\Overlay\AudioEvent_Overlay_Help"/>
-				<Event Id="421009719" Name="AudioEvent_Overlay_Highlight" ObjectPath="\Events\Default Work Unit\UI\Overlay\AudioEvent_Overlay_Highlight"/>
-				<Event Id="1730994395" Name="AudioEvent_Overlay_InGame_Close" ObjectPath="\Events\Default Work Unit\UI\Overlay\AudioEvent_Overlay_InGame_Close"/>
-				<Event Id="4014909309" Name="AudioEvent_Overlay_InGame_Open" ObjectPath="\Events\Default Work Unit\UI\Overlay\AudioEvent_Overlay_InGame_Open"/>
-				<Event Id="2978960150" Name="AudioEvent_Overlay_QuitGame" ObjectPath="\Events\Default Work Unit\UI\Overlay\AudioEvent_Overlay_QuitGame"/>
-				<Event Id="4068048894" Name="AudioEvent_Overlay_Settings" ObjectPath="\Events\Default Work Unit\UI\Overlay\AudioEvent_Overlay_Settings"/>
-				<Event Id="1400743078" Name="AudioEvent_Overlay_UI_Close" ObjectPath="\Events\Default Work Unit\UI\Overlay\AudioEvent_Overlay_UI_Close"/>
-				<Event Id="1568216306" Name="AudioEvent_Overlay_UI_Open" ObjectPath="\Events\Default Work Unit\UI\Overlay\AudioEvent_Overlay_UI_Open"/>
+				<Event Id="2252564523" Name="AudioEvent_Offering_Card_Burn" ObjectPath="\Events\Default Work Unit\Menu\Offering\AudioEvent_Offering_Card_Burn"/>
+				<Event Id="3445274837" Name="AudioEvent_Offering_Card_Flip" ObjectPath="\Events\Default Work Unit\Menu\Offering\AudioEvent_Offering_Card_Flip"/>
+				<Event Id="4217559337" Name="AudioEvent_Offering_Card_Pop" ObjectPath="\Events\Default Work Unit\Menu\Offering\AudioEvent_Offering_Card_Pop"/>
+				<Event Id="4189245168" Name="AudioEvent_Overlay_Back" ObjectPath="\Events\Default Work Unit\Menu\Overlay\AudioEvent_Overlay_Back"/>
+				<Event Id="4216517851" Name="AudioEvent_Overlay_Controls" ObjectPath="\Events\Default Work Unit\Menu\Overlay\AudioEvent_Overlay_Controls"/>
+				<Event Id="350845468" Name="AudioEvent_Overlay_Help" ObjectPath="\Events\Default Work Unit\Menu\Overlay\AudioEvent_Overlay_Help"/>
+				<Event Id="421009719" Name="AudioEvent_Overlay_Highlight" ObjectPath="\Events\Default Work Unit\Menu\Overlay\AudioEvent_Overlay_Highlight"/>
+				<Event Id="1730994395" Name="AudioEvent_Overlay_InGame_Close" ObjectPath="\Events\Default Work Unit\Menu\Overlay\AudioEvent_Overlay_InGame_Close"/>
+				<Event Id="4014909309" Name="AudioEvent_Overlay_InGame_Open" ObjectPath="\Events\Default Work Unit\Menu\Overlay\AudioEvent_Overlay_InGame_Open"/>
+				<Event Id="2978960150" Name="AudioEvent_Overlay_QuitGame" ObjectPath="\Events\Default Work Unit\Menu\Overlay\AudioEvent_Overlay_QuitGame"/>
+				<Event Id="4068048894" Name="AudioEvent_Overlay_Settings" ObjectPath="\Events\Default Work Unit\Menu\Overlay\AudioEvent_Overlay_Settings"/>
+				<Event Id="1400743078" Name="AudioEvent_Overlay_UI_Close" ObjectPath="\Events\Default Work Unit\Menu\Overlay\AudioEvent_Overlay_UI_Close"/>
+				<Event Id="1568216306" Name="AudioEvent_Overlay_UI_Open" ObjectPath="\Events\Default Work Unit\Menu\Overlay\AudioEvent_Overlay_UI_Open"/>
 				<Event Id="1886968317" Name="AudioEvent_RBT_Open" ObjectPath="\Events\Default Work Unit\Powers\RBT\AudioEvent_RBT_Open"/>
-				<Event Id="1915349995" Name="AudioEvent_RoleSelection_Credits" ObjectPath="\Events\Default Work Unit\UI\RoleSelection\AudioEvent_RoleSelection_Credits"/>
-				<Event Id="608119750" Name="AudioEvent_RoleSelection_DailyRituals" ObjectPath="\Events\Default Work Unit\UI\RoleSelection\AudioEvent_RoleSelection_DailyRituals"/>
-				<Event Id="3654581241" Name="AudioEvent_RoleSelection_Highlight" ObjectPath="\Events\Default Work Unit\UI\RoleSelection\AudioEvent_RoleSelection_Highlight"/>
-				<Event Id="3186672702" Name="AudioEvent_RoleSelection_NewContent" ObjectPath="\Events\Default Work Unit\UI\RoleSelection\AudioEvent_RoleSelection_NewContent"/>
-				<Event Id="2128287076" Name="AudioEvent_RoleSelection_PlayKiller" ObjectPath="\Events\Default Work Unit\UI\RoleSelection\AudioEvent_RoleSelection_PlayKiller"/>
-				<Event Id="1987948835" Name="AudioEvent_RoleSelection_PlaySurvivor" ObjectPath="\Events\Default Work Unit\UI\RoleSelection\AudioEvent_RoleSelection_PlaySurvivor"/>
-				<Event Id="1322256414" Name="AudioEvent_RoleSelection_QuickPlay" ObjectPath="\Events\Default Work Unit\UI\RoleSelection\AudioEvent_RoleSelection_QuickPlay"/>
-				<Event Id="600636544" Name="AudioEvent_RoleSelection_QuitGame" ObjectPath="\Events\Default Work Unit\UI\RoleSelection\AudioEvent_RoleSelection_QuitGame"/>
-				<Event Id="2994615732" Name="AudioEvent_RoleSelection_Settings" ObjectPath="\Events\Default Work Unit\UI\RoleSelection\AudioEvent_RoleSelection_Settings"/>
-				<Event Id="34409536" Name="AudioEvent_RoleSelection_Tutorials" ObjectPath="\Events\Default Work Unit\UI\RoleSelection\AudioEvent_RoleSelection_Tutorials"/>
-				<Event Id="2604771008" Name="AudioEvent_ShrineOfSecrets_OutOfPoints" ObjectPath="\Events\Default Work Unit\UI\ShrineOfSecrets\AudioEvent_ShrineOfSecrets_OutOfPoints"/>
-				<Event Id="4001008649" Name="AudioEvent_ShrineOfSecrets_Reveal" ObjectPath="\Events\Default Work Unit\UI\ShrineOfSecrets\AudioEvent_ShrineOfSecrets_Reveal"/>
-				<Event Id="1944224506" Name="AudioEvent_ShrineOfSecrets_Select" ObjectPath="\Events\Default Work Unit\UI\ShrineOfSecrets\AudioEvent_ShrineOfSecrets_Select"/>
-				<Event Id="4227451479" Name="AudioEvent_Splashscreen_Press_Key" ObjectPath="\Events\Default Work Unit\UI\Splashscreen\AudioEvent_Splashscreen_Press_Key"/>
+				<Event Id="1915349995" Name="AudioEvent_RoleSelection_Credits" ObjectPath="\Events\Default Work Unit\Menu\RoleSelection\AudioEvent_RoleSelection_Credits"/>
+				<Event Id="608119750" Name="AudioEvent_RoleSelection_DailyRituals" ObjectPath="\Events\Default Work Unit\Menu\RoleSelection\AudioEvent_RoleSelection_DailyRituals"/>
+				<Event Id="3654581241" Name="AudioEvent_RoleSelection_Highlight" ObjectPath="\Events\Default Work Unit\Menu\RoleSelection\AudioEvent_RoleSelection_Highlight"/>
+				<Event Id="3186672702" Name="AudioEvent_RoleSelection_NewContent" ObjectPath="\Events\Default Work Unit\Menu\RoleSelection\AudioEvent_RoleSelection_NewContent"/>
+				<Event Id="2128287076" Name="AudioEvent_RoleSelection_PlayKiller" ObjectPath="\Events\Default Work Unit\Menu\RoleSelection\AudioEvent_RoleSelection_PlayKiller"/>
+				<Event Id="1987948835" Name="AudioEvent_RoleSelection_PlaySurvivor" ObjectPath="\Events\Default Work Unit\Menu\RoleSelection\AudioEvent_RoleSelection_PlaySurvivor"/>
+				<Event Id="1322256414" Name="AudioEvent_RoleSelection_QuickPlay" ObjectPath="\Events\Default Work Unit\Menu\RoleSelection\AudioEvent_RoleSelection_QuickPlay"/>
+				<Event Id="600636544" Name="AudioEvent_RoleSelection_QuitGame" ObjectPath="\Events\Default Work Unit\Menu\RoleSelection\AudioEvent_RoleSelection_QuitGame"/>
+				<Event Id="2994615732" Name="AudioEvent_RoleSelection_Settings" ObjectPath="\Events\Default Work Unit\Menu\RoleSelection\AudioEvent_RoleSelection_Settings"/>
+				<Event Id="34409536" Name="AudioEvent_RoleSelection_Tutorials" ObjectPath="\Events\Default Work Unit\Menu\RoleSelection\AudioEvent_RoleSelection_Tutorials"/>
+				<Event Id="2604771008" Name="AudioEvent_ShrineOfSecrets_OutOfPoints" ObjectPath="\Events\Default Work Unit\Menu\ShrineOfSecrets\AudioEvent_ShrineOfSecrets_OutOfPoints"/>
+				<Event Id="4001008649" Name="AudioEvent_ShrineOfSecrets_Reveal" ObjectPath="\Events\Default Work Unit\Menu\ShrineOfSecrets\AudioEvent_ShrineOfSecrets_Reveal"/>
+				<Event Id="1944224506" Name="AudioEvent_ShrineOfSecrets_Select" ObjectPath="\Events\Default Work Unit\Menu\ShrineOfSecrets\AudioEvent_ShrineOfSecrets_Select"/>
+				<Event Id="4227451479" Name="AudioEvent_Splashscreen_Press_Key" ObjectPath="\Events\Default Work Unit\Menu\Splashscreen\AudioEvent_Splashscreen_Press_Key"/>
 				<Event Id="2720793862" Name="AudioEvent_Survivor_Get_Hooked" ObjectPath="\Events\Default Work Unit\Characters\Survivor\Interactions\AudioEvent_Survivor_Get_Hooked"/>
 				<Event Id="4256562323" Name="AudioEvent_Survivor_Get_Hooked_Out" ObjectPath="\Events\Default Work Unit\Characters\Survivor\Interactions\AudioEvent_Survivor_Get_Hooked_Out"/>
 				<Event Id="3828959488" Name="AudioEvent_Survivor_Impact_Body" ObjectPath="\Events\Default Work Unit\Impacts\AudioEvent_Survivor_Impact_Body"/>
-				<Event Id="3129471328" Name="AudioEvent_Tallyscreen_Blood_Start" ObjectPath="\Events\Default Work Unit\UI\Tallyscreen\AudioEvent_Tallyscreen_Blood_Start"/>
-				<Event Id="310918540" Name="AudioEvent_Tallyscreen_Blood_Stop" ObjectPath="\Events\Default Work Unit\UI\Tallyscreen\AudioEvent_Tallyscreen_Blood_Stop"/>
-				<Event Id="2713556137" Name="AudioEvent_Tallyscreen_Highlight" ObjectPath="\Events\Default Work Unit\UI\Tallyscreen\AudioEvent_Tallyscreen_Highlight"/>
-				<Event Id="3506020668" Name="AudioEvent_Tallyscreen_Leave" ObjectPath="\Events\Default Work Unit\UI\Tallyscreen\AudioEvent_Tallyscreen_Leave"/>
-				<Event Id="1541746756" Name="AudioEvent_Tallyscreen_Next" ObjectPath="\Events\Default Work Unit\UI\Tallyscreen\AudioEvent_Tallyscreen_Next"/>
-				<Event Id="3472979180" Name="AudioEvent_Tallyscreen_Previous" ObjectPath="\Events\Default Work Unit\UI\Tallyscreen\AudioEvent_Tallyscreen_Previous"/>
-				<Event Id="3798346162" Name="AudioEvent_Tallyscreen_Spectate" ObjectPath="\Events\Default Work Unit\UI\Tallyscreen\AudioEvent_Tallyscreen_Spectate"/>
+				<Event Id="3129471328" Name="AudioEvent_Tallyscreen_Blood_Start" ObjectPath="\Events\Default Work Unit\Menu\Tallyscreen\AudioEvent_Tallyscreen_Blood_Start"/>
+				<Event Id="310918540" Name="AudioEvent_Tallyscreen_Blood_Stop" ObjectPath="\Events\Default Work Unit\Menu\Tallyscreen\AudioEvent_Tallyscreen_Blood_Stop"/>
+				<Event Id="2713556137" Name="AudioEvent_Tallyscreen_Highlight" ObjectPath="\Events\Default Work Unit\Menu\Tallyscreen\AudioEvent_Tallyscreen_Highlight"/>
+				<Event Id="3506020668" Name="AudioEvent_Tallyscreen_Leave" ObjectPath="\Events\Default Work Unit\Menu\Tallyscreen\AudioEvent_Tallyscreen_Leave"/>
+				<Event Id="1541746756" Name="AudioEvent_Tallyscreen_Next" ObjectPath="\Events\Default Work Unit\Menu\Tallyscreen\AudioEvent_Tallyscreen_Next"/>
+				<Event Id="3472979180" Name="AudioEvent_Tallyscreen_Previous" ObjectPath="\Events\Default Work Unit\Menu\Tallyscreen\AudioEvent_Tallyscreen_Previous"/>
+				<Event Id="3798346162" Name="AudioEvent_Tallyscreen_Spectate" ObjectPath="\Events\Default Work Unit\Menu\Tallyscreen\AudioEvent_Tallyscreen_Spectate"/>
 				<Event Id="1556877473" Name="audioevent_theentity_spider_attack" ObjectPath="\Events\Default Work Unit\Objects\TheEntity\audioevent_theentity_spider_attack"/>
-				<Event Id="1376883945" Name="AudioEvent_Tutorial_Play_Video" ObjectPath="\Events\Default Work Unit\UI\Tutorial\AudioEvent_Tutorial_Play_Video"/>
-				<Event Id="480782731" Name="AudioEvent_Tutorial_Stop_Video" ObjectPath="\Events\Default Work Unit\UI\Tutorial\AudioEvent_Tutorial_Stop_Video"/>
-				<Event Id="104462169" Name="AudioEvent_UI_Highlight" ObjectPath="\Events\Default Work Unit\UI\Default\AudioEvent_UI_Highlight"/>
-				<Event Id="2666900988" Name="AudioEvent_UI_Highlight_Blood" ObjectPath="\Events\Default Work Unit\UI\Default\AudioEvent_UI_Highlight_Blood"/>
-				<Event Id="4125843661" Name="AudioEvent_UI_Highlight_Ligns" ObjectPath="\Events\Default Work Unit\UI\Default\AudioEvent_UI_Highlight_Ligns"/>
-				<Event Id="3187808713" Name="AudioEvent_UI_Highlight_Tab" ObjectPath="\Events\Default Work Unit\UI\Default\AudioEvent_UI_Highlight_Tab"/>
-				<Event Id="2271382862" Name="AudioEvent_UI_Popup_Large_Close" ObjectPath="\Events\Default Work Unit\UI\Default\AudioEvent_UI_Popup_Large_Close"/>
-				<Event Id="3725379338" Name="AudioEvent_UI_Popup_Large_Open" ObjectPath="\Events\Default Work Unit\UI\Default\AudioEvent_UI_Popup_Large_Open"/>
-				<Event Id="1892607578" Name="AudioEvent_UI_Popup_Small_Close" ObjectPath="\Events\Default Work Unit\UI\Default\AudioEvent_UI_Popup_Small_Close"/>
-				<Event Id="2907380062" Name="AudioEvent_UI_Popup_Small_Open" ObjectPath="\Events\Default Work Unit\UI\Default\AudioEvent_UI_Popup_Small_Open"/>
-				<Event Id="1734890683" Name="AudioEvent_UI_Select_Press" ObjectPath="\Events\Default Work Unit\UI\Default\AudioEvent_UI_Select_Press"/>
-				<Event Id="883338769" Name="AudioEvent_UI_Select_Release" ObjectPath="\Events\Default Work Unit\UI\Default\AudioEvent_UI_Select_Release"/>
-				<Event Id="1697272948" Name="AudioEvent_UI_Select_Release_Blood" ObjectPath="\Events\Default Work Unit\UI\Default\AudioEvent_UI_Select_Release_Blood"/>
-				<Event Id="1537651878" Name="AudioEvent_UI_Select_Release_Blood_Item" ObjectPath="\Events\Default Work Unit\UI\Default\AudioEvent_UI_Select_Release_Blood_Item"/>
-				<Event Id="2342661893" Name="AudioEvent_UI_Select_Release_Ligns" ObjectPath="\Events\Default Work Unit\UI\Default\AudioEvent_UI_Select_Release_Ligns"/>
-				<Event Id="3236807605" Name="AudioEvent_UI_Select_Release_Ligns_Item" ObjectPath="\Events\Default Work Unit\UI\Default\AudioEvent_UI_Select_Release_Ligns_Item"/>
-				<Event Id="2473261233" Name="AudioEvent_UI_Select_Release_Tab" ObjectPath="\Events\Default Work Unit\UI\Default\AudioEvent_UI_Select_Release_Tab"/>
+				<Event Id="1376883945" Name="AudioEvent_Tutorial_Play_Video" ObjectPath="\Events\Default Work Unit\Menu\Tutorial\AudioEvent_Tutorial_Play_Video"/>
+				<Event Id="480782731" Name="AudioEvent_Tutorial_Stop_Video" ObjectPath="\Events\Default Work Unit\Menu\Tutorial\AudioEvent_Tutorial_Stop_Video"/>
+				<Event Id="104462169" Name="AudioEvent_UI_Highlight" ObjectPath="\Events\Default Work Unit\Menu\Default\AudioEvent_UI_Highlight"/>
+				<Event Id="2666900988" Name="AudioEvent_UI_Highlight_Blood" ObjectPath="\Events\Default Work Unit\Menu\Default\AudioEvent_UI_Highlight_Blood"/>
+				<Event Id="4125843661" Name="AudioEvent_UI_Highlight_Ligns" ObjectPath="\Events\Default Work Unit\Menu\Default\AudioEvent_UI_Highlight_Ligns"/>
+				<Event Id="3187808713" Name="AudioEvent_UI_Highlight_Tab" ObjectPath="\Events\Default Work Unit\Menu\Default\AudioEvent_UI_Highlight_Tab"/>
+				<Event Id="2271382862" Name="AudioEvent_UI_Popup_Large_Close" ObjectPath="\Events\Default Work Unit\Menu\Default\AudioEvent_UI_Popup_Large_Close"/>
+				<Event Id="3725379338" Name="AudioEvent_UI_Popup_Large_Open" ObjectPath="\Events\Default Work Unit\Menu\Default\AudioEvent_UI_Popup_Large_Open"/>
+				<Event Id="1892607578" Name="AudioEvent_UI_Popup_Small_Close" ObjectPath="\Events\Default Work Unit\Menu\Default\AudioEvent_UI_Popup_Small_Close"/>
+				<Event Id="2907380062" Name="AudioEvent_UI_Popup_Small_Open" ObjectPath="\Events\Default Work Unit\Menu\Default\AudioEvent_UI_Popup_Small_Open"/>
+				<Event Id="1734890683" Name="AudioEvent_UI_Select_Press" ObjectPath="\Events\Default Work Unit\Menu\Default\AudioEvent_UI_Select_Press"/>
+				<Event Id="883338769" Name="AudioEvent_UI_Select_Release" ObjectPath="\Events\Default Work Unit\Menu\Default\AudioEvent_UI_Select_Release"/>
+				<Event Id="1697272948" Name="AudioEvent_UI_Select_Release_Blood" ObjectPath="\Events\Default Work Unit\Menu\Default\AudioEvent_UI_Select_Release_Blood"/>
+				<Event Id="1537651878" Name="AudioEvent_UI_Select_Release_Blood_Item" ObjectPath="\Events\Default Work Unit\Menu\Default\AudioEvent_UI_Select_Release_Blood_Item"/>
+				<Event Id="2342661893" Name="AudioEvent_UI_Select_Release_Ligns" ObjectPath="\Events\Default Work Unit\Menu\Default\AudioEvent_UI_Select_Release_Ligns"/>
+				<Event Id="3236807605" Name="AudioEvent_UI_Select_Release_Ligns_Item" ObjectPath="\Events\Default Work Unit\Menu\Default\AudioEvent_UI_Select_Release_Ligns_Item"/>
+				<Event Id="2473261233" Name="AudioEvent_UI_Select_Release_Tab" ObjectPath="\Events\Default Work Unit\Menu\Default\AudioEvent_UI_Select_Release_Tab"/>
 				<Event Id="2025557317" Name="AudioEvent_Weapon_Pull_Out" ObjectPath="\Events\Default Work Unit\Weapons\AudioEvent_Weapon_Pull_Out"/>
 			</IncludedEvents>
 			<ReferencedStreamedFiles>
@@ -52351,6 +52729,7 @@
 				<File Id="145676597"/>
 				<File Id="146742164"/>
 				<File Id="328010998"/>
+				<File Id="353010712"/>
 				<File Id="357265783"/>
 				<File Id="382734555"/>
 				<File Id="431716005"/>
@@ -52405,6 +52784,10 @@
 					<ShortName>Objects\TheEntity\sfx_theentity_ui_scream_01.wav</ShortName>
 					<Path>SFX\Objects\TheEntity\sfx_theentity_ui_scream_01_5442F26D.wem</Path>
 				</File>
+				<File Id="15780794" Language="SFX">
+					<ShortName>UI\sfx_ui_bloodweb_player_lign_progressing_02_cn.wav</ShortName>
+					<Path>SFX\UI\sfx_ui_bloodweb_player_lign_progressing_02_cn_D78E037D.wem</Path>
+				</File>
 				<File Id="17084596" Language="SFX">
 					<ShortName>Objects\Light\sfx_light_static_01.wav</ShortName>
 					<Path>SFX\Objects\Light\sfx_light_static_01_5442F26D.wem</Path>
@@ -52436,6 +52819,10 @@
 				<File Id="55159731" Language="SFX">
 					<ShortName>Objects\Blood\sfx_blood_chainsaw_splash_03.wav</ShortName>
 					<Path>SFX\Objects\Blood\sfx_blood_chainsaw_splash_03_5442F26D.wem</Path>
+				</File>
+				<File Id="61937279" Language="SFX">
+					<ShortName>UI\sfx_ui_bloodweb_player_lign_progressing_02_cn_02.wav</ShortName>
+					<Path>SFX\UI\sfx_ui_bloodweb_player_lign_progressing_02_cn_02_5442F26D.wem</Path>
 				</File>
 				<File Id="63269009" Language="SFX">
 					<ShortName>Objects\Blood\sfx_blood_ui_action_01.wav</ShortName>
@@ -52609,6 +52996,14 @@
 					<ShortName>Objects\Blood\sfx_blood_chainsaw_splash_05.wav</ShortName>
 					<Path>SFX\Objects\Blood\sfx_blood_chainsaw_splash_05_5442F26D.wem</Path>
 				</File>
+				<File Id="283965419" Language="SFX">
+					<ShortName>UI\sfx_ui_blacksmoke_04.wav</ShortName>
+					<Path>SFX\UI\sfx_ui_blacksmoke_04_5442F26D.wem</Path>
+				</File>
+				<File Id="295029016" Language="SFX">
+					<ShortName>UI\sfx_ui_bloodweb_player_lign_progressing_02_cn_03.wav</ShortName>
+					<Path>SFX\UI\sfx_ui_bloodweb_player_lign_progressing_02_cn_03_C85D148F.wem</Path>
+				</File>
 				<File Id="303689108" Language="SFX">
 					<ShortName>Ambience\Menus\sfx_burning_high_02.wav</ShortName>
 					<Path>SFX\Ambience\Menus\sfx_burning_high_02_C85D148F.wem</Path>
@@ -52653,6 +53048,10 @@
 					<ShortName>Music\mu_killer_lobby_01.wav</ShortName>
 					<Path>SFX\Music\mu_killer_lobby_01_D78E037D.wem</Path>
 				</File>
+				<File Id="358232526" Language="SFX">
+					<ShortName>UI\sfx_ui_blacksmoke_swoosh_04.wav</ShortName>
+					<Path>SFX\UI\sfx_ui_blacksmoke_swoosh_04_5442F26D.wem</Path>
+				</File>
 				<File Id="361033226" Language="SFX">
 					<ShortName>UI\sfx_ui_splashscreen_open_01.wav</ShortName>
 					<Path>SFX\UI\sfx_ui_splashscreen_open_01_5442F26D.wem</Path>
@@ -52664,6 +53063,10 @@
 				<File Id="367274317" Language="SFX">
 					<ShortName>Objects\Blood\sfx_blood_chainsaw_spray_01.wav</ShortName>
 					<Path>SFX\Objects\Blood\sfx_blood_chainsaw_spray_01_5442F26D.wem</Path>
+				</File>
+				<File Id="371771350" Language="SFX">
+					<ShortName>UI\sfx_ui_bloodweb_player_lign_progressing_02_cn_03.wav</ShortName>
+					<Path>SFX\UI\sfx_ui_bloodweb_player_lign_progressing_02_cn_03_5442F26D.wem</Path>
 				</File>
 				<File Id="374878480" Language="SFX">
 					<ShortName>UI\sfx_ui_highlight_02.wav</ShortName>
@@ -52701,6 +53104,10 @@
 					<ShortName>UI\sfx_ui_bloodweb_reward_add_03.wav</ShortName>
 					<Path>SFX\UI\sfx_ui_bloodweb_reward_add_03_5442F26D.wem</Path>
 				</File>
+				<File Id="403614583" Language="SFX">
+					<ShortName>UI\sfx_ui_blacksmoke_02.wav</ShortName>
+					<Path>SFX\UI\sfx_ui_blacksmoke_02_5442F26D.wem</Path>
+				</File>
 				<File Id="406611940" Language="SFX">
 					<ShortName>UI\sfx_ui_bloodweb_player_lign_progressing_03.wav</ShortName>
 					<Path>SFX\UI\sfx_ui_bloodweb_player_lign_progressing_03_D78E037D.wem</Path>
@@ -52724,6 +53131,10 @@
 				<File Id="419571269" Language="SFX">
 					<ShortName>UI\sfx_ui_select_release_flesh_03.wav</ShortName>
 					<Path>SFX\UI\sfx_ui_select_release_flesh_03_5442F26D.wem</Path>
+				</File>
+				<File Id="422865747" Language="SFX">
+					<ShortName>UI\sfx_bloodweb_reward_lunar_event_02.wav</ShortName>
+					<Path>SFX\UI\sfx_bloodweb_reward_lunar_event_02_5442F26D.wem</Path>
 				</File>
 				<File Id="427682848" Language="SFX">
 					<ShortName>UI\sfx_ui_bloodweb_reward_add_01.wav</ShortName>
@@ -52785,6 +53196,10 @@
 					<ShortName>UI\sfx_bloodweb_chest_open_01.wav</ShortName>
 					<Path>SFX\UI\sfx_bloodweb_chest_open_01_5442F26D.wem</Path>
 				</File>
+				<File Id="477967474" Language="SFX">
+					<ShortName>UI\sfx_ui_blacksmoke_03.wav</ShortName>
+					<Path>SFX\UI\sfx_ui_blacksmoke_03_5442F26D.wem</Path>
+				</File>
 				<File Id="478512127" Language="SFX">
 					<ShortName>UI\sfx_ui_unequip_01.wav</ShortName>
 					<Path>SFX\UI\sfx_ui_unequip_01_5442F26D.wem</Path>
@@ -52805,6 +53220,10 @@
 					<ShortName>Ambience\Menus\sfx_burning_high_14.wav</ShortName>
 					<Path>SFX\Ambience\Menus\sfx_burning_high_14_C85D148F.wem</Path>
 				</File>
+				<File Id="514842994" Language="SFX">
+					<ShortName>UI\sfx_bloodweb_reward_lunar_event_01.wav</ShortName>
+					<Path>SFX\UI\sfx_bloodweb_reward_lunar_event_01_5442F26D.wem</Path>
+				</File>
 				<File Id="515900978" Language="SFX">
 					<ShortName>Objects\Blood\sfx_blood_splash_low_04.wav</ShortName>
 					<Path>SFX\Objects\Blood\sfx_blood_splash_low_04_5442F26D.wem</Path>
@@ -52812,6 +53231,10 @@
 				<File Id="515986678" Language="SFX">
 					<ShortName>UI\sfx_ui_select_release_bones_02.wav</ShortName>
 					<Path>SFX\UI\sfx_ui_select_release_bones_02_5442F26D.wem</Path>
+				</File>
+				<File Id="517653870" Language="SFX">
+					<ShortName>UI\sfx_ui_blacksmoke_short_swoosh_01.wav</ShortName>
+					<Path>SFX\UI\sfx_ui_blacksmoke_short_swoosh_01_5442F26D.wem</Path>
 				</File>
 				<File Id="517949339" Language="SFX">
 					<ShortName>UI\sfx_ui_found_04.wav</ShortName>
@@ -52852,6 +53275,10 @@
 				<File Id="563159414" Language="SFX">
 					<ShortName>UI\sfx_ui_offering_horror_01.wav</ShortName>
 					<Path>SFX\UI\sfx_ui_offering_horror_01_5442F26D.wem</Path>
+				</File>
+				<File Id="567161566" Language="SFX">
+					<ShortName>UI\sfx_bloodweb_reward_chest_open_03.wav</ShortName>
+					<Path>SFX\UI\sfx_bloodweb_reward_chest_open_03_5442F26D.wem</Path>
 				</File>
 				<File Id="571456367" Language="SFX">
 					<ShortName>Objects\Light\sfx_light_static_03.wav</ShortName>
@@ -52925,6 +53352,10 @@
 					<ShortName>Objects\Blood\sfx_blood_chainsaw_splash_01.wav</ShortName>
 					<Path>SFX\Objects\Blood\sfx_blood_chainsaw_splash_01_5442F26D.wem</Path>
 				</File>
+				<File Id="662551434" Language="SFX">
+					<ShortName>UI\sfx_ui_blacksmoke_short_swoosh_03.wav</ShortName>
+					<Path>SFX\UI\sfx_ui_blacksmoke_short_swoosh_03_5442F26D.wem</Path>
+				</File>
 				<File Id="662581041" Language="SFX">
 					<ShortName>UI\sfx_ui_found_03.wav</ShortName>
 					<Path>SFX\UI\sfx_ui_found_03_5442F26D.wem</Path>
@@ -52936,6 +53367,10 @@
 				<File Id="675639091" Language="SFX">
 					<ShortName>Objects\Blood\sfx_blood_chainsaw_chop_06.wav</ShortName>
 					<Path>SFX\Objects\Blood\sfx_blood_chainsaw_chop_06_5442F26D.wem</Path>
+				</File>
+				<File Id="679479050" Language="SFX">
+					<ShortName>UI\sfx_ui_bloodweb_player_lign_progressing_02_cn.wav</ShortName>
+					<Path>SFX\UI\sfx_ui_bloodweb_player_lign_progressing_02_cn_57FEB5FB.wem</Path>
 				</File>
 				<File Id="680404367" Language="SFX">
 					<ShortName>Objects\TheEntity\sfx_theentity_ui_scream_21.wav</ShortName>
@@ -52965,9 +53400,17 @@
 					<ShortName>UI\sfx_ui_bloodweb_prestige_friggy_03.wav</ShortName>
 					<Path>SFX\UI\sfx_ui_bloodweb_prestige_friggy_03_5442F26D.wem</Path>
 				</File>
+				<File Id="700487258" Language="SFX">
+					<ShortName>Objects\Blood\Blood_UI_Action_cn_01.wav</ShortName>
+					<Path>SFX\Objects\Blood\Blood_UI_Action_cn_01_5442F26D.wem</Path>
+				</File>
 				<File Id="710691922" Language="SFX">
 					<ShortName>UI\sfx_ui_transition_01.wav</ShortName>
 					<Path>SFX\UI\sfx_ui_transition_01_5442F26D.wem</Path>
+				</File>
+				<File Id="712294007" Language="SFX">
+					<ShortName>UI\sfx_ui_blacksmoke_short_swoosh_02.wav</ShortName>
+					<Path>SFX\UI\sfx_ui_blacksmoke_short_swoosh_02_5442F26D.wem</Path>
 				</File>
 				<File Id="714877619" Language="SFX">
 					<ShortName>Objects\Blood\sfx_blood_ui_highlight_gore_06.wav</ShortName>
@@ -53004,6 +53447,10 @@
 				<File Id="737459959" Language="SFX">
 					<ShortName>UI\sfx_ui_ready_01.wav</ShortName>
 					<Path>SFX\UI\sfx_ui_ready_01_5442F26D.wem</Path>
+				</File>
+				<File Id="737950319" Language="SFX">
+					<ShortName>UI\sfx_ui_blacksmoke_01.wav</ShortName>
+					<Path>SFX\UI\sfx_ui_blacksmoke_01_5442F26D.wem</Path>
 				</File>
 				<File Id="738619646" Language="SFX">
 					<ShortName>Objects\Blood\sfx_blood_spray_03.wav</ShortName>
@@ -53057,9 +53504,17 @@
 					<ShortName>Ambience\Menus\sfx_burning_high_10.wav</ShortName>
 					<Path>SFX\Ambience\Menus\sfx_burning_high_10_C85D148F.wem</Path>
 				</File>
+				<File Id="779949170" Language="SFX">
+					<ShortName>UI\sfx_ui_blacksmoke_swoosh_03.wav</ShortName>
+					<Path>SFX\UI\sfx_ui_blacksmoke_swoosh_03_5442F26D.wem</Path>
+				</File>
 				<File Id="780436013" Language="SFX">
 					<ShortName>UI\sfx_ui_bloodweb_reward_add_02.wav</ShortName>
 					<Path>SFX\UI\sfx_ui_bloodweb_reward_add_02_5442F26D.wem</Path>
+				</File>
+				<File Id="780494390" Language="SFX">
+					<ShortName>Objects\Blood\Blood_UI_Action_cn_02.wav</ShortName>
+					<Path>SFX\Objects\Blood\Blood_UI_Action_cn_02_5442F26D.wem</Path>
 				</File>
 				<File Id="791740796" Language="SFX">
 					<ShortName>UI\sfx_ui_found_01.wav</ShortName>
@@ -53088,6 +53543,10 @@
 				<File Id="826191537" Language="SFX">
 					<ShortName>UI\sfx_ui_back_01.wav</ShortName>
 					<Path>SFX\UI\sfx_ui_back_01_5442F26D.wem</Path>
+				</File>
+				<File Id="834909917" Language="SFX">
+					<ShortName>UI\sfx_ui_blink_appear_smoke_01.wav</ShortName>
+					<Path>SFX\UI\sfx_ui_blink_appear_smoke_01_5442F26D.wem</Path>
 				</File>
 				<File Id="840163195" Language="SFX">
 					<ShortName>Objects\Blood\sfx_blood_chainsaw_chop_04.wav</ShortName>
@@ -53165,6 +53624,10 @@
 					<ShortName>UI\sfx_bloodweb_chest_open_02.wav</ShortName>
 					<Path>SFX\UI\sfx_bloodweb_chest_open_02_5442F26D.wem</Path>
 				</File>
+				<File Id="922954957" Language="SFX">
+					<ShortName>UI\sfx_ui_blacksmoke_swoosh_01.wav</ShortName>
+					<Path>SFX\UI\sfx_ui_blacksmoke_swoosh_01_5442F26D.wem</Path>
+				</File>
 				<File Id="926751461" Language="SFX">
 					<ShortName>UI\sfx_ui_mainmenu_open_02.wav</ShortName>
 					<Path>SFX\UI\sfx_ui_mainmenu_open_02_5442F26D.wem</Path>
@@ -53172,6 +53635,14 @@
 				<File Id="929504522" Language="SFX">
 					<ShortName>UI\sfx_ui_bloodweb_player_node_captured_05.wav</ShortName>
 					<Path>SFX\UI\sfx_ui_bloodweb_player_node_captured_05_5442F26D.wem</Path>
+				</File>
+				<File Id="931997349" Language="SFX">
+					<ShortName>UI\sfx_ui_blacksmoke_short_swoosh_04.wav</ShortName>
+					<Path>SFX\UI\sfx_ui_blacksmoke_short_swoosh_04_5442F26D.wem</Path>
+				</File>
+				<File Id="936995202" Language="SFX">
+					<ShortName>UI\sfx_ui_bloodweb_player_lign_progressing_02_cn_02.wav</ShortName>
+					<Path>SFX\UI\sfx_ui_bloodweb_player_lign_progressing_02_cn_02_C85D148F.wem</Path>
 				</File>
 				<File Id="943434326" Language="SFX">
 					<ShortName>Ambience\Menus\sfx_burning_high_11.wav</ShortName>
@@ -53221,9 +53692,17 @@
 					<ShortName>UI\sfx_ui_transition_02.wav</ShortName>
 					<Path>SFX\UI\sfx_ui_transition_02_5442F26D.wem</Path>
 				</File>
+				<File Id="998496912" Language="SFX">
+					<ShortName>UI\sfx_ui_blacksmoke_swoosh_02.wav</ShortName>
+					<Path>SFX\UI\sfx_ui_blacksmoke_swoosh_02_5442F26D.wem</Path>
+				</File>
 				<File Id="998829384" Language="SFX">
 					<ShortName>UI\sfx_ui_ready_02.wav</ShortName>
 					<Path>SFX\UI\sfx_ui_ready_02_5442F26D.wem</Path>
+				</File>
+				<File Id="1002947661" Language="SFX">
+					<ShortName>UI\sfx_ui_bloodweb_player_lign_progressing_02_cn_01.wav</ShortName>
+					<Path>SFX\UI\sfx_ui_bloodweb_player_lign_progressing_02_cn_01_5442F26D.wem</Path>
 				</File>
 				<File Id="1010280575" Language="SFX">
 					<ShortName>UI\sfx_ui_bloodweb_perk_new_01.wav</ShortName>
@@ -53232,6 +53711,10 @@
 				<File Id="1011370274" Language="SFX">
 					<ShortName>Ambience\Menus\sfx_burning_high_01.wav</ShortName>
 					<Path>SFX\Ambience\Menus\sfx_burning_high_01_C85D148F.wem</Path>
+				</File>
+				<File Id="1022295802" Language="SFX">
+					<ShortName>UI\sfx_ui_bloodweb_player_lign_progressing_02_cn_01.wav</ShortName>
+					<Path>SFX\UI\sfx_ui_bloodweb_player_lign_progressing_02_cn_01_C85D148F.wem</Path>
 				</File>
 				<File Id="1029618991" Language="SFX">
 					<ShortName>Objects\Blood\sfx_blood_pull_out_02.wav</ShortName>
@@ -55759,6 +56242,10 @@
 					<ShortName>Characters\Claudette\vo_claudette_running_11.wav</ShortName>
 					<Path>SFX\Characters\Claudette\vo_claudette_running_11_5442F26D.wem</Path>
 				</File>
+				<File Id="8973344" Language="SFX">
+					<ShortName>Characters\Claudette\vo_claudette_scream_short_03.wav</ShortName>
+					<Path>SFX\Characters\Claudette\vo_claudette_scream_short_03_5442F26D.wem</Path>
+				</File>
 				<File Id="18940147" Language="SFX">
 					<ShortName>Characters\Claudette\vo_claudette_injured_hurt_01.wav</ShortName>
 					<Path>SFX\Characters\Claudette\vo_claudette_injured_hurt_01_5442F26D.wem</Path>
@@ -56427,6 +56914,10 @@
 					<ShortName>Characters\Claudette\vo_claudette_dying_breath_06.wav</ShortName>
 					<Path>SFX\Characters\Claudette\vo_claudette_dying_breath_06_5442F26D.wem</Path>
 				</File>
+				<File Id="673387971" Language="SFX">
+					<ShortName>Characters\Claudette\vo_claudette_hooked_breath_cn_20.wav</ShortName>
+					<Path>SFX\Characters\Claudette\vo_claudette_hooked_breath_cn_20_5442F26D.wem</Path>
+				</File>
 				<File Id="675881241" Language="SFX">
 					<ShortName>Characters\Claudette\vo_claudette_scream_long_05.wav</ShortName>
 					<Path>SFX\Characters\Claudette\vo_claudette_scream_long_05_5442F26D.wem</Path>
@@ -56711,6 +57202,10 @@
 					<ShortName>Characters\Claudette\vo_claudette_hooked_breath_09.wav</ShortName>
 					<Path>SFX\Characters\Claudette\vo_claudette_hooked_breath_09_5442F26D.wem</Path>
 				</File>
+				<File Id="948651367" Language="SFX">
+					<ShortName>Characters\Claudette\vo_claudette_hooked_effort_cn_10.wav</ShortName>
+					<Path>SFX\Characters\Claudette\vo_claudette_hooked_effort_cn_10_5442F26D.wem</Path>
+				</File>
 				<File Id="949665092" Language="SFX">
 					<ShortName>Characters\Claudette\vo_claudette_hurt_light_09.wav</ShortName>
 					<Path>SFX\Characters\Claudette\vo_claudette_hurt_light_09_5442F26D.wem</Path>
@@ -56842,6 +57337,10 @@
 				<File Id="1040527877" Language="SFX">
 					<ShortName>Characters\Claudette\vo_claudette_injured_hurt_09.wav</ShortName>
 					<Path>SFX\Characters\Claudette\vo_claudette_injured_hurt_09_5442F26D.wem</Path>
+				</File>
+				<File Id="1042281211" Language="SFX">
+					<ShortName>Characters\Claudette\vo_claudette_hooked_effort_cn_11.wav</ShortName>
+					<Path>SFX\Characters\Claudette\vo_claudette_hooked_effort_cn_11_5442F26D.wem</Path>
 				</File>
 				<File Id="1042743080" Language="SFX">
 					<ShortName>Characters\Claudette\vo_claudette_injured_effort_06.wav</ShortName>
